@@ -1,0 +1,26 @@
+WARNING:tensorflow:From D:\study\rt1\.venv\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+testConvertDtypeAndCropImages0 (True, False, False) (robotics_transformer.film_efficientnet.preprocessors_test.PreprocessorsTest)
+robotics_transformer.film_efficientnet.preprocessors_test.PreprocessorsTest.testConvertDtypeAndCropImages0 (True, False, False)
+testConvertDtypeAndCropImages(True, False, False) ... ok
+testConvertDtypeAndCropImages1 (False, True, False) (robotics_transformer.film_efficientnet.preprocessors_test.PreprocessorsTest)
+robotics_transformer.film_efficientnet.preprocessors_test.PreprocessorsTest.testConvertDtypeAndCropImages1 (False, True, False)
+testConvertDtypeAndCropImages(False, True, False) ... ok
+testConvertDtypeAndCropImages2 (True, False, True) (robotics_transformer.film_efficientnet.preprocessors_test.PreprocessorsTest)
+robotics_transformer.film_efficientnet.preprocessors_test.PreprocessorsTest.testConvertDtypeAndCropImages2 (True, False, True)
+testConvertDtypeAndCropImages(True, False, True) ... ok
+testConvertDtypeAndCropImages3 (False, True, True) (robotics_transformer.film_efficientnet.preprocessors_test.PreprocessorsTest)
+robotics_transformer.film_efficientnet.preprocessors_test.PreprocessorsTest.testConvertDtypeAndCropImages3 (False, True, True)
+testConvertDtypeAndCropImages(False, True, True) ... ok
+testConvertDtypeAndCropImagesSeeded (robotics_transformer.film_efficientnet.preprocessors_test.PreprocessorsTest)
+robotics_transformer.film_efficientnet.preprocessors_test.PreprocessorsTest.testConvertDtypeAndCropImagesSeeded ... ok
+testConvertDtypeAndCropImagesUnseeded (robotics_transformer.film_efficientnet.preprocessors_test.PreprocessorsTest)
+robotics_transformer.film_efficientnet.preprocessors_test.PreprocessorsTest.testConvertDtypeAndCropImagesUnseeded ... ok
+test_session (robotics_transformer.film_efficientnet.preprocessors_test.PreprocessorsTest)
+robotics_transformer.film_efficientnet.preprocessors_test.PreprocessorsTest.test_session
+Use cached_session instead. (deprecated) ... skipped 'Not a test.'
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.246s
+
+OK (skipped=1)

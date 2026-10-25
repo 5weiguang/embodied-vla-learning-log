@@ -1,0 +1,17 @@
+WARNING:tensorflow:From D:\study\rt1\.venv\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+Running tests under Python 3.11.7: D:\study\rt1\.venv\Scripts\python.exe
+[ RUN      ] TokenLearnerTest.testTokenLearnersample_input
+WARNING:tensorflow:From D:\study\rt1\.venv\Lib\site-packages\keras\src\backend.py:873: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+W1011 23:49:22.349879 39072 module_wrapper.py:149] From D:\study\rt1\.venv\Lib\site-packages\keras\src\backend.py:873: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+D:\study\rt1\.venv\Lib\site-packages\keras\src\initializers\initializers.py:120: UserWarning: The initializer GlorotUniform is unseeded and being called multiple times, which will return identical values each time (even if the initializer is unseeded). Please update your code to provide a seed to the initializer, or avoid using the same initializer instance more than once.
+  warnings.warn(
+D:\study\rt1\.venv\Lib\site-packages\keras\src\initializers\initializers.py:120: UserWarning: The initializer RandomNormal is unseeded and being called multiple times, which will return identical values each time (even if the initializer is unseeded). Please update your code to provide a seed to the initializer, or avoid using the same initializer instance more than once.
+  warnings.warn(
+[       OK ] TokenLearnerTest.testTokenLearnersample_input
+----------------------------------------------------------------------
+Ran 1 test in 0.283s
+
+OK

@@ -1,0 +1,529 @@
+WARNING:tensorflow:From D:\study\rt1\.venv\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+WARNING:tensorflow:From D:\study\rt1\.venv\Lib\site-packages\tensorflow_probability\python\internal\backend\numpy\_utils.py:48: The name tf.logging.TaskLevelStatusMessage is deprecated. Please use tf.compat.v1.logging.TaskLevelStatusMessage instead.
+
+WARNING:tensorflow:From D:\study\rt1\.venv\Lib\site-packages\tensorflow_probability\python\internal\backend\numpy\_utils.py:48: The name tf.control_flow_v2_enabled is deprecated. Please use tf.compat.v1.control_flow_v2_enabled instead.
+
+WARNING:tensorflow:From D:\study\rt1\.venv\Lib\site-packages\tf_agents\typing\types.py:114: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Running tests under Python 3.11.7: D:\study\rt1\.venv\Scripts\python.exe
+[ RUN      ] TransformerNetworkTest.testLossMasks
+WARNING:tensorflow:From D:\study\rt1\.venv\Lib\site-packages\keras\src\backend.py:873: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+W1011 23:49:30.759852 60320 module_wrapper.py:149] From D:\study\rt1\.venv\Lib\site-packages\keras\src\backend.py:873: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+WARNING:tensorflow:From D:\study\rt1\.venv\Lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+W1011 23:49:30.865362 60320 module_wrapper.py:149] From D:\study\rt1\.venv\Lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+D:\study\rt1\.venv\Lib\site-packages\keras\src\initializers\initializers.py:120: UserWarning: The initializer GlorotUniform is unseeded and being called multiple times, which will return identical values each time (even if the initializer is unseeded). Please update your code to provide a seed to the initializer, or avoid using the same initializer instance more than once.
+  warnings.warn(
+D:\study\rt1\.venv\Lib\site-packages\keras\src\initializers\initializers.py:120: UserWarning: The initializer RandomNormal is unseeded and being called multiple times, which will return identical values each time (even if the initializer is unseeded). Please update your code to provide a seed to the initializer, or avoid using the same initializer instance more than once.
+  warnings.warn(
+I1011 23:49:37.940345 60320 sequence_agent.py:125] transformer_network/transformer/private__transformer_layer/layer_normalization/gamma:0 has 512 params.
+I1011 23:49:37.941346 60320 sequence_agent.py:125] transformer_network/transformer/private__transformer_layer/layer_normalization/beta:0 has 512 params.
+I1011 23:49:37.941346 60320 sequence_agent.py:125] transformer_network/transformer/private__transformer_layer/multi_head_attention/query/kernel:0 has 16777216 params.
+I1011 23:49:37.941346 60320 sequence_agent.py:125] transformer_network/transformer/private__transformer_layer/multi_head_attention/query/bias:0 has 32768 params.
+I1011 23:49:37.941346 60320 sequence_agent.py:125] transformer_network/transformer/private__transformer_layer/multi_head_attention/key/kernel:0 has 16777216 params.
+I1011 23:49:37.941346 60320 sequence_agent.py:125] transformer_network/transformer/private__transformer_layer/multi_head_attention/key/bias:0 has 32768 params.
+I1011 23:49:37.941346 60320 sequence_agent.py:125] transformer_network/transformer/private__transformer_layer/multi_head_attention/value/kernel:0 has 16777216 params.
+I1011 23:49:37.941346 60320 sequence_agent.py:125] transformer_network/transformer/private__transformer_layer/multi_head_attention/value/bias:0 has 32768 params.
+I1011 23:49:37.941346 60320 sequence_agent.py:125] transformer_network/transformer/private__transformer_layer/multi_head_attention/attention_output/kernel:0 has 16777216 params.
+I1011 23:49:37.941346 60320 sequence_agent.py:125] transformer_network/transformer/private__transformer_layer/multi_head_attention/attention_output/bias:0 has 512 params.
+I1011 23:49:37.941346 60320 sequence_agent.py:125] transformer_network/transformer/private__transformer_layer/dense/kernel:0 has 262144 params.
+I1011 23:49:37.941346 60320 sequence_agent.py:125] transformer_network/transformer/private__transformer_layer/dense/bias:0 has 512 params.
+I1011 23:49:37.941346 60320 sequence_agent.py:125] transformer_network/transformer/private__transformer_layer/layer_normalization_1/gamma:0 has 512 params.
+I1011 23:49:37.941346 60320 sequence_agent.py:125] transformer_network/transformer/private__transformer_layer/layer_normalization_1/beta:0 has 512 params.
+I1011 23:49:37.941346 60320 sequence_agent.py:125] transformer_network/transformer/dense_1/kernel:0 has 262144 params.
+I1011 23:49:37.941346 60320 sequence_agent.py:125] transformer_network/transformer/dense_1/bias:0 has 512 params.
+I1011 23:49:37.941346 60320 sequence_agent.py:125] transformer_network/transformer/dense_2/kernel:0 has 24576 params.
+I1011 23:49:37.941346 60320 sequence_agent.py:125] transformer_network/transformer/dense_2/bias:0 has 512 params.
+I1011 23:49:37.941346 60320 sequence_agent.py:125] transformer_network/transformer/dense_3/kernel:0 has 131072 params.
+I1011 23:49:37.941346 60320 sequence_agent.py:125] transformer_network/transformer/dense_3/bias:0 has 256 params.
+I1011 23:49:37.941346 60320 sequence_agent.py:125] transformer_network/efficient_net_encoder/conv2d/kernel:0 has 786432 params.
+I1011 23:49:37.941346 60320 sequence_agent.py:125] stem_conv/kernel:0 has 1080 params.
+I1011 23:49:37.942343 60320 sequence_agent.py:125] stem_bn/gamma:0 has 40 params.
+I1011 23:49:37.942343 60320 sequence_agent.py:125] stem_bn/beta:0 has 40 params.
+I1011 23:49:37.942343 60320 sequence_agent.py:125] block1a_dwconv/depthwise_kernel:0 has 360 params.
+I1011 23:49:37.942343 60320 sequence_agent.py:125] block1a_bn/gamma:0 has 40 params.
+I1011 23:49:37.942343 60320 sequence_agent.py:125] block1a_bn/beta:0 has 40 params.
+I1011 23:49:37.942343 60320 sequence_agent.py:125] block1a_se_reduce/kernel:0 has 400 params.
+I1011 23:49:37.942343 60320 sequence_agent.py:125] block1a_se_reduce/bias:0 has 10 params.
+I1011 23:49:37.942343 60320 sequence_agent.py:125] block1a_se_expand/kernel:0 has 400 params.
+I1011 23:49:37.942343 60320 sequence_agent.py:125] block1a_se_expand/bias:0 has 40 params.
+I1011 23:49:37.942343 60320 sequence_agent.py:125] block1a_project_conv/kernel:0 has 960 params.
+I1011 23:49:37.942343 60320 sequence_agent.py:125] block1a_project_bn/gamma:0 has 24 params.
+I1011 23:49:37.942343 60320 sequence_agent.py:125] block1a_project_bn/beta:0 has 24 params.
+I1011 23:49:37.942343 60320 sequence_agent.py:125] film_conditioning/dense_4/kernel:0 has 12288 params.
+I1011 23:49:37.942343 60320 sequence_agent.py:125] film_conditioning/dense_4/bias:0 has 24 params.
+I1011 23:49:37.942343 60320 sequence_agent.py:125] film_conditioning/dense_5/kernel:0 has 12288 params.
+I1011 23:49:37.942343 60320 sequence_agent.py:125] film_conditioning/dense_5/bias:0 has 24 params.
+I1011 23:49:37.942343 60320 sequence_agent.py:125] block1b_dwconv/depthwise_kernel:0 has 216 params.
+I1011 23:49:37.942343 60320 sequence_agent.py:125] block1b_bn/gamma:0 has 24 params.
+I1011 23:49:37.942343 60320 sequence_agent.py:125] block1b_bn/beta:0 has 24 params.
+I1011 23:49:37.942343 60320 sequence_agent.py:125] block1b_se_reduce/kernel:0 has 144 params.
+I1011 23:49:37.942343 60320 sequence_agent.py:125] block1b_se_reduce/bias:0 has 6 params.
+I1011 23:49:37.942343 60320 sequence_agent.py:125] block1b_se_expand/kernel:0 has 144 params.
+I1011 23:49:37.942343 60320 sequence_agent.py:125] block1b_se_expand/bias:0 has 24 params.
+I1011 23:49:37.942343 60320 sequence_agent.py:125] block1b_project_conv/kernel:0 has 576 params.
+I1011 23:49:37.942343 60320 sequence_agent.py:125] block1b_project_bn/gamma:0 has 24 params.
+I1011 23:49:37.942343 60320 sequence_agent.py:125] block1b_project_bn/beta:0 has 24 params.
+I1011 23:49:37.942343 60320 sequence_agent.py:125] film_conditioning_1/dense_6/kernel:0 has 12288 params.
+I1011 23:49:37.943343 60320 sequence_agent.py:125] film_conditioning_1/dense_6/bias:0 has 24 params.
+I1011 23:49:37.943343 60320 sequence_agent.py:125] film_conditioning_1/dense_7/kernel:0 has 12288 params.
+I1011 23:49:37.943343 60320 sequence_agent.py:125] film_conditioning_1/dense_7/bias:0 has 24 params.
+I1011 23:49:37.943343 60320 sequence_agent.py:125] block2a_expand_conv/kernel:0 has 3456 params.
+I1011 23:49:37.943343 60320 sequence_agent.py:125] block2a_expand_bn/gamma:0 has 144 params.
+I1011 23:49:37.943343 60320 sequence_agent.py:125] block2a_expand_bn/beta:0 has 144 params.
+I1011 23:49:37.943343 60320 sequence_agent.py:125] block2a_dwconv/depthwise_kernel:0 has 1296 params.
+I1011 23:49:37.943343 60320 sequence_agent.py:125] block2a_bn/gamma:0 has 144 params.
+I1011 23:49:37.943343 60320 sequence_agent.py:125] block2a_bn/beta:0 has 144 params.
+I1011 23:49:37.943343 60320 sequence_agent.py:125] block2a_se_reduce/kernel:0 has 864 params.
+I1011 23:49:37.943343 60320 sequence_agent.py:125] block2a_se_reduce/bias:0 has 6 params.
+I1011 23:49:37.943343 60320 sequence_agent.py:125] block2a_se_expand/kernel:0 has 864 params.
+I1011 23:49:37.943343 60320 sequence_agent.py:125] block2a_se_expand/bias:0 has 144 params.
+I1011 23:49:37.943343 60320 sequence_agent.py:125] block2a_project_conv/kernel:0 has 4608 params.
+I1011 23:49:37.943343 60320 sequence_agent.py:125] block2a_project_bn/gamma:0 has 32 params.
+I1011 23:49:37.943343 60320 sequence_agent.py:125] block2a_project_bn/beta:0 has 32 params.
+I1011 23:49:37.943343 60320 sequence_agent.py:125] film_conditioning_2/dense_8/kernel:0 has 16384 params.
+I1011 23:49:37.943343 60320 sequence_agent.py:125] film_conditioning_2/dense_8/bias:0 has 32 params.
+I1011 23:49:37.943343 60320 sequence_agent.py:125] film_conditioning_2/dense_9/kernel:0 has 16384 params.
+I1011 23:49:37.943343 60320 sequence_agent.py:125] film_conditioning_2/dense_9/bias:0 has 32 params.
+I1011 23:49:37.943343 60320 sequence_agent.py:125] block2b_expand_conv/kernel:0 has 6144 params.
+I1011 23:49:37.943343 60320 sequence_agent.py:125] block2b_expand_bn/gamma:0 has 192 params.
+I1011 23:49:37.943343 60320 sequence_agent.py:125] block2b_expand_bn/beta:0 has 192 params.
+I1011 23:49:37.943343 60320 sequence_agent.py:125] block2b_dwconv/depthwise_kernel:0 has 1728 params.
+I1011 23:49:37.943343 60320 sequence_agent.py:125] block2b_bn/gamma:0 has 192 params.
+I1011 23:49:37.943343 60320 sequence_agent.py:125] block2b_bn/beta:0 has 192 params.
+I1011 23:49:37.944343 60320 sequence_agent.py:125] block2b_se_reduce/kernel:0 has 1536 params.
+I1011 23:49:37.944343 60320 sequence_agent.py:125] block2b_se_reduce/bias:0 has 8 params.
+I1011 23:49:37.944343 60320 sequence_agent.py:125] block2b_se_expand/kernel:0 has 1536 params.
+I1011 23:49:37.944343 60320 sequence_agent.py:125] block2b_se_expand/bias:0 has 192 params.
+I1011 23:49:37.944343 60320 sequence_agent.py:125] block2b_project_conv/kernel:0 has 6144 params.
+I1011 23:49:37.944343 60320 sequence_agent.py:125] block2b_project_bn/gamma:0 has 32 params.
+I1011 23:49:37.944343 60320 sequence_agent.py:125] block2b_project_bn/beta:0 has 32 params.
+I1011 23:49:37.944343 60320 sequence_agent.py:125] film_conditioning_3/dense_10/kernel:0 has 16384 params.
+I1011 23:49:37.944343 60320 sequence_agent.py:125] film_conditioning_3/dense_10/bias:0 has 32 params.
+I1011 23:49:37.944343 60320 sequence_agent.py:125] film_conditioning_3/dense_11/kernel:0 has 16384 params.
+I1011 23:49:37.944343 60320 sequence_agent.py:125] film_conditioning_3/dense_11/bias:0 has 32 params.
+I1011 23:49:37.944343 60320 sequence_agent.py:125] block2c_expand_conv/kernel:0 has 6144 params.
+I1011 23:49:37.944343 60320 sequence_agent.py:125] block2c_expand_bn/gamma:0 has 192 params.
+I1011 23:49:37.944343 60320 sequence_agent.py:125] block2c_expand_bn/beta:0 has 192 params.
+I1011 23:49:37.944343 60320 sequence_agent.py:125] block2c_dwconv/depthwise_kernel:0 has 1728 params.
+I1011 23:49:37.944343 60320 sequence_agent.py:125] block2c_bn/gamma:0 has 192 params.
+I1011 23:49:37.944343 60320 sequence_agent.py:125] block2c_bn/beta:0 has 192 params.
+I1011 23:49:37.944343 60320 sequence_agent.py:125] block2c_se_reduce/kernel:0 has 1536 params.
+I1011 23:49:37.944343 60320 sequence_agent.py:125] block2c_se_reduce/bias:0 has 8 params.
+I1011 23:49:37.944343 60320 sequence_agent.py:125] block2c_se_expand/kernel:0 has 1536 params.
+I1011 23:49:37.944343 60320 sequence_agent.py:125] block2c_se_expand/bias:0 has 192 params.
+I1011 23:49:37.944343 60320 sequence_agent.py:125] block2c_project_conv/kernel:0 has 6144 params.
+I1011 23:49:37.944343 60320 sequence_agent.py:125] block2c_project_bn/gamma:0 has 32 params.
+I1011 23:49:37.944343 60320 sequence_agent.py:125] block2c_project_bn/beta:0 has 32 params.
+I1011 23:49:37.944343 60320 sequence_agent.py:125] film_conditioning_4/dense_12/kernel:0 has 16384 params.
+I1011 23:49:37.944343 60320 sequence_agent.py:125] film_conditioning_4/dense_12/bias:0 has 32 params.
+I1011 23:49:37.944343 60320 sequence_agent.py:125] film_conditioning_4/dense_13/kernel:0 has 16384 params.
+I1011 23:49:37.945342 60320 sequence_agent.py:125] film_conditioning_4/dense_13/bias:0 has 32 params.
+I1011 23:49:37.945342 60320 sequence_agent.py:125] block3a_expand_conv/kernel:0 has 6144 params.
+I1011 23:49:37.945342 60320 sequence_agent.py:125] block3a_expand_bn/gamma:0 has 192 params.
+I1011 23:49:37.945342 60320 sequence_agent.py:125] block3a_expand_bn/beta:0 has 192 params.
+I1011 23:49:37.945342 60320 sequence_agent.py:125] block3a_dwconv/depthwise_kernel:0 has 4800 params.
+I1011 23:49:37.945342 60320 sequence_agent.py:125] block3a_bn/gamma:0 has 192 params.
+I1011 23:49:37.945342 60320 sequence_agent.py:125] block3a_bn/beta:0 has 192 params.
+I1011 23:49:37.945342 60320 sequence_agent.py:125] block3a_se_reduce/kernel:0 has 1536 params.
+I1011 23:49:37.945342 60320 sequence_agent.py:125] block3a_se_reduce/bias:0 has 8 params.
+I1011 23:49:37.945342 60320 sequence_agent.py:125] block3a_se_expand/kernel:0 has 1536 params.
+I1011 23:49:37.945342 60320 sequence_agent.py:125] block3a_se_expand/bias:0 has 192 params.
+I1011 23:49:37.945342 60320 sequence_agent.py:125] block3a_project_conv/kernel:0 has 9216 params.
+I1011 23:49:37.945342 60320 sequence_agent.py:125] block3a_project_bn/gamma:0 has 48 params.
+I1011 23:49:37.945342 60320 sequence_agent.py:125] block3a_project_bn/beta:0 has 48 params.
+I1011 23:49:37.945342 60320 sequence_agent.py:125] film_conditioning_5/dense_14/kernel:0 has 24576 params.
+I1011 23:49:37.945342 60320 sequence_agent.py:125] film_conditioning_5/dense_14/bias:0 has 48 params.
+I1011 23:49:37.945342 60320 sequence_agent.py:125] film_conditioning_5/dense_15/kernel:0 has 24576 params.
+I1011 23:49:37.945342 60320 sequence_agent.py:125] film_conditioning_5/dense_15/bias:0 has 48 params.
+I1011 23:49:37.945342 60320 sequence_agent.py:125] block3b_expand_conv/kernel:0 has 13824 params.
+I1011 23:49:37.945342 60320 sequence_agent.py:125] block3b_expand_bn/gamma:0 has 288 params.
+I1011 23:49:37.945342 60320 sequence_agent.py:125] block3b_expand_bn/beta:0 has 288 params.
+I1011 23:49:37.945342 60320 sequence_agent.py:125] block3b_dwconv/depthwise_kernel:0 has 7200 params.
+I1011 23:49:37.945342 60320 sequence_agent.py:125] block3b_bn/gamma:0 has 288 params.
+I1011 23:49:37.945342 60320 sequence_agent.py:125] block3b_bn/beta:0 has 288 params.
+I1011 23:49:37.945342 60320 sequence_agent.py:125] block3b_se_reduce/kernel:0 has 3456 params.
+I1011 23:49:37.945342 60320 sequence_agent.py:125] block3b_se_reduce/bias:0 has 12 params.
+I1011 23:49:37.945342 60320 sequence_agent.py:125] block3b_se_expand/kernel:0 has 3456 params.
+I1011 23:49:37.946343 60320 sequence_agent.py:125] block3b_se_expand/bias:0 has 288 params.
+I1011 23:49:37.946343 60320 sequence_agent.py:125] block3b_project_conv/kernel:0 has 13824 params.
+I1011 23:49:37.946343 60320 sequence_agent.py:125] block3b_project_bn/gamma:0 has 48 params.
+I1011 23:49:37.946343 60320 sequence_agent.py:125] block3b_project_bn/beta:0 has 48 params.
+I1011 23:49:37.946343 60320 sequence_agent.py:125] film_conditioning_6/dense_16/kernel:0 has 24576 params.
+I1011 23:49:37.946343 60320 sequence_agent.py:125] film_conditioning_6/dense_16/bias:0 has 48 params.
+I1011 23:49:37.946343 60320 sequence_agent.py:125] film_conditioning_6/dense_17/kernel:0 has 24576 params.
+I1011 23:49:37.946343 60320 sequence_agent.py:125] film_conditioning_6/dense_17/bias:0 has 48 params.
+I1011 23:49:37.946343 60320 sequence_agent.py:125] block3c_expand_conv/kernel:0 has 13824 params.
+I1011 23:49:37.946343 60320 sequence_agent.py:125] block3c_expand_bn/gamma:0 has 288 params.
+I1011 23:49:37.946343 60320 sequence_agent.py:125] block3c_expand_bn/beta:0 has 288 params.
+I1011 23:49:37.946343 60320 sequence_agent.py:125] block3c_dwconv/depthwise_kernel:0 has 7200 params.
+I1011 23:49:37.946343 60320 sequence_agent.py:125] block3c_bn/gamma:0 has 288 params.
+I1011 23:49:37.946343 60320 sequence_agent.py:125] block3c_bn/beta:0 has 288 params.
+I1011 23:49:37.946343 60320 sequence_agent.py:125] block3c_se_reduce/kernel:0 has 3456 params.
+I1011 23:49:37.946343 60320 sequence_agent.py:125] block3c_se_reduce/bias:0 has 12 params.
+I1011 23:49:37.946343 60320 sequence_agent.py:125] block3c_se_expand/kernel:0 has 3456 params.
+I1011 23:49:37.946343 60320 sequence_agent.py:125] block3c_se_expand/bias:0 has 288 params.
+I1011 23:49:37.946343 60320 sequence_agent.py:125] block3c_project_conv/kernel:0 has 13824 params.
+I1011 23:49:37.946343 60320 sequence_agent.py:125] block3c_project_bn/gamma:0 has 48 params.
+I1011 23:49:37.946343 60320 sequence_agent.py:125] block3c_project_bn/beta:0 has 48 params.
+I1011 23:49:37.946343 60320 sequence_agent.py:125] film_conditioning_7/dense_18/kernel:0 has 24576 params.
+I1011 23:49:37.946343 60320 sequence_agent.py:125] film_conditioning_7/dense_18/bias:0 has 48 params.
+I1011 23:49:37.946343 60320 sequence_agent.py:125] film_conditioning_7/dense_19/kernel:0 has 24576 params.
+I1011 23:49:37.946343 60320 sequence_agent.py:125] film_conditioning_7/dense_19/bias:0 has 48 params.
+I1011 23:49:37.946343 60320 sequence_agent.py:125] block4a_expand_conv/kernel:0 has 13824 params.
+I1011 23:49:37.946343 60320 sequence_agent.py:125] block4a_expand_bn/gamma:0 has 288 params.
+I1011 23:49:37.946343 60320 sequence_agent.py:125] block4a_expand_bn/beta:0 has 288 params.
+I1011 23:49:37.947343 60320 sequence_agent.py:125] block4a_dwconv/depthwise_kernel:0 has 2592 params.
+I1011 23:49:37.947343 60320 sequence_agent.py:125] block4a_bn/gamma:0 has 288 params.
+I1011 23:49:37.947343 60320 sequence_agent.py:125] block4a_bn/beta:0 has 288 params.
+I1011 23:49:37.947343 60320 sequence_agent.py:125] block4a_se_reduce/kernel:0 has 3456 params.
+I1011 23:49:37.947343 60320 sequence_agent.py:125] block4a_se_reduce/bias:0 has 12 params.
+I1011 23:49:37.947343 60320 sequence_agent.py:125] block4a_se_expand/kernel:0 has 3456 params.
+I1011 23:49:37.947343 60320 sequence_agent.py:125] block4a_se_expand/bias:0 has 288 params.
+I1011 23:49:37.947343 60320 sequence_agent.py:125] block4a_project_conv/kernel:0 has 27648 params.
+I1011 23:49:37.947343 60320 sequence_agent.py:125] block4a_project_bn/gamma:0 has 96 params.
+I1011 23:49:37.947343 60320 sequence_agent.py:125] block4a_project_bn/beta:0 has 96 params.
+I1011 23:49:37.947343 60320 sequence_agent.py:125] film_conditioning_8/dense_20/kernel:0 has 49152 params.
+I1011 23:49:37.947343 60320 sequence_agent.py:125] film_conditioning_8/dense_20/bias:0 has 96 params.
+I1011 23:49:37.947343 60320 sequence_agent.py:125] film_conditioning_8/dense_21/kernel:0 has 49152 params.
+I1011 23:49:37.947343 60320 sequence_agent.py:125] film_conditioning_8/dense_21/bias:0 has 96 params.
+I1011 23:49:37.947343 60320 sequence_agent.py:125] block4b_expand_conv/kernel:0 has 55296 params.
+I1011 23:49:37.947343 60320 sequence_agent.py:125] block4b_expand_bn/gamma:0 has 576 params.
+I1011 23:49:37.947343 60320 sequence_agent.py:125] block4b_expand_bn/beta:0 has 576 params.
+I1011 23:49:37.947343 60320 sequence_agent.py:125] block4b_dwconv/depthwise_kernel:0 has 5184 params.
+I1011 23:49:37.947343 60320 sequence_agent.py:125] block4b_bn/gamma:0 has 576 params.
+I1011 23:49:37.947343 60320 sequence_agent.py:125] block4b_bn/beta:0 has 576 params.
+I1011 23:49:37.947343 60320 sequence_agent.py:125] block4b_se_reduce/kernel:0 has 13824 params.
+I1011 23:49:37.947343 60320 sequence_agent.py:125] block4b_se_reduce/bias:0 has 24 params.
+I1011 23:49:37.947343 60320 sequence_agent.py:125] block4b_se_expand/kernel:0 has 13824 params.
+I1011 23:49:37.947343 60320 sequence_agent.py:125] block4b_se_expand/bias:0 has 576 params.
+I1011 23:49:37.947343 60320 sequence_agent.py:125] block4b_project_conv/kernel:0 has 55296 params.
+I1011 23:49:37.948343 60320 sequence_agent.py:125] block4b_project_bn/gamma:0 has 96 params.
+I1011 23:49:37.948343 60320 sequence_agent.py:125] block4b_project_bn/beta:0 has 96 params.
+I1011 23:49:37.948343 60320 sequence_agent.py:125] film_conditioning_9/dense_22/kernel:0 has 49152 params.
+I1011 23:49:37.948343 60320 sequence_agent.py:125] film_conditioning_9/dense_22/bias:0 has 96 params.
+I1011 23:49:37.948343 60320 sequence_agent.py:125] film_conditioning_9/dense_23/kernel:0 has 49152 params.
+I1011 23:49:37.948343 60320 sequence_agent.py:125] film_conditioning_9/dense_23/bias:0 has 96 params.
+I1011 23:49:37.948343 60320 sequence_agent.py:125] block4c_expand_conv/kernel:0 has 55296 params.
+I1011 23:49:37.948343 60320 sequence_agent.py:125] block4c_expand_bn/gamma:0 has 576 params.
+I1011 23:49:37.948343 60320 sequence_agent.py:125] block4c_expand_bn/beta:0 has 576 params.
+I1011 23:49:37.948343 60320 sequence_agent.py:125] block4c_dwconv/depthwise_kernel:0 has 5184 params.
+I1011 23:49:37.948343 60320 sequence_agent.py:125] block4c_bn/gamma:0 has 576 params.
+I1011 23:49:37.948343 60320 sequence_agent.py:125] block4c_bn/beta:0 has 576 params.
+I1011 23:49:37.948343 60320 sequence_agent.py:125] block4c_se_reduce/kernel:0 has 13824 params.
+I1011 23:49:37.948343 60320 sequence_agent.py:125] block4c_se_reduce/bias:0 has 24 params.
+I1011 23:49:37.948343 60320 sequence_agent.py:125] block4c_se_expand/kernel:0 has 13824 params.
+I1011 23:49:37.948343 60320 sequence_agent.py:125] block4c_se_expand/bias:0 has 576 params.
+I1011 23:49:37.948343 60320 sequence_agent.py:125] block4c_project_conv/kernel:0 has 55296 params.
+I1011 23:49:37.948343 60320 sequence_agent.py:125] block4c_project_bn/gamma:0 has 96 params.
+I1011 23:49:37.948343 60320 sequence_agent.py:125] block4c_project_bn/beta:0 has 96 params.
+I1011 23:49:37.948343 60320 sequence_agent.py:125] film_conditioning_10/dense_24/kernel:0 has 49152 params.
+I1011 23:49:37.948343 60320 sequence_agent.py:125] film_conditioning_10/dense_24/bias:0 has 96 params.
+I1011 23:49:37.948343 60320 sequence_agent.py:125] film_conditioning_10/dense_25/kernel:0 has 49152 params.
+I1011 23:49:37.948343 60320 sequence_agent.py:125] film_conditioning_10/dense_25/bias:0 has 96 params.
+I1011 23:49:37.948343 60320 sequence_agent.py:125] block4d_expand_conv/kernel:0 has 55296 params.
+I1011 23:49:37.948343 60320 sequence_agent.py:125] block4d_expand_bn/gamma:0 has 576 params.
+I1011 23:49:37.948343 60320 sequence_agent.py:125] block4d_expand_bn/beta:0 has 576 params.
+I1011 23:49:37.948343 60320 sequence_agent.py:125] block4d_dwconv/depthwise_kernel:0 has 5184 params.
+I1011 23:49:37.948343 60320 sequence_agent.py:125] block4d_bn/gamma:0 has 576 params.
+I1011 23:49:37.949343 60320 sequence_agent.py:125] block4d_bn/beta:0 has 576 params.
+I1011 23:49:37.949343 60320 sequence_agent.py:125] block4d_se_reduce/kernel:0 has 13824 params.
+I1011 23:49:37.949343 60320 sequence_agent.py:125] block4d_se_reduce/bias:0 has 24 params.
+I1011 23:49:37.949343 60320 sequence_agent.py:125] block4d_se_expand/kernel:0 has 13824 params.
+I1011 23:49:37.949343 60320 sequence_agent.py:125] block4d_se_expand/bias:0 has 576 params.
+I1011 23:49:37.949343 60320 sequence_agent.py:125] block4d_project_conv/kernel:0 has 55296 params.
+I1011 23:49:37.949343 60320 sequence_agent.py:125] block4d_project_bn/gamma:0 has 96 params.
+I1011 23:49:37.949343 60320 sequence_agent.py:125] block4d_project_bn/beta:0 has 96 params.
+I1011 23:49:37.949343 60320 sequence_agent.py:125] film_conditioning_11/dense_26/kernel:0 has 49152 params.
+I1011 23:49:37.949343 60320 sequence_agent.py:125] film_conditioning_11/dense_26/bias:0 has 96 params.
+I1011 23:49:37.949343 60320 sequence_agent.py:125] film_conditioning_11/dense_27/kernel:0 has 49152 params.
+I1011 23:49:37.949343 60320 sequence_agent.py:125] film_conditioning_11/dense_27/bias:0 has 96 params.
+I1011 23:49:37.949343 60320 sequence_agent.py:125] block4e_expand_conv/kernel:0 has 55296 params.
+I1011 23:49:37.949343 60320 sequence_agent.py:125] block4e_expand_bn/gamma:0 has 576 params.
+I1011 23:49:37.949343 60320 sequence_agent.py:125] block4e_expand_bn/beta:0 has 576 params.
+I1011 23:49:37.949343 60320 sequence_agent.py:125] block4e_dwconv/depthwise_kernel:0 has 5184 params.
+I1011 23:49:37.949343 60320 sequence_agent.py:125] block4e_bn/gamma:0 has 576 params.
+I1011 23:49:37.949343 60320 sequence_agent.py:125] block4e_bn/beta:0 has 576 params.
+I1011 23:49:37.949343 60320 sequence_agent.py:125] block4e_se_reduce/kernel:0 has 13824 params.
+I1011 23:49:37.949343 60320 sequence_agent.py:125] block4e_se_reduce/bias:0 has 24 params.
+I1011 23:49:37.949343 60320 sequence_agent.py:125] block4e_se_expand/kernel:0 has 13824 params.
+I1011 23:49:37.949343 60320 sequence_agent.py:125] block4e_se_expand/bias:0 has 576 params.
+I1011 23:49:37.949343 60320 sequence_agent.py:125] block4e_project_conv/kernel:0 has 55296 params.
+I1011 23:49:37.949343 60320 sequence_agent.py:125] block4e_project_bn/gamma:0 has 96 params.
+I1011 23:49:37.949343 60320 sequence_agent.py:125] block4e_project_bn/beta:0 has 96 params.
+I1011 23:49:37.949343 60320 sequence_agent.py:125] film_conditioning_12/dense_28/kernel:0 has 49152 params.
+I1011 23:49:37.949343 60320 sequence_agent.py:125] film_conditioning_12/dense_28/bias:0 has 96 params.
+I1011 23:49:37.949343 60320 sequence_agent.py:125] film_conditioning_12/dense_29/kernel:0 has 49152 params.
+I1011 23:49:37.950343 60320 sequence_agent.py:125] film_conditioning_12/dense_29/bias:0 has 96 params.
+I1011 23:49:37.950343 60320 sequence_agent.py:125] block5a_expand_conv/kernel:0 has 55296 params.
+I1011 23:49:37.950343 60320 sequence_agent.py:125] block5a_expand_bn/gamma:0 has 576 params.
+I1011 23:49:37.950343 60320 sequence_agent.py:125] block5a_expand_bn/beta:0 has 576 params.
+I1011 23:49:37.950343 60320 sequence_agent.py:125] block5a_dwconv/depthwise_kernel:0 has 14400 params.
+I1011 23:49:37.950343 60320 sequence_agent.py:125] block5a_bn/gamma:0 has 576 params.
+I1011 23:49:37.950343 60320 sequence_agent.py:125] block5a_bn/beta:0 has 576 params.
+I1011 23:49:37.950343 60320 sequence_agent.py:125] block5a_se_reduce/kernel:0 has 13824 params.
+I1011 23:49:37.950343 60320 sequence_agent.py:125] block5a_se_reduce/bias:0 has 24 params.
+I1011 23:49:37.950343 60320 sequence_agent.py:125] block5a_se_expand/kernel:0 has 13824 params.
+I1011 23:49:37.950343 60320 sequence_agent.py:125] block5a_se_expand/bias:0 has 576 params.
+I1011 23:49:37.950343 60320 sequence_agent.py:125] block5a_project_conv/kernel:0 has 78336 params.
+I1011 23:49:37.950343 60320 sequence_agent.py:125] block5a_project_bn/gamma:0 has 136 params.
+I1011 23:49:37.950343 60320 sequence_agent.py:125] block5a_project_bn/beta:0 has 136 params.
+I1011 23:49:37.950343 60320 sequence_agent.py:125] film_conditioning_13/dense_30/kernel:0 has 69632 params.
+I1011 23:49:37.950343 60320 sequence_agent.py:125] film_conditioning_13/dense_30/bias:0 has 136 params.
+I1011 23:49:37.950343 60320 sequence_agent.py:125] film_conditioning_13/dense_31/kernel:0 has 69632 params.
+I1011 23:49:37.950343 60320 sequence_agent.py:125] film_conditioning_13/dense_31/bias:0 has 136 params.
+I1011 23:49:37.950343 60320 sequence_agent.py:125] block5b_expand_conv/kernel:0 has 110976 params.
+I1011 23:49:37.950343 60320 sequence_agent.py:125] block5b_expand_bn/gamma:0 has 816 params.
+I1011 23:49:37.950343 60320 sequence_agent.py:125] block5b_expand_bn/beta:0 has 816 params.
+I1011 23:49:37.950343 60320 sequence_agent.py:125] block5b_dwconv/depthwise_kernel:0 has 20400 params.
+I1011 23:49:37.950343 60320 sequence_agent.py:125] block5b_bn/gamma:0 has 816 params.
+I1011 23:49:37.950343 60320 sequence_agent.py:125] block5b_bn/beta:0 has 816 params.
+I1011 23:49:37.950343 60320 sequence_agent.py:125] block5b_se_reduce/kernel:0 has 27744 params.
+I1011 23:49:37.950343 60320 sequence_agent.py:125] block5b_se_reduce/bias:0 has 34 params.
+I1011 23:49:37.950343 60320 sequence_agent.py:125] block5b_se_expand/kernel:0 has 27744 params.
+I1011 23:49:37.950343 60320 sequence_agent.py:125] block5b_se_expand/bias:0 has 816 params.
+I1011 23:49:37.951343 60320 sequence_agent.py:125] block5b_project_conv/kernel:0 has 110976 params.
+I1011 23:49:37.951343 60320 sequence_agent.py:125] block5b_project_bn/gamma:0 has 136 params.
+I1011 23:49:37.951343 60320 sequence_agent.py:125] block5b_project_bn/beta:0 has 136 params.
+I1011 23:49:37.951343 60320 sequence_agent.py:125] film_conditioning_14/dense_32/kernel:0 has 69632 params.
+I1011 23:49:37.951343 60320 sequence_agent.py:125] film_conditioning_14/dense_32/bias:0 has 136 params.
+I1011 23:49:37.951343 60320 sequence_agent.py:125] film_conditioning_14/dense_33/kernel:0 has 69632 params.
+I1011 23:49:37.951343 60320 sequence_agent.py:125] film_conditioning_14/dense_33/bias:0 has 136 params.
+I1011 23:49:37.951343 60320 sequence_agent.py:125] block5c_expand_conv/kernel:0 has 110976 params.
+I1011 23:49:37.951343 60320 sequence_agent.py:125] block5c_expand_bn/gamma:0 has 816 params.
+I1011 23:49:37.951343 60320 sequence_agent.py:125] block5c_expand_bn/beta:0 has 816 params.
+I1011 23:49:37.951343 60320 sequence_agent.py:125] block5c_dwconv/depthwise_kernel:0 has 20400 params.
+I1011 23:49:37.951343 60320 sequence_agent.py:125] block5c_bn/gamma:0 has 816 params.
+I1011 23:49:37.951343 60320 sequence_agent.py:125] block5c_bn/beta:0 has 816 params.
+I1011 23:49:37.951343 60320 sequence_agent.py:125] block5c_se_reduce/kernel:0 has 27744 params.
+I1011 23:49:37.951343 60320 sequence_agent.py:125] block5c_se_reduce/bias:0 has 34 params.
+I1011 23:49:37.951343 60320 sequence_agent.py:125] block5c_se_expand/kernel:0 has 27744 params.
+I1011 23:49:37.951343 60320 sequence_agent.py:125] block5c_se_expand/bias:0 has 816 params.
+I1011 23:49:37.952068 60320 sequence_agent.py:125] block5c_project_conv/kernel:0 has 110976 params.
+I1011 23:49:37.952068 60320 sequence_agent.py:125] block5c_project_bn/gamma:0 has 136 params.
+I1011 23:49:37.952068 60320 sequence_agent.py:125] block5c_project_bn/beta:0 has 136 params.
+I1011 23:49:37.952068 60320 sequence_agent.py:125] film_conditioning_15/dense_34/kernel:0 has 69632 params.
+I1011 23:49:37.952068 60320 sequence_agent.py:125] film_conditioning_15/dense_34/bias:0 has 136 params.
+I1011 23:49:37.952068 60320 sequence_agent.py:125] film_conditioning_15/dense_35/kernel:0 has 69632 params.
+I1011 23:49:37.952068 60320 sequence_agent.py:125] film_conditioning_15/dense_35/bias:0 has 136 params.
+I1011 23:49:37.952575 60320 sequence_agent.py:125] block5d_expand_conv/kernel:0 has 110976 params.
+I1011 23:49:37.952575 60320 sequence_agent.py:125] block5d_expand_bn/gamma:0 has 816 params.
+I1011 23:49:37.952575 60320 sequence_agent.py:125] block5d_expand_bn/beta:0 has 816 params.
+I1011 23:49:37.952575 60320 sequence_agent.py:125] block5d_dwconv/depthwise_kernel:0 has 20400 params.
+I1011 23:49:37.952575 60320 sequence_agent.py:125] block5d_bn/gamma:0 has 816 params.
+I1011 23:49:37.952575 60320 sequence_agent.py:125] block5d_bn/beta:0 has 816 params.
+I1011 23:49:37.952575 60320 sequence_agent.py:125] block5d_se_reduce/kernel:0 has 27744 params.
+I1011 23:49:37.952575 60320 sequence_agent.py:125] block5d_se_reduce/bias:0 has 34 params.
+I1011 23:49:37.952575 60320 sequence_agent.py:125] block5d_se_expand/kernel:0 has 27744 params.
+I1011 23:49:37.952575 60320 sequence_agent.py:125] block5d_se_expand/bias:0 has 816 params.
+I1011 23:49:37.952575 60320 sequence_agent.py:125] block5d_project_conv/kernel:0 has 110976 params.
+I1011 23:49:37.952575 60320 sequence_agent.py:125] block5d_project_bn/gamma:0 has 136 params.
+I1011 23:49:37.952575 60320 sequence_agent.py:125] block5d_project_bn/beta:0 has 136 params.
+I1011 23:49:37.952575 60320 sequence_agent.py:125] film_conditioning_16/dense_36/kernel:0 has 69632 params.
+I1011 23:49:37.952575 60320 sequence_agent.py:125] film_conditioning_16/dense_36/bias:0 has 136 params.
+I1011 23:49:37.952575 60320 sequence_agent.py:125] film_conditioning_16/dense_37/kernel:0 has 69632 params.
+I1011 23:49:37.953581 60320 sequence_agent.py:125] film_conditioning_16/dense_37/bias:0 has 136 params.
+I1011 23:49:37.953581 60320 sequence_agent.py:125] block5e_expand_conv/kernel:0 has 110976 params.
+I1011 23:49:37.953581 60320 sequence_agent.py:125] block5e_expand_bn/gamma:0 has 816 params.
+I1011 23:49:37.953581 60320 sequence_agent.py:125] block5e_expand_bn/beta:0 has 816 params.
+I1011 23:49:37.953581 60320 sequence_agent.py:125] block5e_dwconv/depthwise_kernel:0 has 20400 params.
+I1011 23:49:37.953581 60320 sequence_agent.py:125] block5e_bn/gamma:0 has 816 params.
+I1011 23:49:37.953581 60320 sequence_agent.py:125] block5e_bn/beta:0 has 816 params.
+I1011 23:49:37.953581 60320 sequence_agent.py:125] block5e_se_reduce/kernel:0 has 27744 params.
+I1011 23:49:37.953581 60320 sequence_agent.py:125] block5e_se_reduce/bias:0 has 34 params.
+I1011 23:49:37.953581 60320 sequence_agent.py:125] block5e_se_expand/kernel:0 has 27744 params.
+I1011 23:49:37.953581 60320 sequence_agent.py:125] block5e_se_expand/bias:0 has 816 params.
+I1011 23:49:37.953581 60320 sequence_agent.py:125] block5e_project_conv/kernel:0 has 110976 params.
+I1011 23:49:37.953581 60320 sequence_agent.py:125] block5e_project_bn/gamma:0 has 136 params.
+I1011 23:49:37.953581 60320 sequence_agent.py:125] block5e_project_bn/beta:0 has 136 params.
+I1011 23:49:37.953581 60320 sequence_agent.py:125] film_conditioning_17/dense_38/kernel:0 has 69632 params.
+I1011 23:49:37.953581 60320 sequence_agent.py:125] film_conditioning_17/dense_38/bias:0 has 136 params.
+I1011 23:49:37.953581 60320 sequence_agent.py:125] film_conditioning_17/dense_39/kernel:0 has 69632 params.
+I1011 23:49:37.953581 60320 sequence_agent.py:125] film_conditioning_17/dense_39/bias:0 has 136 params.
+I1011 23:49:37.953581 60320 sequence_agent.py:125] block6a_expand_conv/kernel:0 has 110976 params.
+I1011 23:49:37.953581 60320 sequence_agent.py:125] block6a_expand_bn/gamma:0 has 816 params.
+I1011 23:49:37.953581 60320 sequence_agent.py:125] block6a_expand_bn/beta:0 has 816 params.
+I1011 23:49:37.953581 60320 sequence_agent.py:125] block6a_dwconv/depthwise_kernel:0 has 20400 params.
+I1011 23:49:37.953581 60320 sequence_agent.py:125] block6a_bn/gamma:0 has 816 params.
+I1011 23:49:37.953581 60320 sequence_agent.py:125] block6a_bn/beta:0 has 816 params.
+I1011 23:49:37.953581 60320 sequence_agent.py:125] block6a_se_reduce/kernel:0 has 27744 params.
+I1011 23:49:37.953581 60320 sequence_agent.py:125] block6a_se_reduce/bias:0 has 34 params.
+I1011 23:49:37.953581 60320 sequence_agent.py:125] block6a_se_expand/kernel:0 has 27744 params.
+I1011 23:49:37.953581 60320 sequence_agent.py:125] block6a_se_expand/bias:0 has 816 params.
+I1011 23:49:37.954585 60320 sequence_agent.py:125] block6a_project_conv/kernel:0 has 189312 params.
+I1011 23:49:37.954585 60320 sequence_agent.py:125] block6a_project_bn/gamma:0 has 232 params.
+I1011 23:49:37.954585 60320 sequence_agent.py:125] block6a_project_bn/beta:0 has 232 params.
+I1011 23:49:37.954585 60320 sequence_agent.py:125] film_conditioning_18/dense_40/kernel:0 has 118784 params.
+I1011 23:49:37.954585 60320 sequence_agent.py:125] film_conditioning_18/dense_40/bias:0 has 232 params.
+I1011 23:49:37.954585 60320 sequence_agent.py:125] film_conditioning_18/dense_41/kernel:0 has 118784 params.
+I1011 23:49:37.954585 60320 sequence_agent.py:125] film_conditioning_18/dense_41/bias:0 has 232 params.
+I1011 23:49:37.954585 60320 sequence_agent.py:125] block6b_expand_conv/kernel:0 has 322944 params.
+I1011 23:49:37.954585 60320 sequence_agent.py:125] block6b_expand_bn/gamma:0 has 1392 params.
+I1011 23:49:37.954585 60320 sequence_agent.py:125] block6b_expand_bn/beta:0 has 1392 params.
+I1011 23:49:37.954585 60320 sequence_agent.py:125] block6b_dwconv/depthwise_kernel:0 has 34800 params.
+I1011 23:49:37.954585 60320 sequence_agent.py:125] block6b_bn/gamma:0 has 1392 params.
+I1011 23:49:37.954585 60320 sequence_agent.py:125] block6b_bn/beta:0 has 1392 params.
+I1011 23:49:37.954585 60320 sequence_agent.py:125] block6b_se_reduce/kernel:0 has 80736 params.
+I1011 23:49:37.954585 60320 sequence_agent.py:125] block6b_se_reduce/bias:0 has 58 params.
+I1011 23:49:37.955587 60320 sequence_agent.py:125] block6b_se_expand/kernel:0 has 80736 params.
+I1011 23:49:37.955587 60320 sequence_agent.py:125] block6b_se_expand/bias:0 has 1392 params.
+I1011 23:49:37.955587 60320 sequence_agent.py:125] block6b_project_conv/kernel:0 has 322944 params.
+I1011 23:49:37.955587 60320 sequence_agent.py:125] block6b_project_bn/gamma:0 has 232 params.
+I1011 23:49:37.955587 60320 sequence_agent.py:125] block6b_project_bn/beta:0 has 232 params.
+I1011 23:49:37.955587 60320 sequence_agent.py:125] film_conditioning_19/dense_42/kernel:0 has 118784 params.
+I1011 23:49:37.955587 60320 sequence_agent.py:125] film_conditioning_19/dense_42/bias:0 has 232 params.
+I1011 23:49:37.955587 60320 sequence_agent.py:125] film_conditioning_19/dense_43/kernel:0 has 118784 params.
+I1011 23:49:37.955587 60320 sequence_agent.py:125] film_conditioning_19/dense_43/bias:0 has 232 params.
+I1011 23:49:37.955587 60320 sequence_agent.py:125] block6c_expand_conv/kernel:0 has 322944 params.
+I1011 23:49:37.955587 60320 sequence_agent.py:125] block6c_expand_bn/gamma:0 has 1392 params.
+I1011 23:49:37.955587 60320 sequence_agent.py:125] block6c_expand_bn/beta:0 has 1392 params.
+I1011 23:49:37.955587 60320 sequence_agent.py:125] block6c_dwconv/depthwise_kernel:0 has 34800 params.
+I1011 23:49:37.955587 60320 sequence_agent.py:125] block6c_bn/gamma:0 has 1392 params.
+I1011 23:49:37.955587 60320 sequence_agent.py:125] block6c_bn/beta:0 has 1392 params.
+I1011 23:49:37.955587 60320 sequence_agent.py:125] block6c_se_reduce/kernel:0 has 80736 params.
+I1011 23:49:37.955587 60320 sequence_agent.py:125] block6c_se_reduce/bias:0 has 58 params.
+I1011 23:49:37.955587 60320 sequence_agent.py:125] block6c_se_expand/kernel:0 has 80736 params.
+I1011 23:49:37.955587 60320 sequence_agent.py:125] block6c_se_expand/bias:0 has 1392 params.
+I1011 23:49:37.955587 60320 sequence_agent.py:125] block6c_project_conv/kernel:0 has 322944 params.
+I1011 23:49:37.955587 60320 sequence_agent.py:125] block6c_project_bn/gamma:0 has 232 params.
+I1011 23:49:37.955587 60320 sequence_agent.py:125] block6c_project_bn/beta:0 has 232 params.
+I1011 23:49:37.955587 60320 sequence_agent.py:125] film_conditioning_20/dense_44/kernel:0 has 118784 params.
+I1011 23:49:37.955587 60320 sequence_agent.py:125] film_conditioning_20/dense_44/bias:0 has 232 params.
+I1011 23:49:37.955587 60320 sequence_agent.py:125] film_conditioning_20/dense_45/kernel:0 has 118784 params.
+I1011 23:49:37.955587 60320 sequence_agent.py:125] film_conditioning_20/dense_45/bias:0 has 232 params.
+I1011 23:49:37.955587 60320 sequence_agent.py:125] block6d_expand_conv/kernel:0 has 322944 params.
+I1011 23:49:37.956586 60320 sequence_agent.py:125] block6d_expand_bn/gamma:0 has 1392 params.
+I1011 23:49:37.956586 60320 sequence_agent.py:125] block6d_expand_bn/beta:0 has 1392 params.
+I1011 23:49:37.956586 60320 sequence_agent.py:125] block6d_dwconv/depthwise_kernel:0 has 34800 params.
+I1011 23:49:37.956586 60320 sequence_agent.py:125] block6d_bn/gamma:0 has 1392 params.
+I1011 23:49:37.956586 60320 sequence_agent.py:125] block6d_bn/beta:0 has 1392 params.
+I1011 23:49:37.956586 60320 sequence_agent.py:125] block6d_se_reduce/kernel:0 has 80736 params.
+I1011 23:49:37.956586 60320 sequence_agent.py:125] block6d_se_reduce/bias:0 has 58 params.
+I1011 23:49:37.956586 60320 sequence_agent.py:125] block6d_se_expand/kernel:0 has 80736 params.
+I1011 23:49:37.956586 60320 sequence_agent.py:125] block6d_se_expand/bias:0 has 1392 params.
+I1011 23:49:37.956586 60320 sequence_agent.py:125] block6d_project_conv/kernel:0 has 322944 params.
+I1011 23:49:37.956586 60320 sequence_agent.py:125] block6d_project_bn/gamma:0 has 232 params.
+I1011 23:49:37.956586 60320 sequence_agent.py:125] block6d_project_bn/beta:0 has 232 params.
+I1011 23:49:37.956586 60320 sequence_agent.py:125] film_conditioning_21/dense_46/kernel:0 has 118784 params.
+I1011 23:49:37.956586 60320 sequence_agent.py:125] film_conditioning_21/dense_46/bias:0 has 232 params.
+I1011 23:49:37.956586 60320 sequence_agent.py:125] film_conditioning_21/dense_47/kernel:0 has 118784 params.
+I1011 23:49:37.956586 60320 sequence_agent.py:125] film_conditioning_21/dense_47/bias:0 has 232 params.
+I1011 23:49:37.956586 60320 sequence_agent.py:125] block6e_expand_conv/kernel:0 has 322944 params.
+I1011 23:49:37.956586 60320 sequence_agent.py:125] block6e_expand_bn/gamma:0 has 1392 params.
+I1011 23:49:37.956586 60320 sequence_agent.py:125] block6e_expand_bn/beta:0 has 1392 params.
+I1011 23:49:37.956586 60320 sequence_agent.py:125] block6e_dwconv/depthwise_kernel:0 has 34800 params.
+I1011 23:49:37.956586 60320 sequence_agent.py:125] block6e_bn/gamma:0 has 1392 params.
+I1011 23:49:37.956586 60320 sequence_agent.py:125] block6e_bn/beta:0 has 1392 params.
+I1011 23:49:37.956586 60320 sequence_agent.py:125] block6e_se_reduce/kernel:0 has 80736 params.
+I1011 23:49:37.956586 60320 sequence_agent.py:125] block6e_se_reduce/bias:0 has 58 params.
+I1011 23:49:37.956586 60320 sequence_agent.py:125] block6e_se_expand/kernel:0 has 80736 params.
+I1011 23:49:37.956586 60320 sequence_agent.py:125] block6e_se_expand/bias:0 has 1392 params.
+I1011 23:49:37.956586 60320 sequence_agent.py:125] block6e_project_conv/kernel:0 has 322944 params.
+I1011 23:49:37.957600 60320 sequence_agent.py:125] block6e_project_bn/gamma:0 has 232 params.
+I1011 23:49:37.957600 60320 sequence_agent.py:125] block6e_project_bn/beta:0 has 232 params.
+I1011 23:49:37.957600 60320 sequence_agent.py:125] film_conditioning_22/dense_48/kernel:0 has 118784 params.
+I1011 23:49:37.957600 60320 sequence_agent.py:125] film_conditioning_22/dense_48/bias:0 has 232 params.
+I1011 23:49:37.957600 60320 sequence_agent.py:125] film_conditioning_22/dense_49/kernel:0 has 118784 params.
+I1011 23:49:37.957600 60320 sequence_agent.py:125] film_conditioning_22/dense_49/bias:0 has 232 params.
+I1011 23:49:37.957600 60320 sequence_agent.py:125] block6f_expand_conv/kernel:0 has 322944 params.
+I1011 23:49:37.957600 60320 sequence_agent.py:125] block6f_expand_bn/gamma:0 has 1392 params.
+I1011 23:49:37.957600 60320 sequence_agent.py:125] block6f_expand_bn/beta:0 has 1392 params.
+I1011 23:49:37.957600 60320 sequence_agent.py:125] block6f_dwconv/depthwise_kernel:0 has 34800 params.
+I1011 23:49:37.957600 60320 sequence_agent.py:125] block6f_bn/gamma:0 has 1392 params.
+I1011 23:49:37.957600 60320 sequence_agent.py:125] block6f_bn/beta:0 has 1392 params.
+I1011 23:49:37.957600 60320 sequence_agent.py:125] block6f_se_reduce/kernel:0 has 80736 params.
+I1011 23:49:37.957600 60320 sequence_agent.py:125] block6f_se_reduce/bias:0 has 58 params.
+I1011 23:49:37.957600 60320 sequence_agent.py:125] block6f_se_expand/kernel:0 has 80736 params.
+I1011 23:49:37.957600 60320 sequence_agent.py:125] block6f_se_expand/bias:0 has 1392 params.
+I1011 23:49:37.957600 60320 sequence_agent.py:125] block6f_project_conv/kernel:0 has 322944 params.
+I1011 23:49:37.957600 60320 sequence_agent.py:125] block6f_project_bn/gamma:0 has 232 params.
+I1011 23:49:37.957600 60320 sequence_agent.py:125] block6f_project_bn/beta:0 has 232 params.
+I1011 23:49:37.957600 60320 sequence_agent.py:125] film_conditioning_23/dense_50/kernel:0 has 118784 params.
+I1011 23:49:37.957600 60320 sequence_agent.py:125] film_conditioning_23/dense_50/bias:0 has 232 params.
+I1011 23:49:37.957600 60320 sequence_agent.py:125] film_conditioning_23/dense_51/kernel:0 has 118784 params.
+I1011 23:49:37.957600 60320 sequence_agent.py:125] film_conditioning_23/dense_51/bias:0 has 232 params.
+I1011 23:49:37.957600 60320 sequence_agent.py:125] block7a_expand_conv/kernel:0 has 322944 params.
+I1011 23:49:37.957600 60320 sequence_agent.py:125] block7a_expand_bn/gamma:0 has 1392 params.
+I1011 23:49:37.957600 60320 sequence_agent.py:125] block7a_expand_bn/beta:0 has 1392 params.
+I1011 23:49:37.957600 60320 sequence_agent.py:125] block7a_dwconv/depthwise_kernel:0 has 12528 params.
+I1011 23:49:37.957600 60320 sequence_agent.py:125] block7a_bn/gamma:0 has 1392 params.
+I1011 23:49:37.958599 60320 sequence_agent.py:125] block7a_bn/beta:0 has 1392 params.
+I1011 23:49:37.958599 60320 sequence_agent.py:125] block7a_se_reduce/kernel:0 has 80736 params.
+I1011 23:49:37.958599 60320 sequence_agent.py:125] block7a_se_reduce/bias:0 has 58 params.
+I1011 23:49:37.958599 60320 sequence_agent.py:125] block7a_se_expand/kernel:0 has 80736 params.
+I1011 23:49:37.958599 60320 sequence_agent.py:125] block7a_se_expand/bias:0 has 1392 params.
+I1011 23:49:37.958599 60320 sequence_agent.py:125] block7a_project_conv/kernel:0 has 534528 params.
+I1011 23:49:37.958599 60320 sequence_agent.py:125] block7a_project_bn/gamma:0 has 384 params.
+I1011 23:49:37.958599 60320 sequence_agent.py:125] block7a_project_bn/beta:0 has 384 params.
+I1011 23:49:37.958599 60320 sequence_agent.py:125] film_conditioning_24/dense_52/kernel:0 has 196608 params.
+I1011 23:49:37.958599 60320 sequence_agent.py:125] film_conditioning_24/dense_52/bias:0 has 384 params.
+I1011 23:49:37.958599 60320 sequence_agent.py:125] film_conditioning_24/dense_53/kernel:0 has 196608 params.
+I1011 23:49:37.958599 60320 sequence_agent.py:125] film_conditioning_24/dense_53/bias:0 has 384 params.
+I1011 23:49:37.958599 60320 sequence_agent.py:125] block7b_expand_conv/kernel:0 has 884736 params.
+I1011 23:49:37.958599 60320 sequence_agent.py:125] block7b_expand_bn/gamma:0 has 2304 params.
+I1011 23:49:37.958599 60320 sequence_agent.py:125] block7b_expand_bn/beta:0 has 2304 params.
+I1011 23:49:37.958599 60320 sequence_agent.py:125] block7b_dwconv/depthwise_kernel:0 has 20736 params.
+I1011 23:49:37.958599 60320 sequence_agent.py:125] block7b_bn/gamma:0 has 2304 params.
+I1011 23:49:37.958599 60320 sequence_agent.py:125] block7b_bn/beta:0 has 2304 params.
+I1011 23:49:37.958599 60320 sequence_agent.py:125] block7b_se_reduce/kernel:0 has 221184 params.
+I1011 23:49:37.958599 60320 sequence_agent.py:125] block7b_se_reduce/bias:0 has 96 params.
+I1011 23:49:37.958599 60320 sequence_agent.py:125] block7b_se_expand/kernel:0 has 221184 params.
+I1011 23:49:37.958599 60320 sequence_agent.py:125] block7b_se_expand/bias:0 has 2304 params.
+I1011 23:49:37.958599 60320 sequence_agent.py:125] block7b_project_conv/kernel:0 has 884736 params.
+I1011 23:49:37.958599 60320 sequence_agent.py:125] block7b_project_bn/gamma:0 has 384 params.
+I1011 23:49:37.958599 60320 sequence_agent.py:125] block7b_project_bn/beta:0 has 384 params.
+I1011 23:49:37.958599 60320 sequence_agent.py:125] film_conditioning_25/dense_54/kernel:0 has 196608 params.
+I1011 23:49:37.958599 60320 sequence_agent.py:125] film_conditioning_25/dense_54/bias:0 has 384 params.
+I1011 23:49:37.958599 60320 sequence_agent.py:125] film_conditioning_25/dense_55/kernel:0 has 196608 params.
+I1011 23:49:37.959599 60320 sequence_agent.py:125] film_conditioning_25/dense_55/bias:0 has 384 params.
+I1011 23:49:37.959599 60320 sequence_agent.py:125] top_conv/kernel:0 has 589824 params.
+I1011 23:49:37.959599 60320 sequence_agent.py:125] top_bn/gamma:0 has 1536 params.
+I1011 23:49:37.959599 60320 sequence_agent.py:125] top_bn/beta:0 has 1536 params.
+I1011 23:49:37.959599 60320 sequence_agent.py:125] transformer_network/efficient_net_encoder/film_conditioning_26/dense_56/kernel:0 has 262144 params.
+I1011 23:49:37.959599 60320 sequence_agent.py:125] transformer_network/efficient_net_encoder/film_conditioning_26/dense_56/bias:0 has 512 params.
+I1011 23:49:37.959599 60320 sequence_agent.py:125] transformer_network/efficient_net_encoder/film_conditioning_26/dense_57/kernel:0 has 262144 params.
+I1011 23:49:37.959599 60320 sequence_agent.py:125] transformer_network/efficient_net_encoder/film_conditioning_26/dense_57/bias:0 has 512 params.
+I1011 23:49:37.959599 60320 sequence_agent.py:125] transformer_network/token_learner_module/mlp_block/hidden_dense/kernel:0 has 32768 params.
+I1011 23:49:37.959599 60320 sequence_agent.py:125] transformer_network/token_learner_module/mlp_block/hidden_dense/bias:0 has 64 params.
+I1011 23:49:37.959599 60320 sequence_agent.py:125] transformer_network/token_learner_module/mlp_block/final_dense/kernel:0 has 512 params.
+I1011 23:49:37.959599 60320 sequence_agent.py:125] transformer_network/token_learner_module/mlp_block/final_dense/bias:0 has 8 params.
+I1011 23:49:37.959599 60320 sequence_agent.py:125] transformer_network/token_learner_module/layer_normalization_2/gamma:0 has 512 params.
+I1011 23:49:37.959599 60320 sequence_agent.py:125] transformer_network/token_learner_module/layer_normalization_2/beta:0 has 512 params.
+I1011 23:49:37.959599 60320 sequence_agent.py:125] transformer_network/dense_58/kernel:0 has 131072 params.
+I1011 23:49:37.959599 60320 sequence_agent.py:125] transformer_network/dense_58/bias:0 has 512 params.
+I1011 23:49:37.959599 60320 sequence_agent.py:127] Actor network has 83.77M params.
+INFO:tensorflow:time(__main__.TransformerNetworkTest.testLossMasks): 7.32s
+I1011 23:49:37.962591 60320 test_util.py:2574] time(__main__.TransformerNetworkTest.testLossMasks): 7.32s
+[       OK ] TransformerNetworkTest.testLossMasks
+[ RUN      ] TransformerNetworkTest.testTransformerCausality_default
+INFO:tensorflow:time(__main__.TransformerNetworkTest.testTransformerCausality_default): 10.32s
+I1011 23:49:48.306888 60320 test_util.py:2574] time(__main__.TransformerNetworkTest.testTransformerCausality_default): 10.32s
+[       OK ] TransformerNetworkTest.testTransformerCausality_default
+[ RUN      ] TransformerNetworkTest.testTransformerInferenceLossCall_default
+INFO:tensorflow:time(__main__.TransformerNetworkTest.testTransformerInferenceLossCall_default): 8.63s
+I1011 23:49:56.960494 60320 test_util.py:2574] time(__main__.TransformerNetworkTest.testTransformerInferenceLossCall_default): 8.63s
+[       OK ] TransformerNetworkTest.testTransformerInferenceLossCall_default
+[ RUN      ] TransformerNetworkTest.testTransformerLogging_default
+I1011 23:50:05.298022 60320 transformer_network.py:433] image shape (2, 3, 256, 320, 3)
+INFO:tensorflow:time(__main__.TransformerNetworkTest.testTransformerLogging_default): 8.35s
+I1011 23:50:05.334125 60320 test_util.py:2574] time(__main__.TransformerNetworkTest.testTransformerLogging_default): 8.35s
+[       OK ] TransformerNetworkTest.testTransformerLogging_default
+[ RUN      ] TransformerNetworkTest.testTransformerTrainLossCall_default
+INFO:tensorflow:time(__main__.TransformerNetworkTest.testTransformerTrainLossCall_default): 7.93s
+I1011 23:50:13.283686 60320 test_util.py:2574] time(__main__.TransformerNetworkTest.testTransformerTrainLossCall_default): 7.93s
+[       OK ] TransformerNetworkTest.testTransformerTrainLossCall_default
+[ RUN      ] TransformerNetworkTest.test_session
+[  SKIPPED ] TransformerNetworkTest.test_session - Not a test.
+[ RUN      ] robotics_transformer.transformer_network_test_set_up.TransformerNetworkTestUtils.test_session
+[  SKIPPED ] robotics_transformer.transformer_network_test_set_up.TransformerNetworkTestUtils.test_session - Not a test.
+----------------------------------------------------------------------
+Ran 7 tests in 42.674s
+
+OK (skipped=2)

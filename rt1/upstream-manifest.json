@@ -1,0 +1,258 @@
+{
+  "repository": "google-research/robotics_transformer",
+  "revision": "4569641b8111f3f402c32d8e24becd2a6e952ecc",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 44,
+      "sha256": "7b4f23ed706cd55a08a2bbdd91d5817f94d2605817b7910bff212ef36d0ee88f",
+      "git_blob": "518624b10c5907cba75d491203d27e17092455ac"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 253,
+      "sha256": "7b36af9b74a4be847853b02a9156bc90e82ab90216c4bc779d6eb2db7174f108",
+      "git_blob": "ac439326812bb10abe9c70bad9a54038fb7a6893"
+    },
+    {
+      "path": ".pylintrc",
+      "bytes": 14783,
+      "sha256": "b5ad85944a38fff3213560747cd51b10872304898091b02d17534ab4c8815195",
+      "git_blob": "467c1f9686ee4fe0325d06daec32ba56d1620b98"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1103,
+      "sha256": "4b427eb5ff82039c2ab0d834bdea39274ff8cfdd12d19fe46db79f4c2a556cec",
+      "git_blob": "e5c3b2868437f65d0d14f0411e9c2482bef576bf"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11357,
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "git_blob": "7a4a3ea2424c09fbe48d455aed1eaa94d9124835"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1536,
+      "sha256": "c1997780d18d2482894f1b61e7d5e8f9ed844059c4fe246af3089b445119f41d",
+      "git_blob": "52f62450370f2976658b4a6d1f5f6cb35956ca06"
+    },
+    {
+      "path": "__init__.py",
+      "bytes": 754,
+      "sha256": "8e5508415d7e97e511d857df4c4919e4f02e593fda883ab8b1e5d9d2f87ac498",
+      "git_blob": "da89942dcc67a57dabf571f172e78a3cd4a52bd3"
+    },
+    {
+      "path": "configs/transformer_mixin.gin",
+      "bytes": 743,
+      "sha256": "6d144cd1009f3bcd81889784da5b48a38fb6feb30dd72ae990a0c1cc9b64b316",
+      "git_blob": "0c9db1bd1ad301a6b5ac5481ec1fda9b59a0250c"
+    },
+    {
+      "path": "film_efficientnet/__init__.py",
+      "bytes": 575,
+      "sha256": "72653b685b39105f42aa27925286380107d37f0565ab2f8ba569210ce24a0237",
+      "git_blob": "6d6d1266c329fd60129d68b2a80179e0102633e0"
+    },
+    {
+      "path": "film_efficientnet/efficientnet_checkpoints/efficientnetb3.h5",
+      "bytes": 50095040,
+      "sha256": "48e77d124276f5d00a4f8dcf9c564b7d0c627080af4aeb1da39f444ebd631433",
+      "git_blob": "cdf5cd489c5eef75eb9573807c495f526a30c2de"
+    },
+    {
+      "path": "film_efficientnet/efficientnet_checkpoints/efficientnetb3_notop.h5",
+      "bytes": 43941136,
+      "sha256": "cb923fd68d56606c597e50676240920dd7ad8d0f01f4a51d9e73ca2afdbd67f3",
+      "git_blob": "021cc8278d2931af68a4bfb782c23e3565784087"
+    },
+    {
+      "path": "film_efficientnet/efficientnet_checkpoints/imagenet_classes.json",
+      "bytes": 35364,
+      "sha256": "b090d218c425be1c056c8cb9dae307b70e349714712013b5b11265bd2cb9d80a",
+      "git_blob": "2ebd2961e1dee28468083356e3254670c170589f"
+    },
+    {
+      "path": "film_efficientnet/film_conditioning_layer.py",
+      "bytes": 2606,
+      "sha256": "9ea3963451e96671ee04bb09ed88ea6c242c748d8329e44e201d182efdfe56b7",
+      "git_blob": "5cace77486c9189b41a37bf08caccd477fb01557"
+    },
+    {
+      "path": "film_efficientnet/film_conditioning_layer_test.py",
+      "bytes": 1479,
+      "sha256": "b8384891df7fe52df671b160ff0123c2c554f34157e7567fe5ebb98e643972b7",
+      "git_blob": "486d6c8f0decffbc34c1b65f7694c1155365418c"
+    },
+    {
+      "path": "film_efficientnet/film_efficientnet_encoder.py",
+      "bytes": 26917,
+      "sha256": "30be0a9e370ff94359766977ed53e1fa72572164486926d7b9b9c8f91917d292",
+      "git_blob": "078ff43fbbf7523da26cd53b158cb2a42597e0cc"
+    },
+    {
+      "path": "film_efficientnet/film_efficientnet_encoder_test.py",
+      "bytes": 2628,
+      "sha256": "6055e67c4e32e85863f472fe130ee338ece62f96909cbebbbbee09ffba7975ac",
+      "git_blob": "fb271c8143c0a576da9a72f8323aa5ad887c1b0d"
+    },
+    {
+      "path": "film_efficientnet/preprocessors.py",
+      "bytes": 4252,
+      "sha256": "3758d3888c1e8d1658bb28ddddb5706d911eb8d80b2dbe62dcc28af82d63ddc6",
+      "git_blob": "2b2ce01c4ed9ab0f6f02ff693e8d68166d1f8aec"
+    },
+    {
+      "path": "film_efficientnet/preprocessors_test.py",
+      "bytes": 3485,
+      "sha256": "167fe79eb98a5b1c76638b9713da733fd8416d655e57d0728c08a6f5be7a9b33",
+      "git_blob": "c61e5d60550ae13c66750116d51e775c3b0d6109"
+    },
+    {
+      "path": "film_efficientnet/pretrained_efficientnet_encoder.py",
+      "bytes": 4709,
+      "sha256": "0075b2c5a970f57f05f98fce924bfc18e01ab5ff9556d0270fbaf0412df237f9",
+      "git_blob": "ad7ca70c84dab3f7930d82d38ca9239773cdacf6"
+    },
+    {
+      "path": "film_efficientnet/pretrained_efficientnet_encoder_test.py",
+      "bytes": 1866,
+      "sha256": "c93b81f6f6f04e2e9bd8c341c975f80ee14c144a8143f3bab3fe175d431930a3",
+      "git_blob": "6b9b9abf8b25394702ddcfbb9cea896ef42e15ca"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 222,
+      "sha256": "9906a3bee29f0ed54cc4ca39527dcb19d68a5391b61a0aacdf9a80b7c925039c",
+      "git_blob": "c65dd3ba58af2fd0e9ce7bbdbee4fb35cfe840d8"
+    },
+    {
+      "path": "sequence_agent.py",
+      "bytes": 6681,
+      "sha256": "4d0d49ba1b8ce336b327d6524fd2cfe5c7d4d517b38c47630756cf672f044ca1",
+      "git_blob": "11786fcce0ca638084bd91c0e8329ea9d101e5e5"
+    },
+    {
+      "path": "sequence_agent_test.py",
+      "bytes": 1017,
+      "sha256": "dca39577b2710c84c64b0ef4a7f67ffd2a41d6318d8e6c124cff4bc812e20fc6",
+      "git_blob": "1eee013af02e561e61fe83be6afde2ef7d8b3a0b"
+    },
+    {
+      "path": "sequence_agent_test_set_up.py",
+      "bytes": 5067,
+      "sha256": "1ce6d0fc8707c6d7cc8340c5d8db379f01a38bbc7baea565edd8c8a73be0d884",
+      "git_blob": "0e370f0486d5872660738a5dd09593d793c001ef"
+    },
+    {
+      "path": "tokenizers/__init__.py",
+      "bytes": 575,
+      "sha256": "72653b685b39105f42aa27925286380107d37f0565ab2f8ba569210ce24a0237",
+      "git_blob": "6d6d1266c329fd60129d68b2a80179e0102633e0"
+    },
+    {
+      "path": "tokenizers/action_tokenizer.py",
+      "bytes": 6453,
+      "sha256": "bb543a0f1c7342c7907d8f58dcd8ccc82e9d37eb9a9f60eb9235e9dca7ca1e8b",
+      "git_blob": "321bffb6ab1655b8114654fd8e81b1b55dbb9774"
+    },
+    {
+      "path": "tokenizers/action_tokenizer_test.py",
+      "bytes": 8238,
+      "sha256": "bbfb1706fef04013c4aae7982171ce3f9c5de6919f3a99737a32b9ee5176b91d",
+      "git_blob": "a0181a8dd6e03e7976c3e945be9829660b07d0d0"
+    },
+    {
+      "path": "tokenizers/image_tokenizer.py",
+      "bytes": 4107,
+      "sha256": "6f6fc19ada11601032559c4d8ec33e4371be7353f604795eb834d9cbb43bf3b7",
+      "git_blob": "ab6ccc7e86bc1598becd0562d40a1fc911d2c445"
+    },
+    {
+      "path": "tokenizers/image_tokenizer_test.py",
+      "bytes": 1714,
+      "sha256": "79c1d51feb6c06116f40e25536862d8d3ab3dab3b0c78d5f27b920f289cf1560",
+      "git_blob": "79a404f131276be87712c2f70d7cfe1c33de9d1a"
+    },
+    {
+      "path": "tokenizers/token_learner.py",
+      "bytes": 4649,
+      "sha256": "8db2f687cce083230f6280621ec07a0fd636fbccd3251311afedb49b59d98ed8",
+      "git_blob": "ed1522a9a70b4bc0f1af25894585031e1e06583c"
+    },
+    {
+      "path": "tokenizers/token_learner_test.py",
+      "bytes": 1287,
+      "sha256": "fe6ec3b03fa6447a218d85a0b283702740ac538b2d9d020b2c360f6c236115fe",
+      "git_blob": "d16e49a2b63fa61821b948a2fc0ac3de3d9462c6"
+    },
+    {
+      "path": "trained_checkpoints/rt1main/assets/metadata.textproto",
+      "bytes": 38,
+      "sha256": "9ad70b4c9f8915e5fb7a8f68b94c4974b51e5a1110b7ff11d312cba11db425d5",
+      "git_blob": "4810a15cb4abf4710be1788772e68a791bfb4fee"
+    },
+    {
+      "path": "trained_checkpoints/rt1main/fingerprint.pb",
+      "bytes": 55,
+      "sha256": "3a6e08eb09d627f221f62204e2d3db1993282b902fadb8eb62bf2972960c3749",
+      "git_blob": "10a130ca2a5f1739945093574895c773815682ae"
+    },
+    {
+      "path": "trained_checkpoints/rt1main/policy_specs.pbtxt",
+      "bytes": 15865,
+      "sha256": "0610e4b5f132c185410c10b5f44285d694fca67c142ea37de0d911f73a373df7",
+      "git_blob": "f396f96c489a1f6ed542e0f88c2787a867c70c51"
+    },
+    {
+      "path": "trained_checkpoints/rt1main/saved_model.pb",
+      "bytes": 28595068,
+      "sha256": "dcb0df980111f5368643759ccce1780e531de3d77f4fa3dd7570be98460dc220",
+      "git_blob": "46483d0a2b09b6976f7d2bca4c5c3e1f45c4c5ac"
+    },
+    {
+      "path": "trained_checkpoints/rt1main/variables/variables.data-00000-of-00001",
+      "bytes": 141841691,
+      "sha256": "b84cc6e6a0bb9309c7250289b6a7f469d9e582863593966f3cfab008ac859509",
+      "git_blob": "16f219ea8c6f8504741c545cedd57db0addc25ca"
+    },
+    {
+      "path": "trained_checkpoints/rt1main/variables/variables.index",
+      "bytes": 13366,
+      "sha256": "ccf949505985e54a6ff345bc43a438d43224e55b5b0a502292b483ecd38ff0aa",
+      "git_blob": "45cbcf1557b8705a5ba9ee56fe6587ae3bf4487a"
+    },
+    {
+      "path": "transformer.py",
+      "bytes": 6118,
+      "sha256": "7e7228535f739e69aa15ca22c0aecbc3a5391c180e874f08c9676f00ff5ff825",
+      "git_blob": "23f117dd59d6818a714a3e914cae0849daeddfb9"
+    },
+    {
+      "path": "transformer_network.py",
+      "bytes": 28882,
+      "sha256": "697cacff563190e767b77a088b21c5883b78e64d7d86b672c3a8cb9f53bcdb24",
+      "git_blob": "6cd3244b8e7d0f8ff7059f28f2a847c3ce82add0"
+    },
+    {
+      "path": "transformer_network_test.py",
+      "bytes": 9373,
+      "sha256": "47cddf9bf15cbfd99d31ec08768a583a8133ddb6f3ba12e3deedffa1ab78c14d",
+      "git_blob": "e584ce0fd2513843cd2432bdaa45dc09d562e1c9"
+    },
+    {
+      "path": "transformer_network_test_set_up.py",
+      "bytes": 15212,
+      "sha256": "2fc4e93304bd99793872312c3c1a1c72c1cb295da1ba8924d405d2d8d26f5d4a",
+      "git_blob": "f51d08f2fa20ea88b8b0ed54a9f7a941d9822738"
+    },
+    {
+      "path": "transformer_test.py",
+      "bytes": 1796,
+      "sha256": "3e36fdb8d36faf8e5316fc356476797dc9c8d7ac85101e981ac54688c0de5a0d",
+      "git_blob": "4d3aa0f34321e4587652f75c16cfc1888ba5e3ed"
+    }
+  ]
+}

@@ -21,3 +21,20 @@ outputs/
 checkpoints/
 data/raw/
 .DS_Store
+
+# Papers, exported models and temporary artifacts stay local.
+*.pdf
+*.pb
+*.partial
+rt1/incomplete-clone-git/
+rt1/robotics_transformer/trained_checkpoints/
+rt1/robotics_transformer/film_efficientnet/efficientnet_checkpoints/
+# Keep only the historical RT-1 verification evidence.
+!rt1/outputs/
+rt1/outputs/*
+!rt1/outputs/inference.json
+!rt1/outputs/artifact-verification.json
+!rt1/outputs/tests/
+rt1/outputs/tests/*
+!rt1/outputs/tests/summary.json
+!rt1/outputs/tests/*.log

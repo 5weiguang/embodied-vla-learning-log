@@ -1,0 +1,4 @@
+# Preserve the bytes of pinned sources and historical evidence on Windows.
+rt1/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Unified patches use a mandatory space prefix on empty context lines.
+*.patch -whitespace

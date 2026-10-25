@@ -1,0 +1,21 @@
+WARNING:tensorflow:From D:\study\rt1\.venv\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+Running tests under Python 3.11.7: D:\study\rt1\.venv\Scripts\python.exe
+[ RUN      ] FilmConditioningLayerTest.test_film_conditioning_rank_two_and_four0 (2)
+WARNING:tensorflow:From D:\study\rt1\.venv\Lib\site-packages\keras\src\backend.py:873: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+W1011 23:47:42.622794 10948 module_wrapper.py:149] From D:\study\rt1\.venv\Lib\site-packages\keras\src\backend.py:873: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+INFO:tensorflow:time(__main__.FilmConditioningLayerTest.test_film_conditioning_rank_two_and_four0 (2)): 0.66s
+I1011 23:47:42.825976 10948 test_util.py:2574] time(__main__.FilmConditioningLayerTest.test_film_conditioning_rank_two_and_four0 (2)): 0.66s
+[       OK ] FilmConditioningLayerTest.test_film_conditioning_rank_two_and_four0 (2)
+[ RUN      ] FilmConditioningLayerTest.test_film_conditioning_rank_two_and_four1 (4)
+INFO:tensorflow:time(__main__.FilmConditioningLayerTest.test_film_conditioning_rank_two_and_four1 (4)): 0.03s
+I1011 23:47:42.859017 10948 test_util.py:2574] time(__main__.FilmConditioningLayerTest.test_film_conditioning_rank_two_and_four1 (4)): 0.03s
+[       OK ] FilmConditioningLayerTest.test_film_conditioning_rank_two_and_four1 (4)
+[ RUN      ] FilmConditioningLayerTest.test_session
+[  SKIPPED ] FilmConditioningLayerTest.test_session - Not a test.
+----------------------------------------------------------------------
+Ran 3 tests in 0.691s
+
+OK (skipped=1)

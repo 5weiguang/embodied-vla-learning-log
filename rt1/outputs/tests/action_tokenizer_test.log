@@ -1,0 +1,50 @@
+WARNING:tensorflow:From D:\study\rt1\.venv\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+WARNING:tensorflow:From D:\study\rt1\.venv\Lib\site-packages\tensorflow_probability\python\internal\backend\numpy\_utils.py:48: The name tf.logging.TaskLevelStatusMessage is deprecated. Please use tf.compat.v1.logging.TaskLevelStatusMessage instead.
+
+WARNING:tensorflow:From D:\study\rt1\.venv\Lib\site-packages\tensorflow_probability\python\internal\backend\numpy\_utils.py:48: The name tf.control_flow_v2_enabled is deprecated. Please use tf.compat.v1.control_flow_v2_enabled instead.
+
+WARNING:tensorflow:From D:\study\rt1\.venv\Lib\site-packages\tf_agents\typing\types.py:114: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Running tests under Python 3.11.7: D:\study\rt1\.venv\Scripts\python.exe
+[ RUN      ] ActionTokenizerTest.testDetokenize_int32
+INFO:tensorflow:time(__main__.ActionTokenizerTest.testDetokenize_int32): 0.03s
+I1011 23:48:58.481522 47944 test_util.py:2574] time(__main__.ActionTokenizerTest.testDetokenize_int32): 0.03s
+[       OK ] ActionTokenizerTest.testDetokenize_int32
+[ RUN      ] ActionTokenizerTest.testTokenizeAndDetokenizeIsEqual
+INFO:tensorflow:time(__main__.ActionTokenizerTest.testTokenizeAndDetokenizeIsEqual): 0.17s
+I1011 23:48:58.653339 47944 test_util.py:2574] time(__main__.ActionTokenizerTest.testTokenizeAndDetokenizeIsEqual): 0.17s
+[       OK ] ActionTokenizerTest.testTokenizeAndDetokenizeIsEqual
+[ RUN      ] ActionTokenizerTest.testTokenize_float
+INFO:tensorflow:time(__main__.ActionTokenizerTest.testTokenize_float): 0.01s
+I1011 23:48:58.662341 47944 test_util.py:2574] time(__main__.ActionTokenizerTest.testTokenize_float): 0.01s
+[       OK ] ActionTokenizerTest.testTokenize_float
+[ RUN      ] ActionTokenizerTest.testTokenize_float_at_limits
+INFO:tensorflow:time(__main__.ActionTokenizerTest.testTokenize_float_at_limits): 0.01s
+I1011 23:48:58.669340 47944 test_util.py:2574] time(__main__.ActionTokenizerTest.testTokenize_float_at_limits): 0.01s
+[       OK ] ActionTokenizerTest.testTokenize_float_at_limits
+[ RUN      ] ActionTokenizerTest.testTokenize_float_with_time_dimension
+INFO:tensorflow:time(__main__.ActionTokenizerTest.testTokenize_float_with_time_dimension): 0.01s
+I1011 23:48:58.677341 47944 test_util.py:2574] time(__main__.ActionTokenizerTest.testTokenize_float_with_time_dimension): 0.01s
+[       OK ] ActionTokenizerTest.testTokenize_float_with_time_dimension
+[ RUN      ] ActionTokenizerTest.testTokenize_int32
+INFO:tensorflow:time(__main__.ActionTokenizerTest.testTokenize_int32): 0.01s
+I1011 23:48:58.686340 47944 test_util.py:2574] time(__main__.ActionTokenizerTest.testTokenize_int32): 0.01s
+[       OK ] ActionTokenizerTest.testTokenize_int32
+[ RUN      ] ActionTokenizerTest.testTokenize_int32_not_one_hot
+INFO:tensorflow:time(__main__.ActionTokenizerTest.testTokenize_int32_not_one_hot): 0.0s
+I1011 23:48:58.691067 47944 test_util.py:2574] time(__main__.ActionTokenizerTest.testTokenize_int32_not_one_hot): 0.0s
+[       OK ] ActionTokenizerTest.testTokenize_int32_not_one_hot
+[ RUN      ] ActionTokenizerTest.testTokenize_invalid_action_spec_shape
+INFO:tensorflow:time(__main__.ActionTokenizerTest.testTokenize_invalid_action_spec_shape): 0.0s
+I1011 23:48:58.691866 47944 test_util.py:2574] time(__main__.ActionTokenizerTest.testTokenize_invalid_action_spec_shape): 0.0s
+[       OK ] ActionTokenizerTest.testTokenize_invalid_action_spec_shape
+[ RUN      ] ActionTokenizerTest.test_session
+[  SKIPPED ] ActionTokenizerTest.test_session - Not a test.
+----------------------------------------------------------------------
+Ran 9 tests in 0.243s
+
+OK (skipped=1)

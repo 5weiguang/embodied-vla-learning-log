@@ -1,0 +1,609 @@
+{
+  "sha": "4569641b8111f3f402c32d8e24becd2a6e952ecc",
+  "url": "https://api.github.com/repos/google-research/robotics_transformer/git/trees/4569641b8111f3f402c32d8e24becd2a6e952ecc",
+  "tree": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "518624b10c5907cba75d491203d27e17092455ac",
+      "size": 44,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/518624b10c5907cba75d491203d27e17092455ac"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac439326812bb10abe9c70bad9a54038fb7a6893",
+      "size": 253,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/ac439326812bb10abe9c70bad9a54038fb7a6893"
+    },
+    {
+      "path": ".pylintrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "467c1f9686ee4fe0325d06daec32ba56d1620b98",
+      "size": 14783,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/467c1f9686ee4fe0325d06daec32ba56d1620b98"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5c3b2868437f65d0d14f0411e9c2482bef576bf",
+      "size": 1103,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/e5c3b2868437f65d0d14f0411e9c2482bef576bf"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a4a3ea2424c09fbe48d455aed1eaa94d9124835",
+      "size": 11357,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/7a4a3ea2424c09fbe48d455aed1eaa94d9124835"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52f62450370f2976658b4a6d1f5f6cb35956ca06",
+      "size": 1536,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/52f62450370f2976658b4a6d1f5f6cb35956ca06"
+    },
+    {
+      "path": "__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da89942dcc67a57dabf571f172e78a3cd4a52bd3",
+      "size": 754,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/da89942dcc67a57dabf571f172e78a3cd4a52bd3"
+    },
+    {
+      "path": "configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "842f20384aca2af13163d6ce140dd178eb3b2028",
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/trees/842f20384aca2af13163d6ce140dd178eb3b2028"
+    },
+    {
+      "path": "configs/transformer_mixin.gin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c9db1bd1ad301a6b5ac5481ec1fda9b59a0250c",
+      "size": 743,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/0c9db1bd1ad301a6b5ac5481ec1fda9b59a0250c"
+    },
+    {
+      "path": "film_efficientnet",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eb1dee926a1210de9db1615f3a8a7068510ea643",
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/trees/eb1dee926a1210de9db1615f3a8a7068510ea643"
+    },
+    {
+      "path": "film_efficientnet/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d6d1266c329fd60129d68b2a80179e0102633e0",
+      "size": 575,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/6d6d1266c329fd60129d68b2a80179e0102633e0"
+    },
+    {
+      "path": "film_efficientnet/efficientnet_checkpoints",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8b41e4489c6c8fede41cfae06a8104e626929734",
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/trees/8b41e4489c6c8fede41cfae06a8104e626929734"
+    },
+    {
+      "path": "film_efficientnet/efficientnet_checkpoints/efficientnetb3.h5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdf5cd489c5eef75eb9573807c495f526a30c2de",
+      "size": 50095040,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/cdf5cd489c5eef75eb9573807c495f526a30c2de"
+    },
+    {
+      "path": "film_efficientnet/efficientnet_checkpoints/efficientnetb3_notop.h5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "021cc8278d2931af68a4bfb782c23e3565784087",
+      "size": 43941136,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/021cc8278d2931af68a4bfb782c23e3565784087"
+    },
+    {
+      "path": "film_efficientnet/efficientnet_checkpoints/imagenet_classes.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ebd2961e1dee28468083356e3254670c170589f",
+      "size": 35364,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/2ebd2961e1dee28468083356e3254670c170589f"
+    },
+    {
+      "path": "film_efficientnet/film_conditioning_layer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cace77486c9189b41a37bf08caccd477fb01557",
+      "size": 2606,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/5cace77486c9189b41a37bf08caccd477fb01557"
+    },
+    {
+      "path": "film_efficientnet/film_conditioning_layer_test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "486d6c8f0decffbc34c1b65f7694c1155365418c",
+      "size": 1479,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/486d6c8f0decffbc34c1b65f7694c1155365418c"
+    },
+    {
+      "path": "film_efficientnet/film_efficientnet_encoder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "078ff43fbbf7523da26cd53b158cb2a42597e0cc",
+      "size": 26917,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/078ff43fbbf7523da26cd53b158cb2a42597e0cc"
+    },
+    {
+      "path": "film_efficientnet/film_efficientnet_encoder_test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb271c8143c0a576da9a72f8323aa5ad887c1b0d",
+      "size": 2628,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/fb271c8143c0a576da9a72f8323aa5ad887c1b0d"
+    },
+    {
+      "path": "film_efficientnet/preprocessors.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b2ce01c4ed9ab0f6f02ff693e8d68166d1f8aec",
+      "size": 4252,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/2b2ce01c4ed9ab0f6f02ff693e8d68166d1f8aec"
+    },
+    {
+      "path": "film_efficientnet/preprocessors_test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c61e5d60550ae13c66750116d51e775c3b0d6109",
+      "size": 3485,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/c61e5d60550ae13c66750116d51e775c3b0d6109"
+    },
+    {
+      "path": "film_efficientnet/pretrained_efficientnet_encoder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad7ca70c84dab3f7930d82d38ca9239773cdacf6",
+      "size": 4709,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/ad7ca70c84dab3f7930d82d38ca9239773cdacf6"
+    },
+    {
+      "path": "film_efficientnet/pretrained_efficientnet_encoder_test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b9b9abf8b25394702ddcfbb9cea896ef42e15ca",
+      "size": 1866,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/6b9b9abf8b25394702ddcfbb9cea896ef42e15ca"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c65dd3ba58af2fd0e9ce7bbdbee4fb35cfe840d8",
+      "size": 222,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/c65dd3ba58af2fd0e9ce7bbdbee4fb35cfe840d8"
+    },
+    {
+      "path": "sequence_agent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11786fcce0ca638084bd91c0e8329ea9d101e5e5",
+      "size": 6681,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/11786fcce0ca638084bd91c0e8329ea9d101e5e5"
+    },
+    {
+      "path": "sequence_agent_test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1eee013af02e561e61fe83be6afde2ef7d8b3a0b",
+      "size": 1017,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/1eee013af02e561e61fe83be6afde2ef7d8b3a0b"
+    },
+    {
+      "path": "sequence_agent_test_set_up.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e370f0486d5872660738a5dd09593d793c001ef",
+      "size": 5067,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/0e370f0486d5872660738a5dd09593d793c001ef"
+    },
+    {
+      "path": "tokenizers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "12e3caf0c779714b18c84e126de59d9ded754fbb",
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/trees/12e3caf0c779714b18c84e126de59d9ded754fbb"
+    },
+    {
+      "path": "tokenizers/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d6d1266c329fd60129d68b2a80179e0102633e0",
+      "size": 575,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/6d6d1266c329fd60129d68b2a80179e0102633e0"
+    },
+    {
+      "path": "tokenizers/action_tokenizer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "321bffb6ab1655b8114654fd8e81b1b55dbb9774",
+      "size": 6453,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/321bffb6ab1655b8114654fd8e81b1b55dbb9774"
+    },
+    {
+      "path": "tokenizers/action_tokenizer_test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0181a8dd6e03e7976c3e945be9829660b07d0d0",
+      "size": 8238,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/a0181a8dd6e03e7976c3e945be9829660b07d0d0"
+    },
+    {
+      "path": "tokenizers/image_tokenizer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab6ccc7e86bc1598becd0562d40a1fc911d2c445",
+      "size": 4107,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/ab6ccc7e86bc1598becd0562d40a1fc911d2c445"
+    },
+    {
+      "path": "tokenizers/image_tokenizer_test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79a404f131276be87712c2f70d7cfe1c33de9d1a",
+      "size": 1714,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/79a404f131276be87712c2f70d7cfe1c33de9d1a"
+    },
+    {
+      "path": "tokenizers/token_learner.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed1522a9a70b4bc0f1af25894585031e1e06583c",
+      "size": 4649,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/ed1522a9a70b4bc0f1af25894585031e1e06583c"
+    },
+    {
+      "path": "tokenizers/token_learner_test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d16e49a2b63fa61821b948a2fc0ac3de3d9462c6",
+      "size": 1287,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/d16e49a2b63fa61821b948a2fc0ac3de3d9462c6"
+    },
+    {
+      "path": "trained_checkpoints",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0f5f2315200dde50035fb534db5cd00f19abeef9",
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/trees/0f5f2315200dde50035fb534db5cd00f19abeef9"
+    },
+    {
+      "path": "trained_checkpoints/rt1main",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f074c7eb9fd3bdc6a3fadf1ffe013c4de4cdcc06",
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/trees/f074c7eb9fd3bdc6a3fadf1ffe013c4de4cdcc06"
+    },
+    {
+      "path": "trained_checkpoints/rt1main/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "54f79f39775dbe41e3a8a8011adb1a76e55fc4be",
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/trees/54f79f39775dbe41e3a8a8011adb1a76e55fc4be"
+    },
+    {
+      "path": "trained_checkpoints/rt1main/assets/metadata.textproto",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4810a15cb4abf4710be1788772e68a791bfb4fee",
+      "size": 38,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/4810a15cb4abf4710be1788772e68a791bfb4fee"
+    },
+    {
+      "path": "trained_checkpoints/rt1main/checkpoint",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0bbf21eda2b0ac3fcdd2f5a20fdc7cf02fe1623",
+      "size": 335,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/a0bbf21eda2b0ac3fcdd2f5a20fdc7cf02fe1623"
+    },
+    {
+      "path": "trained_checkpoints/rt1main/ckpt-424760.data-00000-of-00001",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa95c848c39ba9db511f2cd4110f647673143850",
+      "size": 134,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/fa95c848c39ba9db511f2cd4110f647673143850"
+    },
+    {
+      "path": "trained_checkpoints/rt1main/ckpt-424760.index",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1353544eea9222118048f29a0e1eaba98c73217",
+      "size": 33745,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/c1353544eea9222118048f29a0e1eaba98c73217"
+    },
+    {
+      "path": "trained_checkpoints/rt1main/fingerprint.pb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10a130ca2a5f1739945093574895c773815682ae",
+      "size": 55,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/10a130ca2a5f1739945093574895c773815682ae"
+    },
+    {
+      "path": "trained_checkpoints/rt1main/policy_specs.pbtxt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f396f96c489a1f6ed542e0f88c2787a867c70c51",
+      "size": 15865,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/f396f96c489a1f6ed542e0f88c2787a867c70c51"
+    },
+    {
+      "path": "trained_checkpoints/rt1main/saved_model.pb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46483d0a2b09b6976f7d2bca4c5c3e1f45c4c5ac",
+      "size": 28595068,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/46483d0a2b09b6976f7d2bca4c5c3e1f45c4c5ac"
+    },
+    {
+      "path": "trained_checkpoints/rt1main/variables",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fded8d3d828885b9a8ef0c023d1db80c0f79c151",
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/trees/fded8d3d828885b9a8ef0c023d1db80c0f79c151"
+    },
+    {
+      "path": "trained_checkpoints/rt1main/variables/variables.data-00000-of-00001",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16f219ea8c6f8504741c545cedd57db0addc25ca",
+      "size": 134,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/16f219ea8c6f8504741c545cedd57db0addc25ca"
+    },
+    {
+      "path": "trained_checkpoints/rt1main/variables/variables.index",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45cbcf1557b8705a5ba9ee56fe6587ae3bf4487a",
+      "size": 13366,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/45cbcf1557b8705a5ba9ee56fe6587ae3bf4487a"
+    },
+    {
+      "path": "trained_checkpoints/rt1multirobot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f0e7a44bfababa1312b294a04a0a0e0e667a2447",
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/trees/f0e7a44bfababa1312b294a04a0a0e0e667a2447"
+    },
+    {
+      "path": "trained_checkpoints/rt1multirobot/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a69ef7583e9731d5865eed3d39ed42ed08ca20c8",
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/trees/a69ef7583e9731d5865eed3d39ed42ed08ca20c8"
+    },
+    {
+      "path": "trained_checkpoints/rt1multirobot/assets/metadata.textproto",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21a2853710e547875131c0ad98ceba5908de4515",
+      "size": 38,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/21a2853710e547875131c0ad98ceba5908de4515"
+    },
+    {
+      "path": "trained_checkpoints/rt1multirobot/checkpoint",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34208a7501b9784d75f4f7fce2433a4ccf8170dd",
+      "size": 337,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/34208a7501b9784d75f4f7fce2433a4ccf8170dd"
+    },
+    {
+      "path": "trained_checkpoints/rt1multirobot/ckpt-589960.data-00000-of-00001",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "890bafcc32f2ba201449e1db71bd6f435c816405",
+      "size": 134,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/890bafcc32f2ba201449e1db71bd6f435c816405"
+    },
+    {
+      "path": "trained_checkpoints/rt1multirobot/ckpt-589960.index",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1288cdc1edf4f258e00c9af3611db072e5d925d",
+      "size": 35546,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/a1288cdc1edf4f258e00c9af3611db072e5d925d"
+    },
+    {
+      "path": "trained_checkpoints/rt1multirobot/fingerprint.pb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcf27585b47f87a0191c7e567e9f66181d74e3d9",
+      "size": 54,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/dcf27585b47f87a0191c7e567e9f66181d74e3d9"
+    },
+    {
+      "path": "trained_checkpoints/rt1multirobot/policy_specs.pbtxt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f396f96c489a1f6ed542e0f88c2787a867c70c51",
+      "size": 15865,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/f396f96c489a1f6ed542e0f88c2787a867c70c51"
+    },
+    {
+      "path": "trained_checkpoints/rt1multirobot/saved_model.pb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d3b466b990af6044aa4427b350959046a583477",
+      "size": 31949691,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/6d3b466b990af6044aa4427b350959046a583477"
+    },
+    {
+      "path": "trained_checkpoints/rt1multirobot/variables",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "35cca53b8eed3dadf4498a3921f52db0798f3f72",
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/trees/35cca53b8eed3dadf4498a3921f52db0798f3f72"
+    },
+    {
+      "path": "trained_checkpoints/rt1multirobot/variables/variables.data-00000-of-00001",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e45eb9bdf9f11992783365a23b1316b21b03ab38",
+      "size": 134,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/e45eb9bdf9f11992783365a23b1316b21b03ab38"
+    },
+    {
+      "path": "trained_checkpoints/rt1multirobot/variables/variables.index",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8b6b8dfae42707c2b0d860c6f666d279658e652",
+      "size": 13867,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/b8b6b8dfae42707c2b0d860c6f666d279658e652"
+    },
+    {
+      "path": "trained_checkpoints/rt1simreal",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7335cf1a0b59cba82a040bf6776c1cdc96a02f80",
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/trees/7335cf1a0b59cba82a040bf6776c1cdc96a02f80"
+    },
+    {
+      "path": "trained_checkpoints/rt1simreal/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a0776302d168e8ae382a0fdc427794ae33da0bbb",
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/trees/a0776302d168e8ae382a0fdc427794ae33da0bbb"
+    },
+    {
+      "path": "trained_checkpoints/rt1simreal/assets/metadata.textproto",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0acda6bc87ee131b3752a620c7de8afe1ab8cfa7",
+      "size": 38,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/0acda6bc87ee131b3752a620c7de8afe1ab8cfa7"
+    },
+    {
+      "path": "trained_checkpoints/rt1simreal/checkpoint",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7bf3a873e2c3d6d9176437c15533a2bea8096bc",
+      "size": 365,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/d7bf3a873e2c3d6d9176437c15533a2bea8096bc"
+    },
+    {
+      "path": "trained_checkpoints/rt1simreal/ckpt-660240.data-00000-of-00001",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf5d77a72957485e4100a6a4976cc531df098693",
+      "size": 134,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/cf5d77a72957485e4100a6a4976cc531df098693"
+    },
+    {
+      "path": "trained_checkpoints/rt1simreal/ckpt-660240.index",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "160146420ce164604c075b73f9317f827484302f",
+      "size": 33790,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/160146420ce164604c075b73f9317f827484302f"
+    },
+    {
+      "path": "trained_checkpoints/rt1simreal/fingerprint.pb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd6df8beac5023bec77d3e4fb1032e0b8cf545a2",
+      "size": 56,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/fd6df8beac5023bec77d3e4fb1032e0b8cf545a2"
+    },
+    {
+      "path": "trained_checkpoints/rt1simreal/policy_specs.pbtxt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f396f96c489a1f6ed542e0f88c2787a867c70c51",
+      "size": 15865,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/f396f96c489a1f6ed542e0f88c2787a867c70c51"
+    },
+    {
+      "path": "trained_checkpoints/rt1simreal/saved_model.pb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fafa41f731fc1a75cf1d11b99db6a2bf2812d6eb",
+      "size": 28582754,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/fafa41f731fc1a75cf1d11b99db6a2bf2812d6eb"
+    },
+    {
+      "path": "trained_checkpoints/rt1simreal/variables",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6967190763e83d51cc8bd7d3be50884974b14eae",
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/trees/6967190763e83d51cc8bd7d3be50884974b14eae"
+    },
+    {
+      "path": "trained_checkpoints/rt1simreal/variables/variables.data-00000-of-00001",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60584ac84b6f89ee698dc27c59eca86dc5790661",
+      "size": 134,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/60584ac84b6f89ee698dc27c59eca86dc5790661"
+    },
+    {
+      "path": "trained_checkpoints/rt1simreal/variables/variables.index",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "185f4400389907f0187c147dda5b5b56e4aa1213",
+      "size": 13336,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/185f4400389907f0187c147dda5b5b56e4aa1213"
+    },
+    {
+      "path": "transformer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23f117dd59d6818a714a3e914cae0849daeddfb9",
+      "size": 6118,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/23f117dd59d6818a714a3e914cae0849daeddfb9"
+    },
+    {
+      "path": "transformer_network.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cd3244b8e7d0f8ff7059f28f2a847c3ce82add0",
+      "size": 28882,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/6cd3244b8e7d0f8ff7059f28f2a847c3ce82add0"
+    },
+    {
+      "path": "transformer_network_test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e584ce0fd2513843cd2432bdaa45dc09d562e1c9",
+      "size": 9373,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/e584ce0fd2513843cd2432bdaa45dc09d562e1c9"
+    },
+    {
+      "path": "transformer_network_test_set_up.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f51d08f2fa20ea88b8b0ed54a9f7a941d9822738",
+      "size": 15212,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/f51d08f2fa20ea88b8b0ed54a9f7a941d9822738"
+    },
+    {
+      "path": "transformer_test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d3aa0f34321e4587652f75c16cfc1888ba5e3ed",
+      "size": 1796,
+      "url": "https://api.github.com/repos/google-research/robotics_transformer/git/blobs/4d3aa0f34321e4587652f75c16cfc1888ba5e3ed"
+    }
+  ],
+  "truncated": false
+}

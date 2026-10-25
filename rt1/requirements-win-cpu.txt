@@ -1,0 +1,10 @@
+# Python 3.11, Windows CPU. Full resolved lock is produced after validation.
+tensorflow==2.15.0
+tf-agents==0.19.0
+tensorflow-probability==0.23.0
+tf-slim==1.1.0
+numpy==1.26.4
+pillow==10.4.0
+tensorflow-hub==0.15.0
+scikit-image==0.22.0
+scipy==1.11.4

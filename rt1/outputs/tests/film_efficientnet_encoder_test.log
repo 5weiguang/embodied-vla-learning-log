@@ -1,0 +1,25 @@
+WARNING:tensorflow:From D:\study\rt1\.venv\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+Running tests under Python 3.11.7: D:\study\rt1\.venv\Scripts\python.exe
+[ RUN      ] FilmEfficientnetTest.test_keras_equivalence_b30 (True)
+WARNING:tensorflow:From D:\study\rt1\.venv\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+W1011 23:47:52.085534 21176 module_wrapper.py:149] From D:\study\rt1\.venv\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+WARNING:tensorflow:From D:\study\rt1\.venv\Lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+W1011 23:47:52.318631 21176 module_wrapper.py:149] From D:\study\rt1\.venv\Lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+INFO:tensorflow:time(__main__.FilmEfficientnetTest.test_keras_equivalence_b30 (True)): 8.21s
+I1011 23:48:00.081998 21176 test_util.py:2574] time(__main__.FilmEfficientnetTest.test_keras_equivalence_b30 (True)): 8.21s
+[       OK ] FilmEfficientnetTest.test_keras_equivalence_b30 (True)
+[ RUN      ] FilmEfficientnetTest.test_keras_equivalence_b31 (False)
+INFO:tensorflow:time(__main__.FilmEfficientnetTest.test_keras_equivalence_b31 (False)): 3.27s
+I1011 23:48:03.364293 21176 test_util.py:2574] time(__main__.FilmEfficientnetTest.test_keras_equivalence_b31 (False)): 3.27s
+[       OK ] FilmEfficientnetTest.test_keras_equivalence_b31 (False)
+[ RUN      ] FilmEfficientnetTest.test_session
+[  SKIPPED ] FilmEfficientnetTest.test_session - Not a test.
+----------------------------------------------------------------------
+Ran 3 tests in 11.506s
+
+OK (skipped=1)

@@ -1,0 +1,25 @@
+WARNING:tensorflow:From D:\study\rt1\.venv\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+Running tests under Python 3.11.7: D:\study\rt1\.venv\Scripts\python.exe
+[ RUN      ] PretrainedEfficientnetEncoderTest.test_encoding
+WARNING:tensorflow:From D:\study\rt1\.venv\Lib\site-packages\keras\src\backend.py:873: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+W1011 23:48:16.205964 60124 module_wrapper.py:149] From D:\study\rt1\.venv\Lib\site-packages\keras\src\backend.py:873: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+WARNING:tensorflow:From D:\study\rt1\.venv\Lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+W1011 23:48:16.408625 60124 module_wrapper.py:149] From D:\study\rt1\.venv\Lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+INFO:tensorflow:time(__main__.PretrainedEfficientnetEncoderTest.test_encoding): 9.07s
+I1011 23:48:25.056346 60124 test_util.py:2574] time(__main__.PretrainedEfficientnetEncoderTest.test_encoding): 9.07s
+[       OK ] PretrainedEfficientnetEncoderTest.test_encoding
+[ RUN      ] PretrainedEfficientnetEncoderTest.test_imagenet_classification
+INFO:tensorflow:time(__main__.PretrainedEfficientnetEncoderTest.test_imagenet_classification): 11.2s
+I1011 23:48:36.275254 60124 test_util.py:2574] time(__main__.PretrainedEfficientnetEncoderTest.test_imagenet_classification): 11.2s
+[       OK ] PretrainedEfficientnetEncoderTest.test_imagenet_classification
+[ RUN      ] PretrainedEfficientnetEncoderTest.test_session
+[  SKIPPED ] PretrainedEfficientnetEncoderTest.test_session - Not a test.
+----------------------------------------------------------------------
+Ran 3 tests in 20.310s
+
+OK (skipped=1)

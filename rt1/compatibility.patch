@@ -1,0 +1,75 @@
+--- a/film_efficientnet/preprocessors_test.py
++++ b/film_efficientnet/preprocessors_test.py
+@@ -15,7 +15,7 @@
+ from absl.testing import parameterized
+ import numpy as np
+ from robotics_transformer.film_efficientnet import preprocessors
+-from tensor2robot.utils import tensorspec_utils
++from robotics_transformer import tensorspec_compat as tensorspec_utils
+ import tensorflow.compat.v2 as tf
+ 
+ 
+--- a/sequence_agent_test_set_up.py
++++ b/sequence_agent_test_set_up.py
+@@ -16,7 +16,7 @@
+ 
+ import numpy as np
+ from robotics_transformer import sequence_agent
+-from tensor2robot.utils import tensorspec_utils
++from robotics_transformer import tensorspec_compat as tensorspec_utils
+ import tensorflow as tf
+ from tf_agents.networks import network
+ from tf_agents.policies import policy_saver
+@@ -137,7 +137,7 @@
+     save_options = tf.saved_model.SaveOptions(
+         experimental_io_device='/job:localhost',
+         experimental_custom_gradients=False)
+-    policy_model_saver.save('/tmp/unittest/policy/0', options=save_options)
++    policy_model_saver.save(self.get_temp_dir(), options=save_options)
+ 
+ 
+ if __name__ == '__main__':
+--- a/tokenizers/action_tokenizer.py
++++ b/tokenizers/action_tokenizer.py
+@@ -32,7 +32,7 @@
+ """
+ from typing import Optional
+ 
+-from tensor2robot.utils import tensorspec_utils
++from robotics_transformer import tensorspec_compat as tensorspec_utils
+ import tensorflow as tf
+ 
+ 
+--- a/tokenizers/action_tokenizer_test.py
++++ b/tokenizers/action_tokenizer_test.py
+@@ -14,7 +14,7 @@
+ """Tests for action_tokenizer."""
+ import numpy as np
+ from robotics_transformer.tokenizers import action_tokenizer
+-from tensor2robot.utils import tensorspec_utils
++from robotics_transformer import tensorspec_compat as tensorspec_utils
+ import tensorflow as tf
+ from tf_agents.specs import tensor_spec
+ 
+--- a/transformer_network.py
++++ b/transformer_network.py
+@@ -22,7 +22,7 @@
+ from robotics_transformer.tokenizers import action_tokenizer
+ from robotics_transformer.tokenizers import image_tokenizer
+ 
+-from tensor2robot.utils import tensorspec_utils
++from robotics_transformer import tensorspec_compat as tensorspec_utils
+ import tensorflow as tf
+ from tf_agents.networks import network
+ from tf_agents.specs import tensor_spec
+--- a/transformer_network_test_set_up.py
++++ b/transformer_network_test_set_up.py
+@@ -20,7 +20,7 @@
+ import numpy as np
+ from robotics_transformer import sequence_agent
+ from robotics_transformer import transformer_network
+-from tensor2robot.utils import tensorspec_utils
++from robotics_transformer import tensorspec_compat as tensorspec_utils
+ import tensorflow as tf
+ from tf_agents.specs import tensor_spec
+ from tf_agents.trajectories import time_step as ts

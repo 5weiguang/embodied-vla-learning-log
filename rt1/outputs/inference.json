@@ -1,0 +1,327 @@
+{
+  "mode": "synthetic_smoke",
+  "scope": "SavedModel inference; no robot execution or task-success evaluation",
+  "model": "D:\\study\\rt1\\robotics_transformer\\trained_checkpoints\\rt1main",
+  "python": "3.11.7",
+  "tensorflow": "2.15.0",
+  "devices": [
+    "/physical_device:CPU:0"
+  ],
+  "language_source": "synthetic zero vector; no sentence was encoded",
+  "instruction": null,
+  "auxiliary_observations": "zero-filled; input is an interface demonstration",
+  "image_source": "synthetic random RGB",
+  "load_seconds": 31.102,
+  "initial_state_shapes": {
+    "step_num": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "image": [
+      1,
+      6,
+      256,
+      320,
+      3
+    ],
+    "t": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "action_tokens": [
+      1,
+      6,
+      11,
+      1,
+      1
+    ]
+  },
+  "steps": [
+    {
+      "step": 0,
+      "seconds": 1.9178,
+      "action": {
+        "base_displacement_vertical_rotation": [
+          -0.012319803237915039
+        ],
+        "gripper_closedness_action": [
+          -0.0039215087890625
+        ],
+        "world_vector": [
+          0.003921627998352051,
+          0.011764764785766602,
+          -0.01176464557647705
+        ],
+        "base_displacement_vector": [
+          -0.0039215087890625,
+          -0.0039215087890625
+        ],
+        "rotation_delta": [
+          -0.0061599016189575195,
+          0.08007979393005371,
+          -0.3018392324447632
+        ],
+        "terminate_episode": [
+          0,
+          1,
+          0
+        ]
+      },
+      "state_counters": {
+        "step_num": [
+          1
+        ],
+        "t": [
+          1
+        ]
+      },
+      "image_sha256": "55344cc41fc4b6df1010da501808b98a6d28bbf1fd832ac198dd663012f93e7c"
+    },
+    {
+      "step": 1,
+      "seconds": 1.7521,
+      "action": {
+        "base_displacement_vertical_rotation": [
+          -0.012319803237915039
+        ],
+        "gripper_closedness_action": [
+          -0.0039215087890625
+        ],
+        "world_vector": [
+          0.003921627998352051,
+          0.035294175148010254,
+          0.003921627998352051
+        ],
+        "base_displacement_vector": [
+          -0.0039215087890625,
+          -0.0039215087890625
+        ],
+        "rotation_delta": [
+          -0.0061599016189575195,
+          0.05543994903564453,
+          -0.17863953113555908
+        ],
+        "terminate_episode": [
+          0,
+          1,
+          0
+        ]
+      },
+      "state_counters": {
+        "step_num": [
+          2
+        ],
+        "t": [
+          2
+        ]
+      },
+      "image_sha256": "a3e142ac650185c7ef4033383f8cca69ae42f9f5680943e7bbdde82798ef5f6e"
+    },
+    {
+      "step": 2,
+      "seconds": 1.9573,
+      "action": {
+        "base_displacement_vertical_rotation": [
+          -0.012319803237915039
+        ],
+        "gripper_closedness_action": [
+          -0.0039215087890625
+        ],
+        "world_vector": [
+          0.003921627998352051,
+          0.011764764785766602,
+          0.003921627998352051
+        ],
+        "base_displacement_vector": [
+          -0.0039215087890625,
+          -0.0039215087890625
+        ],
+        "rotation_delta": [
+          -0.0061599016189575195,
+          0.05543994903564453,
+          -0.3018392324447632
+        ],
+        "terminate_episode": [
+          0,
+          1,
+          0
+        ]
+      },
+      "state_counters": {
+        "step_num": [
+          3
+        ],
+        "t": [
+          3
+        ]
+      },
+      "image_sha256": "7dc843033170bfbfb309fd331e9dacf6045124fa0dc11344f27d927d54063627"
+    },
+    {
+      "step": 3,
+      "seconds": 2.0524,
+      "action": {
+        "base_displacement_vertical_rotation": [
+          -0.012319803237915039
+        ],
+        "gripper_closedness_action": [
+          -0.0039215087890625
+        ],
+        "world_vector": [
+          0.011764764785766602,
+          0.011764764785766602,
+          -0.01176464557647705
+        ],
+        "base_displacement_vector": [
+          -0.0039215087890625,
+          -0.0039215087890625
+        ],
+        "rotation_delta": [
+          -0.03079986572265625,
+          0.11703979969024658,
+          -0.3018392324447632
+        ],
+        "terminate_episode": [
+          0,
+          1,
+          0
+        ]
+      },
+      "state_counters": {
+        "step_num": [
+          4
+        ],
+        "t": [
+          4
+        ]
+      },
+      "image_sha256": "a1685770ffa331b5ffc0fe4e2273e0efbd695af5383a50fdf2d047a8d9b3e22a"
+    },
+    {
+      "step": 4,
+      "seconds": 1.817,
+      "action": {
+        "base_displacement_vertical_rotation": [
+          -0.012319803237915039
+        ],
+        "gripper_closedness_action": [
+          -0.0039215087890625
+        ],
+        "world_vector": [
+          0.019607901573181152,
+          0.011764764785766602,
+          -0.01176464557647705
+        ],
+        "base_displacement_vector": [
+          -0.0039215087890625,
+          -0.0039215087890625
+        ],
+        "rotation_delta": [
+          -0.08007979393005371,
+          0.11703979969024658,
+          -0.3018392324447632
+        ],
+        "terminate_episode": [
+          0,
+          1,
+          0
+        ]
+      },
+      "state_counters": {
+        "step_num": [
+          5
+        ],
+        "t": [
+          5
+        ]
+      },
+      "image_sha256": "db6e6681afcfc4437fcb5d45d18489f417bc7067c2d7e734c69a45dca16b96b7"
+    },
+    {
+      "step": 5,
+      "seconds": 1.7045,
+      "action": {
+        "base_displacement_vertical_rotation": [
+          -0.012319803237915039
+        ],
+        "gripper_closedness_action": [
+          -0.0039215087890625
+        ],
+        "world_vector": [
+          0.019607901573181152,
+          0.011764764785766602,
+          -0.01176464557647705
+        ],
+        "base_displacement_vector": [
+          -0.0039215087890625,
+          -0.0039215087890625
+        ],
+        "rotation_delta": [
+          -0.0061599016189575195,
+          0.05543994903564453,
+          -0.3018392324447632
+        ],
+        "terminate_episode": [
+          0,
+          1,
+          0
+        ]
+      },
+      "state_counters": {
+        "step_num": [
+          6
+        ],
+        "t": [
+          6
+        ]
+      },
+      "image_sha256": "e52ff33aba6d9a19465716da678ac5e18d6347ca0e678d33d8b648e185fcb521"
+    },
+    {
+      "step": 6,
+      "seconds": 1.6013,
+      "action": {
+        "base_displacement_vertical_rotation": [
+          -0.012319803237915039
+        ],
+        "gripper_closedness_action": [
+          -0.0039215087890625
+        ],
+        "world_vector": [
+          0.011764764785766602,
+          0.011764764785766602,
+          -0.01176464557647705
+        ],
+        "base_displacement_vector": [
+          -0.0039215087890625,
+          -0.0039215087890625
+        ],
+        "rotation_delta": [
+          -0.08007979393005371,
+          0.11703979969024658,
+          -0.3018392324447632
+        ],
+        "terminate_episode": [
+          0,
+          1,
+          0
+        ]
+      },
+      "state_counters": {
+        "step_num": [
+          7
+        ],
+        "t": [
+          6
+        ]
+      },
+      "image_sha256": "74b2821b4cf546000a38d3fb3844005f82a6ae12eff1f415a7e16fe0c80b98d9"
+    }
+  ]
+}

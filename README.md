@@ -1,80 +1,55 @@
 # Embodied AI & VLA · Research Learning Log
 
-> 从读懂论文到复现实验：个人科研学习仓库（示例初始状态均为**待读/未复现**，请据实更新）。
+个人具身智能与视觉语言动作模型学习记录：论文阅读、源码理解和可核查的运行结果。
 
-**研究主题：** 具身智能、VLM、Vision-Language-Action (VLA)、Robot Foundation Models、World Models、Generalist Policies。
+**最近整理：2026-10-25。** 学习记录截至 10 月 13 日，文献整理截至 10 月 15 日。
 
-🔎 [可筛选的文献看板](docs/index.html) ｜ 📄 [阅读方法](references/reading-guide.md) ｜ 🧪 [复现实验指南](experiments/README.md) ｜ 🗓️ [每周进度](weekly/)
+## 当前进度
 
-## 学习知识地图
+| 学习线 | 实际进度 | 入口 |
+|---|---|---|
+| RT-1 论文 | 阅读中，停在第 6.4 节长程任务，规划与执行检查题尚待回答 | [学习进度](notes/RT-1学习进度.md) |
+| RT-1 代码 | 已学推理主线与动作编码；FiLM 零初始化尚待确认理解 | [源码导读](rt1/项目导读与学习路线.md) |
+| RT-1 实践 | 官方测试 33 项通过、10 项占位跳过；官方模型合成输入连续 7 步推理通过 | [实验记录](experiments/RT-1/README.md) |
+| 文献整理 | “研”目录 13 篇有辅助笔记，其中 RT-1 阅读中，其他 12 篇待读 | [文献目录](研/README.md) |
 
-> 这是研究主题的关联图，并不表示各概念之间存在固定的单向技术演化关系。
+没有将完整训练、真实语言指令理解或机器人任务成功率记为复现完成。
+运行证据来自已有本地记录，本次上传未重跑模型实验；辅助整理、问答学习与独立实践分别记录。
 
-```mermaid
-flowchart LR
-  VLM[视觉语言模型 VLM] --> VLA[视觉语言动作 VLA]
-  RFM[机器人基础模型 RFM] --- VLA
-  GP[通用策略 Generalist Policy] --- VLA
-  WM[世界模型 World Model] -.-> VLA
-  VLM --> CLIP[CLIP]
-  VLA --> RT[RT-1 / RT-2 / OpenVLA]
-  GP --> OCTO[Octo]
-  WM --> DREAMER[DreamerV3]
-```
+## 文献与笔记
 
-<!-- DASHBOARD_START -->
-## 学习进度看板
+| 论文 | 年份 | 方向 | 阅读状态 | 笔记 | 原文 / 项目 |
+|---|---|---|---|---|---|
+| RT-1 | 2022 | VLA | 阅读中 | [笔记](notes/papers/RT-1.md) | [来源](https://arxiv.org/abs/2212.06817) |
+| RT-2 | 2023 | VLA | 待读（已有整理） | [笔记](notes/papers/RT-2.md) | [来源](https://arxiv.org/abs/2307.15818) |
+| Open-X-Embodiment | 2023 | 跨机器人数据 | 待读（已有整理） | [笔记](notes/papers/Open-X-Embodiment.md) | [来源](https://robotics-transformer-x.github.io/) |
+| Octo | 2024 | 通用策略 | 待读（已有整理） | [笔记](notes/papers/Octo.md) | [来源](https://octo-models.github.io/) |
+| OpenVLA | 2024 | VLA | 待读（已有整理） | [笔记](notes/papers/OpenVLA.md) | [来源](https://openvla.github.io/) |
+| RDT-1B | 2024 | 扩散策略 | 待读（已有整理） | [笔记](notes/papers/RDT-1B.md) | [来源](https://rdt-robotics.github.io/rdt-robotics/) |
+| pi0 | 2024 | 流匹配策略 | 待读（已有整理） | [笔记](notes/papers/pi0.md) | [来源](https://www.physicalintelligence.company/download/pi0.pdf) |
+| FAST | 2025 | 动作表示 | 待读（已有整理） | [笔记](notes/papers/FAST.md) | [来源](https://www.pi.website/research/fast) |
+| SpatialVLA | 2025 | 空间感知 VLA | 待读（已有整理） | [笔记](notes/papers/SpatialVLA.md) | [来源](https://spatialvla.github.io/) |
+| pi0.5 | 2025 | 开放环境泛化 | 待读（已有整理） | [笔记](notes/papers/pi0.5.md) | [来源](https://arxiv.org/abs/2504.16054) |
+| robomimic | 2021 | 模仿学习 | 待读（已有整理） | [笔记](notes/papers/robomimic.md) | [来源](https://arxiv.org/abs/2108.03298v2) |
+| RoboAug | 2026 | 视觉增强 | 待读（已有整理） | [笔记](notes/papers/RoboAug.md) | [来源](https://arxiv.org/abs/2602.14032v2) |
+| DRAIL | 2026 | 视觉增强 | 待读（已有整理） | [笔记](notes/papers/DRAIL.md) | [来源](https://arxiv.org/abs/2603.04845v1) |
 
-![自动生成的阅读与复现进度图](assets/progress.svg)
 
-**共收录 6 篇论文** · 已精读 **0** / 6（0%） · 阅读中 **0** · 复现成功 **0** / 6（0%）
+原仓库中的 [CLIP](https://arxiv.org/abs/2103.00020) 和 [DreamerV3](https://arxiv.org/abs/2301.04104)
+继续保留为待读候选，目前没有本地阅读或复现记录。总清单为 15 篇：13 篇本地资料 + 2 篇候选；
+已确认精读完成 0 篇，阅读中 1 篇，不以笔记数量代替阅读完成度。
 
-> 统计均来自 `data/papers.csv`；“复现成功”需在实验目录留下结果证据；阅读和复现两种进度分开计算。
+## 从这里开始
 
-### 文献 × 阅读笔记 × 官方代码 × 我的实验
+- [13 篇文献详细总结：基础知识、方法与实验证据比较](研/13篇文献详细总结_基础知识与方法对比_2026-10-15.md)
+- [RT-1 论文笔记](notes/papers/RT-1.md) · [RT-1 当前进度与下一步](notes/RT-1学习进度.md)
+- [RT-1 代码、依赖与下载入口](rt1/README.md) · [复现结果](rt1/复现结果.md)
+- [这次整理的变更记录](weekly/2026-10-25.md)
 
-| 方向 | 论文 | 阅读 | 复现 | 六要素笔记 | 官方代码 | 我的实验 |
-|---|---|---|---|---|---|---|
-| VLM | [CLIP（2021）](https://arxiv.org/abs/2103.00020) | 待读 | 未开始 | [📝 笔记](notes/papers/CLIP.md) | [💻 源码](https://github.com/openai/CLIP) | [🧪 记录](experiments/CLIP/README.md) |
-| VLA | [RT-1（2022）](https://arxiv.org/abs/2212.06817) | 待读 | 未开始 | [📝 笔记](notes/papers/RT-1.md) | [💻 源码](https://github.com/google-research/robotics_transformer) | [🧪 记录](experiments/RT-1/README.md) |
-| VLA | [RT-2（2023）](https://arxiv.org/abs/2307.15818) | 待读 | 未开始 | [📝 笔记](notes/papers/RT-2.md) | — | [🧪 记录](experiments/RT-2/README.md) |
-| VLA | [OpenVLA（2024）](https://arxiv.org/abs/2406.09246) | 待读 | 未开始 | [📝 笔记](notes/papers/OpenVLA.md) | [💻 源码](https://github.com/openvla/openvla) | [🧪 记录](experiments/OpenVLA/README.md) |
-| Generalist Policy | [Octo（2024）](https://arxiv.org/abs/2405.12213) | 待读 | 未开始 | [📝 笔记](notes/papers/Octo.md) | [💻 源码](https://github.com/octo-models/octo) | [🧪 记录](experiments/Octo/README.md) |
-| World Model | [DreamerV3（2023）](https://arxiv.org/abs/2301.04104) | 待读 | 未开始 | [📝 笔记](notes/papers/DreamerV3.md) | [💻 源码](https://github.com/danijar/dreamerv3) | [🧪 记录](experiments/DreamerV3/README.md) |
+## 更新方式
 
-### 研究方向分布
+阅读后更新对应笔记及进度表；实际运行后保留环境、命令和结果证据，再更新实验记录。
+本仓库当前使用 Markdown 目录维护进度。参见 [上传说明](HOW_TO_UPLOAD.md)。
 
-```mermaid
-pie showData
-  title 各方向论文数量
-  "Generalist Policy" : 1
-  "VLA" : 3
-  "VLM" : 1
-  "World Model" : 1
-```
-
-<!-- 提示：以上表格/统计/饼图由脚本自动生成，请勿手改；请编辑 data/papers.csv。 -->
-<!-- DASHBOARD_END -->
-
-## 每周执行流程
-
-1. **选论文**：在 `data/papers.csv` 中新增一行，或把现有论文设为 `reading`。
-2. **读文献**：在 `notes/papers/论文ID.md` 用六要素模板记录可验证的知识点。
-3. **做复现**：在 `experiments/论文ID/README.md` 记录官方仓库、环境、操作、日志和真实结果。
-4. **更新进度**：修改两种状态后运行 `python scripts/update_dashboard.py`，然后提交到 GitHub。
-5. **周复盘**：复制 `weekly/TEMPLATE.md`，总结本周产出和下周计划。
-
-## 更新命令
-
-```bash
-python scripts/update_dashboard.py
-# 首次推送可参考 HOW_TO_UPLOAD.md；以后在项目目录运行：
-git add .
-git commit -m "docs: update paper notes and research progress"
-git push
-```
-
-**阅读状态：** `todo` 待读 / `reading` 阅读中 / `done` 已精读。
-**复现状态：** `not_started` 未开始 / `running` 进行中 / `success` 成功 / `blocked` 遇阻。
-
-> 本仓库记录学习过程，不托管论文 PDF、受版权保护的数据或大模型权重。复现成功应保留命令、环境、日志和结果证据。
+论文 PDF、虚拟环境、数据集与模型权重保留在本地；仓库提供论文入口、下载脚本及小型结果文件。
+第三方 RT-1 源码保留原许可证，兼容修改见 `rt1/compatibility.patch`；论文结论归原作者，笔记与教学例子不代表新增实验。

@@ -1,0 +1,72 @@
+[
+  {
+    "module": "robotics_transformer.film_efficientnet.film_conditioning_layer_test",
+    "exit_code": 0,
+    "tests": 3,
+    "skipped": 1,
+    "seconds": 26.29
+  },
+  {
+    "module": "robotics_transformer.film_efficientnet.film_efficientnet_encoder_test",
+    "exit_code": 0,
+    "tests": 3,
+    "skipped": 1,
+    "seconds": 20.6
+  },
+  {
+    "module": "robotics_transformer.film_efficientnet.pretrained_efficientnet_encoder_test",
+    "exit_code": 0,
+    "tests": 3,
+    "skipped": 1,
+    "seconds": 27.2
+  },
+  {
+    "module": "robotics_transformer.tokenizers.action_tokenizer_test",
+    "exit_code": 0,
+    "tests": 9,
+    "skipped": 1,
+    "seconds": 8.94
+  },
+  {
+    "module": "robotics_transformer.tokenizers.image_tokenizer_test",
+    "exit_code": 0,
+    "tests": 3,
+    "skipped": 1,
+    "seconds": 18.35
+  },
+  {
+    "module": "robotics_transformer.tokenizers.token_learner_test",
+    "exit_code": 0,
+    "tests": 1,
+    "skipped": 0,
+    "seconds": 5.3
+  },
+  {
+    "module": "robotics_transformer.transformer_network_test",
+    "exit_code": 0,
+    "tests": 7,
+    "skipped": 2,
+    "seconds": 51.46
+  },
+  {
+    "module": "robotics_transformer.transformer_test",
+    "exit_code": 0,
+    "tests": 2,
+    "skipped": 0,
+    "seconds": 5.9
+  },
+  {
+    "module": "robotics_transformer.film_efficientnet.preprocessors_test",
+    "exit_code": 0,
+    "tests": 7,
+    "skipped": 1,
+    "seconds": 5.7
+  },
+  {
+    "module": "robotics_transformer.sequence_agent_test",
+    "exit_code": 0,
+    "tests": 5,
+    "skipped": 2,
+    "seconds": 9.0
+  }
+]

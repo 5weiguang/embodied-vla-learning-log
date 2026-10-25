@@ -1,0 +1,63 @@
+WARNING:tensorflow:From D:\study\rt1\.venv\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+WARNING:tensorflow:From D:\study\rt1\.venv\Lib\site-packages\tensorflow_probability\python\internal\backend\numpy\_utils.py:48: The name tf.logging.TaskLevelStatusMessage is deprecated. Please use tf.compat.v1.logging.TaskLevelStatusMessage instead.
+
+WARNING:tensorflow:From D:\study\rt1\.venv\Lib\site-packages\tensorflow_probability\python\internal\backend\numpy\_utils.py:48: The name tf.control_flow_v2_enabled is deprecated. Please use tf.compat.v1.control_flow_v2_enabled instead.
+
+WARNING:tensorflow:From D:\study\rt1\.venv\Lib\site-packages\tf_agents\typing\types.py:114: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Running tests under Python 3.11.7: D:\study\rt1\.venv\Scripts\python.exe
+[ RUN      ] SequenceAgentTest.testAsTransitionType
+WARNING:tensorflow:From D:\study\rt1\.venv\Lib\site-packages\keras\src\backend.py:873: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+W1011 23:51:56.888676 59460 module_wrapper.py:149] From D:\study\rt1\.venv\Lib\site-packages\keras\src\backend.py:873: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+I1011 23:51:56.998052 59460 sequence_agent.py:125] Variable:0 has 1 params.
+I1011 23:51:56.998052 59460 sequence_agent.py:127] Actor network has 0.0M params.
+INFO:tensorflow:time(__main__.SequenceAgentTest.testAsTransitionType): 0.24s
+I1011 23:51:56.998052 59460 test_util.py:2574] time(__main__.SequenceAgentTest.testAsTransitionType): 0.24s
+[       OK ] SequenceAgentTest.testAsTransitionType
+[ RUN      ] SequenceAgentTest.testCreateAgent
+I1011 23:51:57.020065 59460 sequence_agent.py:125] Variable:0 has 1 params.
+I1011 23:51:57.020065 59460 sequence_agent.py:127] Actor network has 0.0M params.
+I1011 23:51:57.090263 59460 signature_serialization.py:156] Function `function_with_signature` contains input name(s) 0/step_type, 0/reward, 0/discount, 0/observation/image, 0/observation/natural_language_embedding with unsupported characters which will be renamed to step_type, reward, discount, observation_image, observation_natural_language_embedding in the SavedModel.
+W1011 23:51:57.090263 59460 function_type.py:509] `0/step_type` is not a valid tf.function parameter name. Sanitizing to `arg_0_step_type`.
+W1011 23:51:57.090263 59460 function_type.py:509] `0/reward` is not a valid tf.function parameter name. Sanitizing to `arg_0_reward`.
+W1011 23:51:57.090263 59460 function_type.py:509] `0/discount` is not a valid tf.function parameter name. Sanitizing to `arg_0_discount`.
+W1011 23:51:57.090263 59460 function_type.py:509] `0/observation/image` is not a valid tf.function parameter name. Sanitizing to `arg_0_observation_image`.
+W1011 23:51:57.090263 59460 function_type.py:509] `0/observation/natural_language_embedding` is not a valid tf.function parameter name. Sanitizing to `arg_0_observation_natural_language_embedding`.
+I1011 23:51:57.126343 59460 signature_serialization.py:156] Function `function_with_signature` contains input name(s) 268 with unsupported characters which will be renamed to unknown in the SavedModel.
+I1011 23:51:57.180729 59460 save.py:289] Found untraced functions such as dummy_actor_net_layer_call_fn, dummy_actor_net_layer_call_and_return_conditional_losses while saving (showing 2 of 2). These functions will not be directly callable after loading.
+D:\study\rt1\.venv\Lib\site-packages\tensorflow\python\saved_model\nested_structure_coder.py:458: UserWarning: Encoding a StructuredValue with type tfp.distributions.Deterministic_ACTTypeSpec; loading this StructuredValue will require that this type be imported and registered.
+  warnings.warn("Encoding a StructuredValue with type %s; loading this "
+INFO:tensorflow:Assets written to: D:\study\rt1\outputs\test-tmp8kvexii5\tmprd1l5g65\assets
+I1011 23:51:57.275837 59460 builder_impl.py:801] Assets written to: D:\study\rt1\outputs\test-tmp8kvexii5\tmprd1l5g65\assets
+I1011 23:51:57.281838 59460 fingerprinting_utils.py:49] Writing fingerprint to D:\study\rt1\outputs\test-tmp8kvexii5\tmprd1l5g65\fingerprint.pb
+INFO:tensorflow:time(__main__.SequenceAgentTest.testCreateAgent): 0.33s
+I1011 23:51:57.327946 59460 test_util.py:2574] time(__main__.SequenceAgentTest.testCreateAgent): 0.33s
+[       OK ] SequenceAgentTest.testCreateAgent
+[ RUN      ] SequenceAgentTest.test_session
+[  SKIPPED ] SequenceAgentTest.test_session - Not a test.
+[ RUN      ] robotics_transformer.sequence_agent_test_set_up.SequenceAgentTestSetUp.testCreateAgent
+I1011 23:51:57.349964 59460 sequence_agent.py:125] Variable:0 has 1 params.
+I1011 23:51:57.349964 59460 sequence_agent.py:127] Actor network has 0.0M params.
+I1011 23:51:57.406512 59460 signature_serialization.py:156] Function `function_with_signature` contains input name(s) 0/step_type, 0/reward, 0/discount, 0/observation/image, 0/observation/natural_language_embedding with unsupported characters which will be renamed to step_type, reward, discount, observation_image, observation_natural_language_embedding in the SavedModel.
+I1011 23:51:57.421635 59460 signature_serialization.py:156] Function `function_with_signature` contains input name(s) 733 with unsupported characters which will be renamed to unknown in the SavedModel.
+I1011 23:51:57.475557 59460 save.py:289] Found untraced functions such as dummy_actor_net_layer_call_fn, dummy_actor_net_layer_call_and_return_conditional_losses while saving (showing 2 of 2). These functions will not be directly callable after loading.
+D:\study\rt1\.venv\Lib\site-packages\tensorflow\python\saved_model\nested_structure_coder.py:458: UserWarning: Encoding a StructuredValue with type tfp.distributions.Deterministic_ACTTypeSpec; loading this StructuredValue will require that this type be imported and registered.
+  warnings.warn("Encoding a StructuredValue with type %s; loading this "
+INFO:tensorflow:Assets written to: D:\study\rt1\outputs\test-tmp8kvexii5\tmpcu9mopr7\assets
+I1011 23:51:57.583005 59460 builder_impl.py:801] Assets written to: D:\study\rt1\outputs\test-tmp8kvexii5\tmpcu9mopr7\assets
+I1011 23:51:57.587138 59460 fingerprinting_utils.py:49] Writing fingerprint to D:\study\rt1\outputs\test-tmp8kvexii5\tmpcu9mopr7\fingerprint.pb
+INFO:tensorflow:time(robotics_transformer.sequence_agent_test_set_up.SequenceAgentTestSetUp.testCreateAgent): 0.3s
+I1011 23:51:57.625334 59460 test_util.py:2574] time(robotics_transformer.sequence_agent_test_set_up.SequenceAgentTestSetUp.testCreateAgent): 0.3s
+[       OK ] robotics_transformer.sequence_agent_test_set_up.SequenceAgentTestSetUp.testCreateAgent
+[ RUN      ] robotics_transformer.sequence_agent_test_set_up.SequenceAgentTestSetUp.test_session
+[  SKIPPED ] robotics_transformer.sequence_agent_test_set_up.SequenceAgentTestSetUp.test_session - Not a test.
+----------------------------------------------------------------------
+Ran 5 tests in 0.869s
+
+OK (skipped=2)

@@ -1,0 +1,15 @@
+WARNING:tensorflow:From D:\study\rt1\.venv\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+Running tests under Python 3.11.7: D:\study\rt1\.venv\Scripts\python.exe
+[ RUN      ] TransformerTest.test_transformer_forwardpass0 (True)
+WARNING:tensorflow:From D:\study\rt1\.venv\Lib\site-packages\keras\src\backend.py:873: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+W1011 23:50:19.447160 41988 module_wrapper.py:149] From D:\study\rt1\.venv\Lib\site-packages\keras\src\backend.py:873: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+[       OK ] TransformerTest.test_transformer_forwardpass0 (True)
+[ RUN      ] TransformerTest.test_transformer_forwardpass1 (False)
+[       OK ] TransformerTest.test_transformer_forwardpass1 (False)
+----------------------------------------------------------------------
+Ran 2 tests in 0.546s
+
+OK

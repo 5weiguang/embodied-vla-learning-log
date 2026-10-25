@@ -1,0 +1,175 @@
+{
+  "revision": "4569641b8111f3f402c32d8e24becd2a6e952ecc",
+  "verified_files": 42,
+  "patched_files": 6,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "compatibility_patch": false
+    },
+    {
+      "path": ".gitignore",
+      "compatibility_patch": false
+    },
+    {
+      "path": ".pylintrc",
+      "compatibility_patch": false
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "compatibility_patch": false
+    },
+    {
+      "path": "LICENSE",
+      "compatibility_patch": false
+    },
+    {
+      "path": "README.md",
+      "compatibility_patch": false
+    },
+    {
+      "path": "__init__.py",
+      "compatibility_patch": false
+    },
+    {
+      "path": "configs/transformer_mixin.gin",
+      "compatibility_patch": false
+    },
+    {
+      "path": "film_efficientnet/__init__.py",
+      "compatibility_patch": false
+    },
+    {
+      "path": "film_efficientnet/efficientnet_checkpoints/efficientnetb3.h5",
+      "compatibility_patch": false
+    },
+    {
+      "path": "film_efficientnet/efficientnet_checkpoints/efficientnetb3_notop.h5",
+      "compatibility_patch": false
+    },
+    {
+      "path": "film_efficientnet/efficientnet_checkpoints/imagenet_classes.json",
+      "compatibility_patch": false
+    },
+    {
+      "path": "film_efficientnet/film_conditioning_layer.py",
+      "compatibility_patch": false
+    },
+    {
+      "path": "film_efficientnet/film_conditioning_layer_test.py",
+      "compatibility_patch": false
+    },
+    {
+      "path": "film_efficientnet/film_efficientnet_encoder.py",
+      "compatibility_patch": false
+    },
+    {
+      "path": "film_efficientnet/film_efficientnet_encoder_test.py",
+      "compatibility_patch": false
+    },
+    {
+      "path": "film_efficientnet/preprocessors.py",
+      "compatibility_patch": false
+    },
+    {
+      "path": "film_efficientnet/preprocessors_test.py",
+      "compatibility_patch": true
+    },
+    {
+      "path": "film_efficientnet/pretrained_efficientnet_encoder.py",
+      "compatibility_patch": false
+    },
+    {
+      "path": "film_efficientnet/pretrained_efficientnet_encoder_test.py",
+      "compatibility_patch": false
+    },
+    {
+      "path": "requirements.txt",
+      "compatibility_patch": false
+    },
+    {
+      "path": "sequence_agent.py",
+      "compatibility_patch": false
+    },
+    {
+      "path": "sequence_agent_test.py",
+      "compatibility_patch": false
+    },
+    {
+      "path": "sequence_agent_test_set_up.py",
+      "compatibility_patch": true
+    },
+    {
+      "path": "tokenizers/__init__.py",
+      "compatibility_patch": false
+    },
+    {
+      "path": "tokenizers/action_tokenizer.py",
+      "compatibility_patch": true
+    },
+    {
+      "path": "tokenizers/action_tokenizer_test.py",
+      "compatibility_patch": true
+    },
+    {
+      "path": "tokenizers/image_tokenizer.py",
+      "compatibility_patch": false
+    },
+    {
+      "path": "tokenizers/image_tokenizer_test.py",
+      "compatibility_patch": false
+    },
+    {
+      "path": "tokenizers/token_learner.py",
+      "compatibility_patch": false
+    },
+    {
+      "path": "tokenizers/token_learner_test.py",
+      "compatibility_patch": false
+    },
+    {
+      "path": "trained_checkpoints/rt1main/assets/metadata.textproto",
+      "compatibility_patch": false
+    },
+    {
+      "path": "trained_checkpoints/rt1main/fingerprint.pb",
+      "compatibility_patch": false
+    },
+    {
+      "path": "trained_checkpoints/rt1main/policy_specs.pbtxt",
+      "compatibility_patch": false
+    },
+    {
+      "path": "trained_checkpoints/rt1main/saved_model.pb",
+      "compatibility_patch": false
+    },
+    {
+      "path": "trained_checkpoints/rt1main/variables/variables.data-00000-of-00001",
+      "compatibility_patch": false
+    },
+    {
+      "path": "trained_checkpoints/rt1main/variables/variables.index",
+      "compatibility_patch": false
+    },
+    {
+      "path": "transformer.py",
+      "compatibility_patch": false
+    },
+    {
+      "path": "transformer_network.py",
+      "compatibility_patch": true
+    },
+    {
+      "path": "transformer_network_test.py",
+      "compatibility_patch": false
+    },
+    {
+      "path": "transformer_network_test_set_up.py",
+      "compatibility_patch": true
+    },
+    {
+      "path": "transformer_test.py",
+      "compatibility_patch": false
+    }
+  ]
+}
