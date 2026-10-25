@@ -1,0 +1,23 @@
+# Environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.env.*
+# Large model/data artifacts: keep only links or small reproducible examples
+*.ckpt
+*.safetensors
+*.pth
+*.pt
+*.onnx
+*.h5
+*.tfrecord
+*.zip
+*.tar.gz
+wandb/
+outputs/
+checkpoints/
+data/raw/
+.DS_Store
