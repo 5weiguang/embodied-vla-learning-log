@@ -1,0 +1,81 @@
+{
+  "experiment": "50 versus 100 policy steps; independent rerun from same initial state",
+  "config_differences": {
+    "requested_steps": {
+      "old": 50,
+      "new": 100
+    }
+  },
+  "scene_xml_identical": true,
+  "first_50_steps_identical": true,
+  "prefix_mismatches": [],
+  "max_prefix_eef_position_difference_m": 0.0,
+  "run_50": {
+    "steps": 50,
+    "video_seconds": 16.0,
+    "grasp_success": false,
+    "final_eef_xyz_m": [
+      0.38704343784521333,
+      -0.11304060234586362,
+      0.30338097454406354
+    ],
+    "final_object_xyz_m": [
+      0.48,
+      -0.12,
+      0.1445063222322373
+    ],
+    "final_eef_to_object_center_m": 0.1842023637485382,
+    "closest_eef_to_object_center_m": 0.1842023637485382,
+    "closest_at_policy_step": 50,
+    "max_object_lift_m": -9.917433249628793e-08,
+    "any_finger_contact_samples": 0,
+    "two_finger_contact_samples": 0,
+    "samples_lifted_with_two_finger_contacts": 0,
+    "workspace_clipped_steps": [],
+    "wall_seconds_including_model_load": 209.75566400000002
+  },
+  "run_100": {
+    "steps": 100,
+    "video_seconds": 32.0,
+    "grasp_success": false,
+    "final_eef_xyz_m": [
+      0.24097712943066288,
+      -0.2741335851084873,
+      0.1699992620268716
+    ],
+    "final_object_xyz_m": [
+      0.48,
+      -0.12,
+      0.1445063222322373
+    ],
+    "final_eef_to_object_center_m": 0.28555031902096384,
+    "closest_eef_to_object_center_m": 0.17934380984483822,
+    "closest_at_policy_step": 57,
+    "max_object_lift_m": -9.917433249628793e-08,
+    "any_finger_contact_samples": 0,
+    "two_finger_contact_samples": 0,
+    "samples_lifted_with_two_finger_contacts": 0,
+    "workspace_clipped_steps": [
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100
+    ],
+    "wall_seconds_including_model_load": 189.79104000000007
+  },
+  "additional_50_steps": {
+    "any_finger_contact_samples": 0,
+    "two_finger_contact_samples": 0
+  }
+}

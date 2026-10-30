@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "checks": [
+    "first input matches yesterday's exact preprocessed photo",
+    "every saved input matches the model input SHA-256",
+    "each feedback image comes from the prior action's rendered frame",
+    "history counters preserved across all policy steps",
+    "adapter commands computed from raw model actions",
+    "entire video decodes with expected frame count and resolution"
+  ],
+  "frames": 800,
+  "duration_seconds": 32.0,
+  "grasp_success": false,
+  "video_sha256": "ab037ae44939716ed30ae21e8ffb3d927a9308b001262dec84e0d148b8586bf9"
+}

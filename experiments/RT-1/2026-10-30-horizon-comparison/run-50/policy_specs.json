@@ -1,0 +1,60 @@
+{
+  "type": "ready",
+  "load_seconds": 51.786627499999895,
+  "image_shape": [
+    256,
+    320,
+    3
+  ],
+  "action_specs": {
+    "base_displacement_vector": {
+      "shape": [
+        2
+      ],
+      "dtype": "float32",
+      "minimum": -1.0,
+      "maximum": 1.0
+    },
+    "gripper_closedness_action": {
+      "shape": [
+        1
+      ],
+      "dtype": "float32",
+      "minimum": -1.0,
+      "maximum": 1.0
+    },
+    "terminate_episode": {
+      "shape": [
+        3
+      ],
+      "dtype": "int32",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "base_displacement_vertical_rotation": {
+      "shape": [
+        1
+      ],
+      "dtype": "float32",
+      "minimum": -3.1415927410125732,
+      "maximum": 3.1415927410125732
+    },
+    "rotation_delta": {
+      "shape": [
+        3
+      ],
+      "dtype": "float32",
+      "minimum": -1.5707963705062866,
+      "maximum": 1.5707963705062866
+    },
+    "world_vector": {
+      "shape": [
+        3
+      ],
+      "dtype": "float32",
+      "minimum": -1.0,
+      "maximum": 1.0
+    }
+  },
+  "instruction": "pick up the hellokitiy"
+}

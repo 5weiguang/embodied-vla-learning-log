@@ -1,0 +1,33 @@
+{
+  "instruction": "pick up the hellokitiy",
+  "original_photo": "User-provided photo; original file retained locally. Preprocessed first frame is policy_inputs/0000.png.",
+  "photo_file_sha256": "4b74794a80a99b72f306e581b1960914251e593a9dfbc5ffc1a81b4a10c5431b",
+  "policy": "official rt1main, real SavedModel inference",
+  "encoder": "local USE Large v5; exact original rt1main encoder match unverified",
+  "input_mode": "photo at step 0, subsequent clean simulation camera frames",
+  "scene": "handmade simplified charm with box collision proxy; not reconstructed/calibrated from photo",
+  "auxiliary_observations": "zero-filled",
+  "history": "FIRST only at step 0, preserve result.state thereafter",
+  "control_interval_sim_seconds": 0.32,
+  "requested_steps": 100,
+  "adapter": {
+    "world_vector": "demo assumption: components interpreted as meters per policy step in Panda base/world axes; norm clipped to 0.02m",
+    "rotation_delta": "demo assumption: world rotation-vector radians per step; norm clipped to 0.10rad",
+    "gripper_closedness_action": "demo absolute closedness [-1,1], mapped to Panda ctrl = 255*(1-value)/2",
+    "workspace_min": [
+      0.18,
+      -0.35,
+      0.17
+    ],
+    "workspace_max": [
+      0.7,
+      0.35,
+      0.65
+    ],
+    "base_fields": "recorded but not executed: Panda base is fixed",
+    "terminate_episode": "recorded but not interpreted: mode semantics unverified; fixed-horizon diagnostic",
+    "not_validated": "coordinate alignment, units, gripper semantics, robot transfer and semantic performance"
+  },
+  "real_robot": false,
+  "scripted_grasp_fallback": false
+}

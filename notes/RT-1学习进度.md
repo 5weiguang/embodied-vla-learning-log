@@ -40,12 +40,15 @@
 | 官方 10 个测试模块 | 33 项实际测试通过，10 项框架占位跳过，0 失败 | [summary.json](../rt1/outputs/tests/summary.json) |
 | 官方 rt1main SavedModel | Windows CPU 连续 7 步推理通过，跨越 6 帧历史窗口 | [inference.json](../rt1/outputs/inference.json) |
 | 自带图片与语言指令 | 2026-10-29 官方 rt1main 单步推理通过；USE Large v5 实际编码文本；精确编码器匹配未确认 | [数值摘要](../rt1/outputs/2026-10-29-real-input/summary.json) |
+| 闭环仿真诊断 | 2026-10-30：照片首帧＋仿真反馈，50/100 步对照完成；两次未抓取成功，适配仍待验证 | [实验、视频与数据](../experiments/RT-1/2026-10-30-horizon-comparison/README.md) |
 | 文件完整性 | 42 个官方文件校验，6 个源码文件有记录的兼容修改 | [校验报告](../rt1/outputs/artifact-verification.json) |
 | 模块练习 | 2026-10-12 辅助运行 action / film / tokens / transformer 四个例子 | [导读中的运行记录](../rt1/项目导读与学习路线.md) |
 
 以上是学习环境中已有的辅助运行记录，没有证据表明学习者已独立复跑。
 历史 7 步测试使用合成 RGB 图、512 维零语言向量与补零观测。10 月 29 日新增真实照片与实际文本编码的单步接口运行，其余观测仍补零。
 已验证文本编码与推理接口可运行，但编码器和原始 rt1main 的精确匹配、语义理解、真实机器人控制、训练收敛及任务成功率均未验证。
+
+本日新增 [50/100 步闭环对照](../experiments/RT-1/2026-10-30-horizon-comparison/README.md)：实践观察历史传递、控制变量与任务成功判据。属于辅助搭建和运行，不能据此认定独立掌握全部仿真代码；FiLM 等源码阅读进度保持原状态。
 
 ## 后续顺序
 

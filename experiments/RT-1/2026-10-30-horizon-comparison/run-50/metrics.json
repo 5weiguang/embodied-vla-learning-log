@@ -1,0 +1,28 @@
+{
+  "model_steps": 50,
+  "simulated_seconds": 16.000000000001734,
+  "wall_seconds_including_model_load": 209.75566400000002,
+  "video_frames": 400,
+  "fps": 25,
+  "rt1_used": true,
+  "history_preserved": true,
+  "scripted_grasp_fallback": false,
+  "real_robot": false,
+  "initial_eef_xyz": [
+    0.5544994780317354,
+    -4.3019292096129246e-26,
+    0.5215024294875892
+  ],
+  "final_eef_xyz": [
+    0.38704343784521333,
+    -0.11304060234586362,
+    0.30338097454406354
+  ],
+  "eef_net_displacement_m": 0.2973157787275109,
+  "max_object_lift_m": -9.917433249628793e-08,
+  "samples_lifted_with_two_finger_contacts": 0,
+  "grasp_success_criterion": "object lifted >0.05m with both fingers contacting in at least one recorded frame",
+  "grasp_success": false,
+  "distinct_model_input_hashes": 50,
+  "diagnostic_only": "Uncalibrated scene/embodiment/encoder transfer; fixed horizon ignores unverified termination modes, not a benchmark of RT-1."
+}

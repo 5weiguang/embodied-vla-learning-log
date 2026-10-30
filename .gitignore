@@ -51,3 +51,7 @@ rt1/local_sim/
 !rt1/outputs/2026-10-29-real-input/
 rt1/outputs/2026-10-29-real-input/*
 !rt1/outputs/2026-10-29-real-input/summary.json
+
+# Explicitly requested RT-1 experiment videos; other videos remain ignored.
+!experiments/RT-1/2026-10-30-horizon-comparison/run-50/rt1_closed_loop.mp4
+!experiments/RT-1/2026-10-30-horizon-comparison/run-100/rt1_closed_loop.mp4

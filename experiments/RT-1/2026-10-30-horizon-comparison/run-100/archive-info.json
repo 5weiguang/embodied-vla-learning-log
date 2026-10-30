@@ -1,0 +1,12 @@
+{
+  "experiment_date": "2026-10-30",
+  "archive_date": "2026-10-30",
+  "redactions": {
+    "inference.json": "input_file changed from absolute machine path to relative policy_inputs path; all other fields unchanged",
+    "config.json": "original photo absolute path removed; all other fields unchanged",
+    "rt1_worker.log": "machine-specific RT1 and Python base directories replaced by placeholders",
+    "scene.xml": "meshdir changed to ../../model/assets; meshes not included; trailing whitespace removed"
+  },
+  "video_and_inputs": "byte-identical copies of locally executed run artifacts",
+  "verification_scope": "original local verification preserved; no new model run during upload"
+}
