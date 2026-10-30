@@ -40,7 +40,7 @@ def main():
         parser.error("Supply --smoke OR --image and exactly one language input: --embedding-npy / --instruction + --encoder")
 
     import numpy as np
-    from PIL import Image
+    from PIL import Image, ImageOps
     import tensorflow as tf
     from tf_agents.policies import py_tf_eager_policy
     from tf_agents.trajectories import time_step as ts
@@ -70,7 +70,7 @@ def main():
     image_shape = tuple(obs_spec["image"].shape)
     if args.image:
         with Image.open(args.image) as input_image:
-            frame = np.asarray(input_image.convert("RGB").resize(
+            frame = np.asarray(ImageOps.exif_transpose(input_image).convert("RGB").resize(
                 (image_shape[1], image_shape[0]), Image.Resampling.BILINEAR))
 
     def zeros(spec):
@@ -124,6 +124,7 @@ def main():
         "language_source": language_source, "instruction": args.instruction,
         "auxiliary_observations": "zero-filled; input is an interface demonstration",
         "image_source": "synthetic random RGB" if args.smoke else str(args.image.resolve()),
+        "image_preprocessing": "synthetic random RGB; no file preprocessing" if args.smoke else "EXIF orientation applied, RGB, resize to policy image specification",
         "load_seconds": round(load_seconds, 3), "initial_state_shapes": initial_state_shapes,
         "steps": steps,
     }

@@ -38,3 +38,16 @@ rt1/outputs/*
 rt1/outputs/tests/*
 !rt1/outputs/tests/summary.json
 !rt1/outputs/tests/*.log
+
+# Local simulation, private inputs and model caches.
+rt1/models/
+rt1/local_sim/
+*.mp4
+*.mov
+*.avi
+*.webm
+*.mkv
+# Sanitized numeric summary only; original photo and logs stay local.
+!rt1/outputs/2026-10-29-real-input/
+rt1/outputs/2026-10-29-real-input/*
+!rt1/outputs/2026-10-29-real-input/summary.json

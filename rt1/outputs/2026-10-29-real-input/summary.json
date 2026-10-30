@@ -1,0 +1,98 @@
+{
+  "mode": "supplied_image_and_language",
+  "scope": "SavedModel inference; no robot execution or task-success evaluation",
+  "python": "3.11.7",
+  "tensorflow": "2.15.0",
+  "devices": [
+    "/physical_device:CPU:0"
+  ],
+  "instruction": "pick up the hellokitiy",
+  "auxiliary_observations": "zero-filled; input is an interface demonstration",
+  "image_preprocessing": "EXIF orientation applied, RGB, resize to policy image specification",
+  "load_seconds": 22.744,
+  "initial_state_shapes": {
+    "step_num": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "image": [
+      1,
+      6,
+      256,
+      320,
+      3
+    ],
+    "t": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "action_tokens": [
+      1,
+      6,
+      11,
+      1,
+      1
+    ]
+  },
+  "steps": [
+    {
+      "step": 0,
+      "seconds": 0.5183,
+      "action": {
+        "base_displacement_vertical_rotation": [
+          -0.012319803237915039
+        ],
+        "gripper_closedness_action": [
+          -0.0039215087890625
+        ],
+        "world_vector": [
+          -0.0039215087890625,
+          -0.0039215087890625,
+          -0.0039215087890625
+        ],
+        "base_displacement_vector": [
+          -0.0039215087890625,
+          -0.0039215087890625
+        ],
+        "rotation_delta": [
+          -0.0061599016189575195,
+          -0.0061599016189575195,
+          -0.0061599016189575195
+        ],
+        "terminate_episode": [
+          0,
+          1,
+          0
+        ]
+      },
+      "state_counters": {
+        "step_num": [
+          1
+        ],
+        "t": [
+          1
+        ]
+      },
+      "image_sha256": "7b5a2a22e5219917a0e49a30794f2d06fe34281786492bb644a38a80b96cf011"
+    }
+  ],
+  "experiment_context": {
+    "encoder_source": "https://tfhub.dev/google/universal-sentence-encoder-large/5",
+    "encoder_match": "official RT-1-X example uses it; exact original rt1main match unverified",
+    "scope": "offline single-frame compatibility run; no task success or robot execution",
+    "model_input_preview_sha256_verified": true
+  },
+  "experiment_date": "2026-10-29",
+  "archived_date": "2026-10-30",
+  "model": "official rt1main SavedModel",
+  "language_source": "Universal Sentence Encoder Large v5 (local cache)",
+  "image_source": "user-provided image, kept local",
+  "provenance": "Derived from local inference.json; machine-specific paths removed, action values unchanged.",
+  "completion": "PASS: 1 inference steps; process exit code 0"
+}

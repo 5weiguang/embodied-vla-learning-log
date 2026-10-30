@@ -89,9 +89,9 @@ TF-Agents 0.19.0、TensorFlow Probability 0.23.0、NumPy 1.26.4。
 ```
 
 `instruction.npy` 必须是有限值的 `(512,)` 数组，需来自与模型匹配的语言编码器。
-图片转为 RGB 后缩放到官方接口需要的 `256 × 320`。输出为模型预测的动作数值。
+图片先按 EXIF 修正方向，再转为 RGB，缩放到官方接口需要的高 256、宽 320。输出为模型预测的动作数值。
 
-也提供文本编码入口（本次尚未验证）：
+也提供文本编码入口（2026-10-29 已用 USE Large v5 跑通接口；与原始 rt1main 的精确编码器匹配尚未验证）：
 
 ```powershell
 .\.venv\Scripts\python.exe infer.py --image scene.jpg --instruction "pick up the apple" --encoder D:\models\matching-use-savedmodel --steps 1
@@ -145,3 +145,8 @@ py -3.11 -m venv .venv
 再看 `film_efficientnet/film_conditioning_layer.py` 和 `tokenizers/token_learner.py`；
 最后结合 `transformer_network.py` 理解视觉 token、动作 token、历史窗口和分类损失。
 本次验收记录见 [`复现结果.md`](复现结果.md)。
+
+
+## 2026-10-29 实际图片与指令补记（10 月 30 日归档）
+
+官方 `rt1main` 已使用自己的照片和指令 `pick up the hellokitiy` 完成一次离线推理。新增 EXIF 方向修正，USE Large v5 实际编码文本，程序退出码 0。该编码器与原始模型的精确匹配仍未核实；没有机器人执行或任务成功率验证。历史测试数据不变，详情与数值证据见 [代码学习记录](../notes/RT-1代码学习记录_2026-10-29.md)。照片、权重、仿真视频与真实机器人相关材料留在本地。
