@@ -5,7 +5,7 @@
 2026-10-26：昨天另行上传的 10 篇导读已加入[首页完整表格](../README.md#文献与笔记)，详见[新增清单](../README_新增10篇_使用说明.md)。
 全仓库共 25 篇，其中 23 篇有笔记或导读、2 篇为候选；本页两份历史综述仍覆盖原来的 13 / 10 篇。
 
-2026-10-29：RT-1、RT-2 均已完成一轮引导阅读；[RT-1 详细笔记](../notes/papers/RT-1.md)与[RT-2 详细笔记](../notes/papers/RT-2.md)包含模型流程、实验证据与复习图表。全仓库已读完 2 篇，阅读中 0 篇，待读 23 篇。
+2026-10-30：RT-1、RT-2、Open X-Embodiment 均已完成一轮引导阅读；新增 [OXE 详细笔记与图表](../notes/papers/Open-X-Embodiment.md)及[学习进度](../notes/Open-X-Embodiment学习进度.md)。全仓库已读完 3 篇，阅读中 0 篇，待读 22 篇。阅读完成不等于实验复现。
 
 [13 篇详细总结与方法比较](13篇文献详细总结_基础知识与方法对比_2026-10-15.md) · [原 10 篇精读资料](文献精读与关系梳理_科研入门版.md)
 
@@ -13,7 +13,7 @@
 |---|---|---|---|---|---|
 | RT-1 | 2022 | VLA | 已读完（引导阅读） | [详细笔记](../notes/papers/RT-1.md) | [来源](https://arxiv.org/abs/2212.06817) |
 | RT-2 | 2023 | VLA | 已读完（引导阅读） | [详细笔记](../notes/papers/RT-2.md) | [来源](https://arxiv.org/abs/2307.15818) |
-| Open-X-Embodiment | 2023 | 跨机器人数据 | 待读（已有整理） | [笔记](../notes/papers/Open-X-Embodiment.md) | [来源](https://robotics-transformer-x.github.io/) |
+| Open-X-Embodiment | 2023 | 跨机器人数据 | 已读完（引导阅读） | [详细笔记](../notes/papers/Open-X-Embodiment.md) | [来源](https://robotics-transformer-x.github.io/) |
 | Octo | 2024 | 通用策略 | 待读（已有整理） | [笔记](../notes/papers/Octo.md) | [来源](https://octo-models.github.io/) |
 | OpenVLA | 2024 | VLA | 待读（已有整理） | [笔记](../notes/papers/OpenVLA.md) | [来源](https://openvla.github.io/) |
 | RDT-1B | 2024 | 扩散策略 | 待读（已有整理） | [笔记](../notes/papers/RDT-1B.md) | [来源](https://rdt-robotics.github.io/rdt-robotics/) |
