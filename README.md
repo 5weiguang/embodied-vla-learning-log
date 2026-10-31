@@ -2,7 +2,7 @@
 
 个人具身智能与视觉语言动作模型学习记录：论文阅读、源码理解和可核查的运行结果。
 
-**最近整理：2026-10-30。** 新增 Open X-Embodiment / RT-X 详细笔记、三张重绘图、学习进度与自测题，前三篇均完成一轮引导阅读。保留 RT-1 照片首帧＋仿真反馈的 50/100 步对照、视频和数据，两次均未抓取成功。原 13 篇综述保留 10 月 15 日历史版本。
+**最近整理：2026-10-31。** 新增 Octo 详细笔记、三张重绘图、附录 E 全部经验、公式解释、学习进度与自测题。RT-1、RT-2、Open X-Embodiment、Octo 均完成一轮引导阅读；Octo 暂不进入代码。保留 RT-1 的 50/100 步仿真记录，两次均未抓取成功；历史综述保持原日期。
 
 ## 当前进度
 
@@ -13,9 +13,11 @@
 | RT-2 代码与实践 | 未开始；本次仅整理阅读笔记与图表 | [阅读与实践边界](notes/papers/RT-2.md#s12) |
 | Open X-Embodiment 论文 | 已读完（完成一轮正文与主要实验的引导阅读）；独立复述待巩固 | [详细笔记与图表](notes/papers/Open-X-Embodiment.md) · [学习进度](notes/Open-X-Embodiment学习进度.md) |
 | Open X-Embodiment 代码与实践 | 未开始；无数据加载、训练或机器人评估 | [阅读与实践边界](notes/papers/Open-X-Embodiment.md#s11) |
+| Octo 论文 | 已读完（正文主线、公式、主要实验与附录 E 的引导阅读）；独立复述待巩固 | [详细笔记与图表](notes/papers/Octo.md) · [学习进度](notes/Octo学习进度.md) |
+| Octo 代码与实践 | 未开始；按要求暂不读具体代码 | [阅读与实践边界](notes/papers/Octo.md#s14) |
 | RT-1 代码 | 已学推理主线与动作编码；新增图片/文本输入实践；FiLM 零初始化尚待确认理解 | [源码导读](rt1/项目导读与学习路线.md) |
 | RT-1 实践 | 保留测试与单步推理记录；新增 50/100 步闭环仿真诊断，两次均未抓取成功 | [实验记录](experiments/RT-1/README.md) |
-| 文献整理 | 共 25 篇：原 13 篇资料、新增 10 篇导读、2 篇候选；已读完 3 篇，阅读中 0 篇，待读 22 篇 | [完整表格](#文献与笔记) · [原 13 篇目录](研/README.md) |
+| 文献整理 | 共 25 篇：原 13 篇资料、新增 10 篇导读、2 篇候选；已读完 4 篇，阅读中 0 篇，待读 21 篇 | [完整表格](#文献与笔记) · [原 13 篇目录](研/README.md) |
 
 没有将完整训练、真实语言指令理解或机器人任务成功率记为复现完成。
 运行证据来自已有本地记录，本次上传未重跑模型实验；辅助整理、问答学习与独立实践分别记录。
@@ -27,7 +29,7 @@
 | RT-1 | 2022 | VLA | 已读完（引导阅读） | [详细笔记](notes/papers/RT-1.md) | [来源](https://arxiv.org/abs/2212.06817) | [接口验证完成](experiments/RT-1/README.md) |
 | RT-2 | 2023 | VLA | 已读完（引导阅读） | [详细笔记](notes/papers/RT-2.md) | [来源](https://arxiv.org/abs/2307.15818) | 未开始 |
 | Open-X-Embodiment | 2023 | 跨机器人数据 | 已读完（引导阅读） | [详细笔记](notes/papers/Open-X-Embodiment.md) | [来源](https://robotics-transformer-x.github.io/) | 未开始 |
-| Octo | 2024 | 通用策略 | 待读（已有整理） | [笔记](notes/papers/Octo.md) | [来源](https://octo-models.github.io/) | 未开始 |
+| Octo | 2024 | 通用策略 | 已读完（引导阅读） | [详细笔记](notes/papers/Octo.md) | [来源](https://octo-models.github.io/) | 未开始 |
 | OpenVLA | 2024 | VLA | 待读（已有整理） | [笔记](notes/papers/OpenVLA.md) | [来源](https://openvla.github.io/) | 未开始 |
 | RDT-1B | 2024 | 扩散策略 | 待读（已有整理） | [笔记](notes/papers/RDT-1B.md) | [来源](https://rdt-robotics.github.io/rdt-robotics/) | 未开始 |
 | pi0 | 2024 | 流匹配策略 | 待读（已有整理） | [笔记](notes/papers/pi0.md) | [来源](https://www.physicalintelligence.company/download/pi0.pdf) | 未开始 |
@@ -51,13 +53,15 @@
 | DreamerV3 | 2023 | 世界模型 | 待读（候选） | 尚未建立 | [论文](https://arxiv.org/abs/2301.04104) | 未开始 |
 
 
-**共 25 篇：23 篇已有笔记或导读入口，2 篇候选；已读完 3 篇（RT-1、RT-2、Open X-Embodiment，一轮引导阅读），阅读中 0 篇，待读 22 篇。** 阅读完成与独立掌握源码、完整实验复现分别记录。
+**共 25 篇：23 篇已有笔记或导读入口，2 篇候选；已读完 4 篇（RT-1、RT-2、Open X-Embodiment、Octo，一轮引导阅读），阅读中 0 篇，待读 21 篇。** 阅读完成与独立掌握源码、完整实验复现分别记录。
 
 新增 10 篇均为待读、未开始复现；对应实验文件是待填写模板。RT-1 已完成测试、合成输入和自带图片/文本的接口验证，完整论文实验仍未开展。
 
 VIMA 的 2023 指 ICML 发表年份；预印本首次提交于 2022 年，见[原文版本记录](https://arxiv.org/abs/2210.03094)。
 
 ## 从这里开始
+
+- [Octo：完整笔记、附录 E 与核心公式](notes/papers/Octo.md) · [学习进度](notes/Octo学习进度.md) · [10 月 31 日记录](weekly/2026-10-31.md)
 
 - [RT-1：50/100 步实验、视频与运行数据](experiments/RT-1/2026-10-30-horizon-comparison/README.md)
 
