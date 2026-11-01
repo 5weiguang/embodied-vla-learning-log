@@ -7,6 +7,8 @@
 
 2026-10-31：RT-1、RT-2、Open X-Embodiment、Octo 均已完成一轮引导阅读。新增 [Octo 完整笔记与附录 E](../notes/papers/Octo.md)、[学习进度](../notes/Octo学习进度.md)。全仓库已读完 4 篇，阅读中 0 篇，待读 21 篇；Octo 代码与实验未开始。阅读完成不等于实验复现。
 
+2026-11-01：开始 [OpenVLA 引导阅读](../notes/papers/OpenVLA.md)，[学习进度](../notes/OpenVLA学习进度.md)停在 §5.2 方法选型题，尚未读完；代码与实验未开始。当前全仓库已读完 4 篇，阅读中 1 篇，待读 20 篇。[本周总结](../weekly/2026-10-26_to_2026-11-01.md)已导出，历史综述不改写为本周新增成果。
+
 [13 篇详细总结与方法比较](13篇文献详细总结_基础知识与方法对比_2026-10-15.md) · [原 10 篇精读资料](文献精读与关系梳理_科研入门版.md)
 
 | 论文 | 年份 | 方向 | 阅读状态 | 笔记 | 原文 / 项目 |
@@ -15,7 +17,7 @@
 | RT-2 | 2023 | VLA | 已读完（引导阅读） | [详细笔记](../notes/papers/RT-2.md) | [来源](https://arxiv.org/abs/2307.15818) |
 | Open-X-Embodiment | 2023 | 跨机器人数据 | 已读完（引导阅读） | [详细笔记](../notes/papers/Open-X-Embodiment.md) | [来源](https://robotics-transformer-x.github.io/) |
 | Octo | 2024 | 通用策略 | 已读完（引导阅读） | [详细笔记](../notes/papers/Octo.md) | [来源](https://octo-models.github.io/) |
-| OpenVLA | 2024 | VLA | 待读（已有整理） | [笔记](../notes/papers/OpenVLA.md) | [来源](https://openvla.github.io/) |
+| OpenVLA | 2024 | VLA | 阅读中（引导阅读） | [详细笔记](../notes/papers/OpenVLA.md) | [来源](https://openvla.github.io/) |
 | RDT-1B | 2024 | 扩散策略 | 待读（已有整理） | [笔记](../notes/papers/RDT-1B.md) | [来源](https://rdt-robotics.github.io/rdt-robotics/) |
 | pi0 | 2024 | 流匹配策略 | 待读（已有整理） | [笔记](../notes/papers/pi0.md) | [来源](https://www.physicalintelligence.company/download/pi0.pdf) |
 | FAST | 2025 | 动作表示 | 待读（已有整理） | [笔记](../notes/papers/FAST.md) | [来源](https://www.pi.website/research/fast) |
