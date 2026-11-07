@@ -1,0 +1,17 @@
+PyTorch=2.10.0+cpu, device=cpu, quick=True
+[MLP] step 4/20, loss=0.25177
+[MLP] step 8/20, loss=0.18156
+[MLP] step 12/20, loss=0.13912
+[MLP] step 16/20, loss=0.14385
+[MLP] step 20/20, loss=0.13409
+MLP training seconds: 0.1
+[DIFF] step 8/40, loss=0.26050
+[DIFF] step 16/40, loss=0.15696
+[DIFF] step 24/40, loss=0.11526
+[DIFF] step 32/40, loss=0.05990
+[DIFF] step 40/40, loss=0.06316
+DIFF training seconds: 0.2
+expert {'success_rate': 1.0, 'collision_rate': 0.0, 'goal_rate': 1.0}
+mlp {'success_rate': 0.0, 'collision_rate': 1.0, 'goal_rate': 1.0}
+diffusion {'success_rate': 0.5, 'collision_rate': 0.28125, 'goal_rate': 0.65625}
+Files saved to: D:\study\embodied-vla-learning-log\experiments\mini-rdt-cpu\results\windows_smoke_seed42

@@ -1,0 +1,136 @@
+{
+  "archive_date": "2026-11-07",
+  "source_bundle": "RDT-1B_%E5%AD%A6%E4%B9%A0%E6%A1%A3%E6%A1%88_Codex%E4%B8%8A%E4%BC%A0%E5%8C%85.zip",
+  "source_bundle_sha256": "2a111aa3f188cbd5b9c1893ca050fca79e0e850ca4668cde57f477fa1d0c963f",
+  "files": [
+    {
+      "source": "RDT-1B_学习记录与科研实验计划.md",
+      "path": "notes/papers/RDT-1B/RDT-1B_学习记录与科研实验计划.md",
+      "bytes": 26439,
+      "sha256": "07de5ae9cb710b50c9e4de2fbd323bb889a40b73d1e0473849334454645577c1"
+    },
+    {
+      "source": "mini_rdt_cpu_windows.zip!/mini_rdt_cpu/README.md",
+      "path": "experiments/mini-rdt-cpu/docs/README.original.md",
+      "bytes": 5249,
+      "sha256": "daf7c04e2dcf3ad9824e586cfffd46e9f9e866575e1a2373e1f708aace43ff68"
+    },
+    {
+      "source": "mini_rdt_cpu_windows.zip!/mini_rdt_cpu/sample_outputs/trajectories.png",
+      "path": "experiments/mini-rdt-cpu/results/sample_seed42/trajectories.png",
+      "bytes": 148465,
+      "sha256": "a4acce4fc35251d536543e7b7e24013ede8da99d91b088ce50cf4ed762dc6ee6"
+    },
+    {
+      "source": "mini_rdt_cpu_windows.zip!/mini_rdt_cpu/sample_outputs/training_history.csv",
+      "path": "experiments/mini-rdt-cpu/results/sample_seed42/training_history.csv",
+      "bytes": 6526,
+      "sha256": "584101be1606b1ba1806b07d738389a76431ad75a52c386519ba23346cb6290f"
+    },
+    {
+      "source": "mini_rdt_cpu_windows.zip!/mini_rdt_cpu/sample_outputs/metrics.csv",
+      "path": "experiments/mini-rdt-cpu/results/sample_seed42/metrics.csv",
+      "bytes": 105,
+      "sha256": "867b561311728073bb6e972f2f9905ef88b2d4fb01d057ad12488181afc48494"
+    },
+    {
+      "source": "mini_rdt_cpu_windows.zip!/mini_rdt_cpu/sample_outputs/dataset.png",
+      "path": "experiments/mini-rdt-cpu/results/sample_seed42/dataset.png",
+      "bytes": 100674,
+      "sha256": "00941699faacf48c133cd4cca7aa09a70abf1fa663d99c108510b6eb342e91d3"
+    },
+    {
+      "source": "mini_rdt_cpu_windows.zip!/mini_rdt_cpu/sample_outputs/metrics.json",
+      "path": "experiments/mini-rdt-cpu/results/sample_seed42/metrics.json",
+      "bytes": 567,
+      "sha256": "c449a9fb788d9828c3f817cf35bfae49857526448b81cd1671b329fd1826991b"
+    },
+    {
+      "source": "mini_rdt_cpu_windows.zip!/mini_rdt_cpu/sample_outputs/loss_curves.png",
+      "path": "experiments/mini-rdt-cpu/results/sample_seed42/loss_curves.png",
+      "bytes": 74013,
+      "sha256": "c363ccd215e58bffba5c18e2538df92e3fd884de3158dd9c888c405137755a1b"
+    },
+    {
+      "source": "mini_rdt_cpu_windows.zip!/mini_rdt_cpu/requirements.txt",
+      "path": "experiments/mini-rdt-cpu/requirements.txt",
+      "bytes": 34,
+      "sha256": "a5b743f043931b9c946aa9a447166b78b228430d9d9a1fb1c91758b2755cfda3"
+    },
+    {
+      "source": "mini_rdt_cpu_windows.zip!/mini_rdt_cpu/mini_rdt.py",
+      "path": "experiments/mini-rdt-cpu/mini_rdt.py",
+      "bytes": 11095,
+      "sha256": "3fe3a06c3751a3a43970b160d0bd7179e43f97ac09fcaa6f05b9843d37e249a3"
+    },
+    {
+      "source": "mini_rdt_cpu_windows.zip!/mini_rdt_cpu/quick_outputs/trajectories.png",
+      "path": "experiments/mini-rdt-cpu/results/package_quick_seed42/trajectories.png",
+      "bytes": 285542,
+      "sha256": "c34f7ebb971420da7c6aef50ef35736c96be0b830b076bc41dd27da47a7390e2"
+    },
+    {
+      "source": "mini_rdt_cpu_windows.zip!/mini_rdt_cpu/quick_outputs/training_history.csv",
+      "path": "experiments/mini-rdt-cpu/results/package_quick_seed42/training_history.csv",
+      "bytes": 1902,
+      "sha256": "de8bc5424fa0b19566810dd450a35fb0669f60abab4a58536b3c4816528b9fa5"
+    },
+    {
+      "source": "mini_rdt_cpu_windows.zip!/mini_rdt_cpu/quick_outputs/metrics.csv",
+      "path": "experiments/mini-rdt-cpu/results/package_quick_seed42/metrics.csv",
+      "bytes": 115,
+      "sha256": "4b57456c8ba7f038f20301875aa475f48b7793c4ea1ec59dd8d31674b81c32f3"
+    },
+    {
+      "source": "mini_rdt_cpu_windows.zip!/mini_rdt_cpu/quick_outputs/dataset.png",
+      "path": "experiments/mini-rdt-cpu/results/package_quick_seed42/dataset.png",
+      "bytes": 99354,
+      "sha256": "9fe98bd2dc0b600bc1c5c8ebb578222bd552bff4ff72d173bf3deb4ef89f1a0b"
+    },
+    {
+      "source": "mini_rdt_cpu_windows.zip!/mini_rdt_cpu/quick_outputs/metrics.json",
+      "path": "experiments/mini-rdt-cpu/results/package_quick_seed42/metrics.json",
+      "bytes": 570,
+      "sha256": "a690cc0160b368b3c524dedd63c0ae0635bc340cf84c33f7031b84f5d0b30efb"
+    },
+    {
+      "source": "mini_rdt_cpu_windows.zip!/mini_rdt_cpu/quick_outputs/loss_curves.png",
+      "path": "experiments/mini-rdt-cpu/results/package_quick_seed42/loss_curves.png",
+      "bytes": 66603,
+      "sha256": "77287499b4f777c04b7209a3210c63ffb58615d7b78fdd31928ffa4f65ea7d56"
+    },
+    {
+      "source": "mini_rdt_cpu_windows.zip!/mini_rdt_cpu/run_windows.bat",
+      "path": "experiments/mini-rdt-cpu/run_windows.bat",
+      "bytes": 203,
+      "sha256": "1b7ebdf06a845445e180ae219d39bca05129c0ae8b5f7eb336f4282b4c8a744a"
+    }
+  ],
+  "omitted": [
+    {
+      "source": "mini_rdt_cpu/sample_outputs/diffusion.pt",
+      "bytes": 380263,
+      "sha256": "6ba2afcb0f130dd98cfed840e68c8ebb93d9f43d52faad98ac65abee57274e01",
+      "reason": "Model weights stay in original attachment; regenerate by training."
+    },
+    {
+      "source": "mini_rdt_cpu/sample_outputs/mlp.pt",
+      "bytes": 329877,
+      "sha256": "739a52ad99806c4433188bbf8cfc2affa4be625f59344626d81bcb5715adacd4",
+      "reason": "Model weights stay in original attachment; regenerate by training."
+    },
+    {
+      "source": "mini_rdt_cpu/quick_outputs/diffusion.pt",
+      "bytes": 380263,
+      "sha256": "906ec6822c431beb0a0c02c1de5e8c9f9d46e99b7d51120be09dbd124202485b",
+      "reason": "Model weights stay in original attachment; regenerate by training."
+    },
+    {
+      "source": "mini_rdt_cpu/quick_outputs/mlp.pt",
+      "bytes": 329877,
+      "sha256": "abd4e9b51adf3cc33aa2e200fc923fa17658a3b2770e983aba0ab8e64272056d",
+      "reason": "Model weights stay in original attachment; regenerate by training."
+    }
+  ],
+  "inner_zip_sha256": "fdff6060ddc3d347a2af66508ed15d754bcb8778d8331e72b9fdd1840c5ffe48"
+}

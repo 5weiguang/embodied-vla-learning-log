@@ -4,3 +4,11 @@ rt1/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 *.patch -whitespace
 # Keep archived experiment hashes stable across Windows checkouts.
 experiments/RT-1/2026-10-30-horizon-comparison/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Preserve source attachment and archived evidence checksums on Windows.
+notes/papers/RDT-1B/RDT-1B_学习记录与科研实验计划.md -text -whitespace
+experiments/mini-rdt-cpu/mini_rdt.py -text
+experiments/mini-rdt-cpu/requirements.txt -text
+experiments/mini-rdt-cpu/run_windows.bat -text
+experiments/mini-rdt-cpu/docs/README.original.md -text -whitespace
+experiments/mini-rdt-cpu/run_and_record.py -text
+experiments/mini-rdt-cpu/results/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

@@ -24,7 +24,7 @@ def main():
     ap.add_argument('--dry-run',action='store_true',help='仅检查，不写入')
     args=ap.parse_args()
     if not BASE.exists() or not ADD.exists():
-        raise SystemExit('缺少 data/papers.csv 或 data/papers_to_add.csv。请先在仓库根目录解压全部增量文件。')
+        raise SystemExit('这是旧 CSV 模板导入器，当前仓库不使用 data/papers.csv。请编辑 README.md 文献表，再运行 python scripts/update_learning_progress.py --write；不要重复导入历史增量清单。')
     fields,existing=read_csv(BASE)
     incoming_fields,incoming=read_csv(ADD)
     if set(incoming_fields)-set(fields):

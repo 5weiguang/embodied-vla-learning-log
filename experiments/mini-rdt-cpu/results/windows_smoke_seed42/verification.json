@@ -1,0 +1,59 @@
+{
+  "started_at": "2026-11-07T15:45:21.740998+08:00",
+  "execution_kind": "assistant_validation",
+  "user_independent_reproduction_confirmed": false,
+  "scope": "smoke_only",
+  "command": [
+    "python",
+    "mini_rdt.py",
+    "--quick",
+    "--seed",
+    "42",
+    "--out",
+    "results/windows_smoke_seed42"
+  ],
+  "python": "3.11.7 | packaged by Anaconda, Inc. | (main, Dec 15 2023, 18:05:47) [MSC v.1916 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "machine": "AMD64",
+  "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "packages": {
+    "torch": "2.10.0+cpu",
+    "numpy": "2.4.6",
+    "matplotlib": "3.11.2"
+  },
+  "device": "cpu",
+  "torch_threads": 4,
+  "git_head_at_run": "90a84f89c84f1e004da9bee9367aa6be53536130",
+  "git_worktree_dirty": true,
+  "source_sha256": {
+    "mini_rdt.py": "3fe3a06c3751a3a43970b160d0bd7179e43f97ac09fcaa6f05b9843d37e249a3",
+    "run_and_record.py": "a3a202204e08025b47cae574c6d4434f7eca880d6dd044e849c2bced4b12c6a6",
+    "requirements.txt": "a5b743f043931b9c946aa9a447166b78b228430d9d9a1fb1c91758b2755cfda3"
+  },
+  "exit_code": 0,
+  "missing_outputs": [],
+  "output_sha256": {
+    "dataset.png": "9dc19d4dd943dcf89f4636ba141447d6c81c1dce1e72ec235922cd7eb973d0c5",
+    "trajectories.png": "0562bea68c46183ecb2090ef779544cf2a832acb2f2c4aac81f376e5dfd0c0be",
+    "loss_curves.png": "c84a8fcc8df68e6948cb7b1aff0c94e6cbe95f4d2e926b3fff43eb2ce66ec87a",
+    "metrics.csv": "c6a0a05ed32512c364cdd1577085f17f4878477d8494bd6e9ca53455b9faa926",
+    "metrics.json": "6da4a79a0dde45d50b90858645c9c6ab4ec750225fc25ab5b0325876d79da51f",
+    "training_history.csv": "b1bc4e0c2d26c0bbf38e2232d7dc1a13ec0f49f3b6e438cb7a0bb7558c41e330",
+    "mlp.pt": "5dc90cbbc12a69b34a7828e46864ac8e12b1bc0403c43781683a5a5d816c4d5f",
+    "diffusion.pt": "65ba773acb8601ed8a71f3bfd6ab1d2a51267a8130fea26c2c173c6f6b510141"
+  },
+  "weights_policy": "Generated locally and hashed here; .pt files are ignored by Git.",
+  "csv_matches_json": true,
+  "effective_config": {
+    "quick": true,
+    "mlp_steps": 20,
+    "diff_steps": 40,
+    "batch": 128,
+    "train_size": 256,
+    "eval_size": 32,
+    "sample_steps": 10,
+    "seed": 42,
+    "out": "results/windows_smoke_seed42"
+  },
+  "passed": true
+}

@@ -55,3 +55,9 @@ rt1/outputs/2026-10-29-real-input/*
 # Explicitly requested RT-1 experiment videos; other videos remain ignored.
 !experiments/RT-1/2026-10-30-horizon-comparison/run-50/rt1_closed_loop.mp4
 !experiments/RT-1/2026-10-30-horizon-comparison/run-100/rt1_closed_loop.mp4
+
+# Mini-RDT local runs; curated results/ evidence is committed explicitly.
+experiments/mini-rdt-cpu/quick_outputs/
+experiments/mini-rdt-cpu/outputs_*/
+experiments/mini-rdt-cpu/logs/
+experiments/mini-rdt-cpu/.mpl-cache/

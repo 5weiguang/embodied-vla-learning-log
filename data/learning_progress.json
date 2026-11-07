@@ -1,0 +1,263 @@
+{
+  "source": "README.md#文献与笔记",
+  "scope": "guided_reading_only",
+  "total": 25,
+  "with_notes": 23,
+  "counts": {
+    "已读完": 6,
+    "阅读中": 0,
+    "待读": 19
+  },
+  "papers": [
+    {
+      "id": "RT-1",
+      "year": "2022",
+      "category": "VLA",
+      "reading_status": "已读完（引导阅读）",
+      "state": "已读完",
+      "note": "[详细笔记](notes/papers/RT-1.md)",
+      "source": "[来源](https://arxiv.org/abs/2212.06817)",
+      "experiment": "[接口验证完成](experiments/RT-1/README.md)"
+    },
+    {
+      "id": "RT-2",
+      "year": "2023",
+      "category": "VLA",
+      "reading_status": "已读完（引导阅读）",
+      "state": "已读完",
+      "note": "[详细笔记](notes/papers/RT-2.md)",
+      "source": "[来源](https://arxiv.org/abs/2307.15818)",
+      "experiment": "未开始"
+    },
+    {
+      "id": "Open-X-Embodiment",
+      "year": "2023",
+      "category": "跨机器人数据",
+      "reading_status": "已读完（引导阅读）",
+      "state": "已读完",
+      "note": "[详细笔记](notes/papers/Open-X-Embodiment.md)",
+      "source": "[来源](https://robotics-transformer-x.github.io/)",
+      "experiment": "未开始"
+    },
+    {
+      "id": "Octo",
+      "year": "2024",
+      "category": "通用策略",
+      "reading_status": "已读完（引导阅读）",
+      "state": "已读完",
+      "note": "[详细笔记](notes/papers/Octo.md)",
+      "source": "[来源](https://octo-models.github.io/)",
+      "experiment": "未开始"
+    },
+    {
+      "id": "OpenVLA",
+      "year": "2024",
+      "category": "VLA",
+      "reading_status": "已读完（正文核心引导阅读）",
+      "state": "已读完",
+      "note": "[详细笔记](notes/papers/OpenVLA.md)",
+      "source": "[来源](https://openvla.github.io/)",
+      "experiment": "未开始"
+    },
+    {
+      "id": "RDT-1B",
+      "year": "2024（预印本）/ 2025（ICLR）",
+      "category": "扩散策略 / 双臂操作",
+      "reading_status": "已读完（七讲引导学习；独立自测待完成）",
+      "state": "已读完",
+      "note": "[原有笔记](notes/papers/RDT-1B.md) · [学习档案](notes/papers/RDT-1B/RDT-1B_学习记录与科研实验计划.md)",
+      "source": "[论文](https://arxiv.org/abs/2410.07864) · [项目](https://rdt-robotics.github.io/rdt-robotics/)",
+      "experiment": "[Mini-RDT：样例已归档，本人正式复现待完成](experiments/mini-rdt-cpu/README.md)"
+    },
+    {
+      "id": "pi0",
+      "year": "2024",
+      "category": "流匹配策略",
+      "reading_status": "待读（已有整理）",
+      "state": "待读",
+      "note": "[笔记](notes/papers/pi0.md)",
+      "source": "[来源](https://www.physicalintelligence.company/download/pi0.pdf)",
+      "experiment": "未开始"
+    },
+    {
+      "id": "FAST",
+      "year": "2025",
+      "category": "动作表示",
+      "reading_status": "待读（已有整理）",
+      "state": "待读",
+      "note": "[笔记](notes/papers/FAST.md)",
+      "source": "[来源](https://www.pi.website/research/fast)",
+      "experiment": "未开始"
+    },
+    {
+      "id": "SpatialVLA",
+      "year": "2025",
+      "category": "空间感知 VLA",
+      "reading_status": "待读（已有整理）",
+      "state": "待读",
+      "note": "[笔记](notes/papers/SpatialVLA.md)",
+      "source": "[来源](https://spatialvla.github.io/)",
+      "experiment": "未开始"
+    },
+    {
+      "id": "pi0.5",
+      "year": "2025",
+      "category": "开放环境泛化",
+      "reading_status": "待读（已有整理）",
+      "state": "待读",
+      "note": "[笔记](notes/papers/pi0.5.md)",
+      "source": "[来源](https://arxiv.org/abs/2504.16054)",
+      "experiment": "未开始"
+    },
+    {
+      "id": "robomimic",
+      "year": "2021",
+      "category": "模仿学习",
+      "reading_status": "待读（已有整理）",
+      "state": "待读",
+      "note": "[笔记](notes/papers/robomimic.md)",
+      "source": "[来源](https://arxiv.org/abs/2108.03298v2)",
+      "experiment": "未开始"
+    },
+    {
+      "id": "RoboAug",
+      "year": "2026",
+      "category": "视觉增强",
+      "reading_status": "待读（已有整理）",
+      "state": "待读",
+      "note": "[笔记](notes/papers/RoboAug.md)",
+      "source": "[来源](https://arxiv.org/abs/2602.14032v2)",
+      "experiment": "未开始"
+    },
+    {
+      "id": "DRAIL",
+      "year": "2026",
+      "category": "视觉增强",
+      "reading_status": "待读（已有整理）",
+      "state": "待读",
+      "note": "[笔记](notes/papers/DRAIL.md)",
+      "source": "[来源](https://arxiv.org/abs/2603.04845v1)",
+      "experiment": "未开始"
+    },
+    {
+      "id": "ACT",
+      "year": "2023",
+      "category": "模仿学习",
+      "reading_status": "待读（导读模板）",
+      "state": "待读",
+      "note": "[笔记](notes/papers/ACT.md)",
+      "source": "[论文](https://arxiv.org/abs/2304.13705)",
+      "experiment": "[未开始](experiments/ACT/README.md)"
+    },
+    {
+      "id": "Diffusion-Policy",
+      "year": "2023",
+      "category": "模仿学习",
+      "reading_status": "待读（导读模板）",
+      "state": "待读",
+      "note": "[笔记](notes/papers/Diffusion-Policy.md)",
+      "source": "[论文](https://arxiv.org/abs/2303.04137)",
+      "experiment": "[未开始](experiments/Diffusion-Policy/README.md)"
+    },
+    {
+      "id": "VIMA",
+      "year": "2023（ICML）",
+      "category": "多模态机器人策略",
+      "reading_status": "待读（导读模板）",
+      "state": "待读",
+      "note": "[笔记](notes/papers/VIMA.md)",
+      "source": "[论文](https://arxiv.org/abs/2210.03094)",
+      "experiment": "[未开始](experiments/VIMA/README.md)"
+    },
+    {
+      "id": "GenAug",
+      "year": "2023",
+      "category": "视觉增强",
+      "reading_status": "待读（导读模板）",
+      "state": "待读",
+      "note": "[笔记](notes/papers/GenAug.md)",
+      "source": "[论文](https://arxiv.org/abs/2302.06671)",
+      "experiment": "[未开始](experiments/GenAug/README.md)"
+    },
+    {
+      "id": "MimicGen",
+      "year": "2023",
+      "category": "示范数据生成",
+      "reading_status": "待读（导读模板）",
+      "state": "待读",
+      "note": "[笔记](notes/papers/MimicGen.md)",
+      "source": "[论文](https://arxiv.org/abs/2310.17596)",
+      "experiment": "[未开始](experiments/MimicGen/README.md)"
+    },
+    {
+      "id": "DROID",
+      "year": "2024",
+      "category": "机器人数据集",
+      "reading_status": "待读（导读模板）",
+      "state": "待读",
+      "note": "[笔记](notes/papers/DROID.md)",
+      "source": "[论文](https://arxiv.org/abs/2403.12945)",
+      "experiment": "[未开始](experiments/DROID/README.md)"
+    },
+    {
+      "id": "RoboCasa",
+      "year": "2024",
+      "category": "机器人仿真",
+      "reading_status": "待读（导读模板）",
+      "state": "待读",
+      "note": "[笔记](notes/papers/RoboCasa.md)",
+      "source": "[论文](https://arxiv.org/abs/2406.02523)",
+      "experiment": "[未开始](experiments/RoboCasa/README.md)"
+    },
+    {
+      "id": "RoboTwin",
+      "year": "2025",
+      "category": "仿真到现实评测",
+      "reading_status": "待读（导读模板）",
+      "state": "待读",
+      "note": "[笔记](notes/papers/RoboTwin.md)",
+      "source": "[论文](https://arxiv.org/abs/2504.13059)",
+      "experiment": "[未开始](experiments/RoboTwin/README.md)"
+    },
+    {
+      "id": "OpenVLA-OFT",
+      "year": "2025",
+      "category": "VLA 微调",
+      "reading_status": "待读（导读模板）",
+      "state": "待读",
+      "note": "[笔记](notes/papers/OpenVLA-OFT.md)",
+      "source": "[论文](https://arxiv.org/abs/2502.19645)",
+      "experiment": "[未开始](experiments/OpenVLA-OFT/README.md)"
+    },
+    {
+      "id": "SmolVLA",
+      "year": "2025",
+      "category": "轻量 VLA",
+      "reading_status": "待读（导读模板）",
+      "state": "待读",
+      "note": "[笔记](notes/papers/SmolVLA.md)",
+      "source": "[论文](https://arxiv.org/abs/2506.01844)",
+      "experiment": "[未开始](experiments/SmolVLA/README.md)"
+    },
+    {
+      "id": "CLIP",
+      "year": "2021",
+      "category": "VLM",
+      "reading_status": "待读（候选）",
+      "state": "待读",
+      "note": "尚未建立",
+      "source": "[论文](https://arxiv.org/abs/2103.00020)",
+      "experiment": "未开始"
+    },
+    {
+      "id": "DreamerV3",
+      "year": "2023",
+      "category": "世界模型",
+      "reading_status": "待读（候选）",
+      "state": "待读",
+      "note": "尚未建立",
+      "source": "[论文](https://arxiv.org/abs/2301.04104)",
+      "experiment": "未开始"
+    }
+  ]
+}

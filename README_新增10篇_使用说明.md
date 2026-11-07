@@ -31,3 +31,5 @@
 当前仓库以 Markdown 首页表格维护总清单，没有 `data/papers.csv`、网页看板生成器或自动导入工作流。
 增量包附带的 `scripts/import_new_papers.py` 依赖这些旧模板文件，不适用于当前目录；本次已直接更新首页，
 无需再运行该脚本或重复粘贴这 10 条。以后上传新导读时，也应同步补充首页表格与总数。
+
+2026-11-07 补充：当前已添加 `scripts/update_learning_progress.py`，从 README 文献表刷新统计 JSON 和静态 SVG；运行 `python scripts/update_learning_progress.py --write` 后以 `--check` 校验。仍不使用旧 CSV 导入流程，也未建立独立 HTML 看板。

@@ -1,0 +1,30 @@
+{
+  "config": {
+    "quick": false,
+    "mlp_steps": 900,
+    "diff_steps": 2400,
+    "batch": 128,
+    "train_size": 4000,
+    "eval_size": 256,
+    "sample_steps": 30,
+    "seed": 42,
+    "out": "/mnt/data/mini_rdt_cpu/sample_outputs"
+  },
+  "results": {
+    "expert": {
+      "success_rate": 1.0,
+      "collision_rate": 0.0,
+      "goal_rate": 1.0
+    },
+    "mlp": {
+      "success_rate": 0.0,
+      "collision_rate": 1.0,
+      "goal_rate": 1.0
+    },
+    "diffusion": {
+      "success_rate": 1.0,
+      "collision_rate": 0.0,
+      "goal_rate": 1.0
+    }
+  }
+}

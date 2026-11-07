@@ -1,0 +1,4 @@
+model,success_rate,collision_rate,goal_rate
+expert,1.0,0.0,1.0
+mlp,0.0,1.0,1.0
+diffusion,0.5,0.28125,0.65625
