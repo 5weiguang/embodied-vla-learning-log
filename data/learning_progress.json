@@ -1,12 +1,12 @@
 {
   "source": "README.md#文献与笔记",
   "scope": "guided_reading_only",
-  "total": 25,
-  "with_notes": 23,
+  "total": 35,
+  "with_notes": 33,
   "counts": {
     "已读完": 8,
     "阅读中": 0,
-    "待读": 17
+    "待读": 27
   },
   "papers": [
     {
@@ -257,6 +257,106 @@
       "state": "待读",
       "note": "尚未建立",
       "source": "[论文](https://arxiv.org/abs/2301.04104)",
+      "experiment": "未开始"
+    },
+    {
+      "id": "Mobile-ALOHA",
+      "year": "2024",
+      "category": "移动双臂模仿学习",
+      "reading_status": "待读（导读）",
+      "state": "待读",
+      "note": "[导读](notes/papers/新增10篇论文导读_2026-11-10.md)",
+      "source": "[论文](https://arxiv.org/abs/2401.02117)",
+      "experiment": "未开始"
+    },
+    {
+      "id": "BridgeData-V2",
+      "year": "2023",
+      "category": "机器人数据集",
+      "reading_status": "待读（导读）",
+      "state": "待读",
+      "note": "[导读](notes/papers/新增10篇论文导读_2026-11-10.md)",
+      "source": "[论文](https://arxiv.org/abs/2308.12952)",
+      "experiment": "未开始"
+    },
+    {
+      "id": "PaLM-E",
+      "year": "2023",
+      "category": "具身多模态基础模型",
+      "reading_status": "待读（导读）",
+      "state": "待读",
+      "note": "[导读](notes/papers/新增10篇论文导读_2026-11-10.md)",
+      "source": "[论文](https://arxiv.org/abs/2303.03378)",
+      "experiment": "未开始"
+    },
+    {
+      "id": "SayCan",
+      "year": "2022",
+      "category": "语言规划与技能组合",
+      "reading_status": "待读（导读）",
+      "state": "待读",
+      "note": "[导读](notes/papers/新增10篇论文导读_2026-11-10.md)",
+      "source": "[论文](https://arxiv.org/abs/2204.01691)",
+      "experiment": "未开始"
+    },
+    {
+      "id": "CALVIN",
+      "year": "2021",
+      "category": "长时序评测",
+      "reading_status": "待读（导读）",
+      "state": "待读",
+      "note": "[导读](notes/papers/新增10篇论文导读_2026-11-10.md)",
+      "source": "[论文](https://arxiv.org/abs/2112.03227)",
+      "experiment": "未开始"
+    },
+    {
+      "id": "LIBERO",
+      "year": "2023",
+      "category": "终身学习评测",
+      "reading_status": "待读（导读）",
+      "state": "待读",
+      "note": "[导读](notes/papers/新增10篇论文导读_2026-11-10.md)",
+      "source": "[论文](https://arxiv.org/abs/2306.03310)",
+      "experiment": "未开始"
+    },
+    {
+      "id": "GR-1",
+      "year": "2023",
+      "category": "视频预训练机器人策略",
+      "reading_status": "待读（导读）",
+      "state": "待读",
+      "note": "[导读](notes/papers/新增10篇论文导读_2026-11-10.md)",
+      "source": "[论文](https://arxiv.org/abs/2312.13139)",
+      "experiment": "未开始"
+    },
+    {
+      "id": "UniPi",
+      "year": "2023",
+      "category": "视频规划与通用策略",
+      "reading_status": "待读（导读）",
+      "state": "待读",
+      "note": "[导读](notes/papers/新增10篇论文导读_2026-11-10.md)",
+      "source": "[论文](https://arxiv.org/abs/2302.00111)",
+      "experiment": "未开始"
+    },
+    {
+      "id": "3D-VLA",
+      "year": "2024",
+      "category": "三维VLA与世界模型",
+      "reading_status": "待读（导读）",
+      "state": "待读",
+      "note": "[导读](notes/papers/新增10篇论文导读_2026-11-10.md)",
+      "source": "[论文](https://arxiv.org/abs/2403.09631)",
+      "experiment": "未开始"
+    },
+    {
+      "id": "Genie",
+      "year": "2024",
+      "category": "生成式世界模型",
+      "reading_status": "待读（导读）",
+      "state": "待读",
+      "note": "[导读](notes/papers/新增10篇论文导读_2026-11-10.md)",
+      "source": "[论文](https://arxiv.org/abs/2402.15391)",
       "experiment": "未开始"
     }
   ]
