@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="170" viewBox="0 0 800 170" role="img" aria-labelledby="title desc">
 <title id="title">Paper reading progress: 25 papers</title>
-<desc id="desc">已读完: 6, 阅读中: 0, 待读: 19. Reading status does not indicate experiment completion.</desc>
+<desc id="desc">已读完: 7, 阅读中: 0, 待读: 18. Reading status does not indicate experiment completion.</desc>
 <rect width="800" height="170" rx="12" fill="#f7f9fc"/>
 <g font-family="Segoe UI, Arial, sans-serif" fill="#203047">
 <text x="24" y="32" font-size="19" font-weight="600">Paper reading progress · 25 papers</text>
-<rect x="24.00" y="50" width="180.48" height="24" fill="#16826c"/>
-<rect x="204.48" y="50" width="571.52" height="24" fill="#dbe3ed"/>
+<rect x="24.00" y="50" width="210.56" height="24" fill="#16826c"/>
+<rect x="234.56" y="50" width="541.44" height="24" fill="#dbe3ed"/>
 <rect x="24" y="96" width="12" height="12" fill="#16826c"/>
-<text x="43" y="107" font-size="13">Guided reading complete: 6</text>
+<text x="43" y="107" font-size="13">Guided reading complete: 7</text>
 <rect x="284" y="96" width="12" height="12" fill="#c57b19"/>
 <text x="303" y="107" font-size="13">Reading in progress: 0</text>
 <rect x="544" y="96" width="12" height="12" fill="#dbe3ed"/>
-<text x="563" y="107" font-size="13">To read: 19</text>
+<text x="563" y="107" font-size="13">To read: 18</text>
 <text x="24" y="144" font-size="13">Guided reading ≠ independent mastery or experiment reproduction.</text>
 </g>
 </svg>

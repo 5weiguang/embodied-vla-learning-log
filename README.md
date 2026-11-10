@@ -2,7 +2,7 @@
 
 个人具身智能与视觉语言动作模型学习记录：论文阅读、源码理解和可核查的运行结果。
 
-**最近整理：2026-11-07。** 新增 RDT-1B 七讲学习档案与 Mini-RDT 教学项目，保留早期论文笔记。引导学习、附件样例、辅助运行检查与本人独立科研实践分别记录；最新计数由下方文献表生成。
+**最近整理：2026-11-10。** π0 已完成一轮正文核心引导阅读，新增六张图解、公式与实验笔记、实际答题纠错和快速复习卡。引导学习、独立掌握与模型复现分别记录；最新计数由下方文献表生成。
 
 ## 当前进度
 
@@ -19,9 +19,11 @@
 | OpenVLA 代码与实践 | 未系统开展；仅为解释核对了动作截断相关函数，未运行模型 | [学习边界与下一步](notes/papers/OpenVLA.md#s11) |
 | RDT-1B 论文 | 已读完（七讲引导学习）；独立自测与答题尚未完成 | [原有笔记](notes/papers/RDT-1B.md) · [完整档案](notes/papers/RDT-1B/RDT-1B_学习记录与科研实验计划.md) · [学习进度](notes/RDT-1B学习进度.md) |
 | Mini-RDT 教学实践 | 已归档源码和 Linux CPU 样例，辅助 Windows quick 通过；本人正式复现、多种子和闭环实验待完成 | [项目、运行方法与结果来源](experiments/mini-rdt-cpu/README.md) |
+| π0 论文 | 已读完（正文核心引导阅读与整体复述）；纠错后问答已确认，延迟自测待完成 | [图文笔记](notes/papers/pi0.md) · [学习进度与纠错](notes/pi0学习进度.md) · [快速复习卡](notes/pi0复习卡.md) |
+| π0 代码与实践 | 未开始；图解与公式算例不是模型实验 | [范围与续学](notes/papers/pi0.md#s12) |
 | RT-1 代码 | 已学推理主线与动作编码；新增图片/文本输入实践；FiLM 零初始化尚待确认理解 | [源码导读](rt1/项目导读与学习路线.md) |
 | RT-1 实践 | 保留测试与单步推理记录；新增 50/100 步闭环仿真诊断，两次均未抓取成功 | [实验记录](experiments/RT-1/README.md) |
-| 文献整理 | 共 25 篇；已读完 6 篇，阅读中 0 篇，待读 19 篇 | [完整表格](#文献与笔记) · [原 13 篇目录](研/README.md) |
+| 文献整理 | 共 25 篇；已读完 7 篇，阅读中 0 篇，待读 18 篇 | [完整表格](#文献与笔记) · [原 13 篇目录](研/README.md) |
 
 没有将完整训练、真实语言指令理解或机器人任务成功率记为复现完成。
 RT-1 运行证据来自已有本地记录；Mini-RDT 的随包结果与本次辅助检查分别标注，具体见项目 README。辅助整理、问答学习与独立实践分别记录。
@@ -36,7 +38,7 @@ RT-1 运行证据来自已有本地记录；Mini-RDT 的随包结果与本次辅
 | Octo | 2024 | 通用策略 | 已读完（引导阅读） | [详细笔记](notes/papers/Octo.md) | [来源](https://octo-models.github.io/) | 未开始 |
 | OpenVLA | 2024 | VLA | 已读完（正文核心引导阅读） | [详细笔记](notes/papers/OpenVLA.md) | [来源](https://openvla.github.io/) | 未开始 |
 | RDT-1B | 2024（预印本）/ 2025（ICLR） | 扩散策略 / 双臂操作 | 已读完（七讲引导学习；独立自测待完成） | [原有笔记](notes/papers/RDT-1B.md) · [学习档案](notes/papers/RDT-1B/RDT-1B_学习记录与科研实验计划.md) | [论文](https://arxiv.org/abs/2410.07864) · [项目](https://rdt-robotics.github.io/rdt-robotics/) | [Mini-RDT：样例已归档，本人正式复现待完成](experiments/mini-rdt-cpu/README.md) |
-| pi0 | 2024 | 流匹配策略 | 待读（已有整理） | [笔记](notes/papers/pi0.md) | [来源](https://www.physicalintelligence.company/download/pi0.pdf) | 未开始 |
+| pi0 | 2024（首版；本轮读 v4） | 流匹配 VLA | 已读完（正文核心引导阅读与纠错） | [图文笔记](notes/papers/pi0.md) · [学习进度](notes/pi0学习进度.md) · [复习卡](notes/pi0复习卡.md) | [论文 v4](https://arxiv.org/abs/2410.24164v4) | 未开始 |
 | FAST | 2025 | 动作表示 | 待读（已有整理） | [笔记](notes/papers/FAST.md) | [来源](https://www.pi.website/research/fast) | 未开始 |
 | SpatialVLA | 2025 | 空间感知 VLA | 待读（已有整理） | [笔记](notes/papers/SpatialVLA.md) | [来源](https://spatialvla.github.io/) | 未开始 |
 | pi0.5 | 2025 | 开放环境泛化 | 待读（已有整理） | [笔记](notes/papers/pi0.5.md) | [来源](https://arxiv.org/abs/2504.16054) | 未开始 |
@@ -58,9 +60,9 @@ RT-1 运行证据来自已有本地记录；Mini-RDT 的随包结果与本次辅
 
 
 <!-- learning-progress:start -->
-**共 25 篇：23 篇已有笔记或导读入口，2 篇候选；已读完 6 篇，阅读中 0 篇，待读 19 篇。**
+**共 25 篇：23 篇已有笔记或导读入口，2 篇候选；已读完 7 篇，阅读中 0 篇，待读 18 篇。**
 
-已读完名单：RT-1、RT-2、Open-X-Embodiment、Octo、OpenVLA、RDT-1B。统计口径是一轮引导阅读/讲解完成；独立掌握、答题与实验复现分别记录。
+已读完名单：RT-1、RT-2、Open-X-Embodiment、Octo、OpenVLA、RDT-1B、pi0。统计口径是一轮引导阅读/讲解完成；独立掌握、答题与实验复现分别记录。
 
 ![论文阅读进度](assets/learning_progress.svg)
 <!-- learning-progress:end -->
@@ -71,6 +73,7 @@ VIMA 的 2023 指 ICML 发表年份；预印本首次提交于 2022 年，见[�
 
 ## 从这里开始
 
+- [π0：图文笔记、公式与四组实验](notes/papers/pi0.md) · [答题与纠错](notes/pi0学习进度.md) · [快速复习卡](notes/pi0复习卡.md) · [11 月 10 日记录](weekly/2026-11-10.md)
 - [RDT-1B：七讲完整学习档案](notes/papers/RDT-1B/RDT-1B_学习记录与科研实验计划.md) · [状态与待办](notes/RDT-1B学习进度.md) · [Mini-RDT CPU 项目](experiments/mini-rdt-cpu/README.md) · [11 月 7 日归档记录](weekly/2026-11-07.md)
 - [OpenVLA：完整正文主线、图表与纠错](notes/papers/OpenVLA.md) · [11 月 6 日学习情况总结](notes/OpenVLA学习进度.md) · [11 月 1 日历史记录](weekly/2026-11-01.md)
 - [本周总结：2026-10-26—2026-11-01](weekly/2026-10-26_to_2026-11-01.md) · [周总结与每日记录目录](weekly/README.md)

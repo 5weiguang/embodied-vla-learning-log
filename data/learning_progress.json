@@ -4,9 +4,9 @@
   "total": 25,
   "with_notes": 23,
   "counts": {
-    "已读完": 6,
+    "已读完": 7,
     "阅读中": 0,
-    "待读": 19
+    "待读": 18
   },
   "papers": [
     {
@@ -71,12 +71,12 @@
     },
     {
       "id": "pi0",
-      "year": "2024",
-      "category": "流匹配策略",
-      "reading_status": "待读（已有整理）",
-      "state": "待读",
-      "note": "[笔记](notes/papers/pi0.md)",
-      "source": "[来源](https://www.physicalintelligence.company/download/pi0.pdf)",
+      "year": "2024（首版；本轮读 v4）",
+      "category": "流匹配 VLA",
+      "reading_status": "已读完（正文核心引导阅读与纠错）",
+      "state": "已读完",
+      "note": "[图文笔记](notes/papers/pi0.md) · [学习进度](notes/pi0学习进度.md) · [复习卡](notes/pi0复习卡.md)",
+      "source": "[论文 v4](https://arxiv.org/abs/2410.24164v4)",
       "experiment": "未开始"
     },
     {
