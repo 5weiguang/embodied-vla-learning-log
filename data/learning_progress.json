@@ -4,9 +4,9 @@
   "total": 25,
   "with_notes": 23,
   "counts": {
-    "已读完": 7,
+    "已读完": 8,
     "阅读中": 0,
-    "待读": 18
+    "待读": 17
   },
   "papers": [
     {
@@ -83,11 +83,11 @@
       "id": "FAST",
       "year": "2025",
       "category": "动作表示",
-      "reading_status": "待读（已有整理）",
-      "state": "待读",
-      "note": "[笔记](notes/papers/FAST.md)",
-      "source": "[来源](https://www.pi.website/research/fast)",
-      "experiment": "未开始"
+      "reading_status": "已读完（正文主线与关键附录引导阅读）",
+      "state": "已读完",
+      "note": "[图文笔记](notes/papers/FAST.md) · [学习进度](notes/FAST学习进度.md) · [复习卡](notes/FAST复习卡.md)",
+      "source": "[论文 v1](https://arxiv.org/abs/2501.09747v1) · [项目](https://www.pi.website/research/fast)",
+      "experiment": "[辅助编码验证已运行；策略训练未开展](experiments/FAST/README.md)"
     },
     {
       "id": "SpatialVLA",

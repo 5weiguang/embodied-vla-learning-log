@@ -5,7 +5,9 @@
 2026-10-26：昨天另行上传的 10 篇导读已加入[首页完整表格](../README.md#文献与笔记)，详见[新增清单](../README_新增10篇_使用说明.md)。
 全仓库共 25 篇，其中 23 篇有笔记或导读、2 篇为候选；本页两份历史综述仍覆盖原来的 13 / 10 篇。
 
-**最新进度（2026-11-10）：** [π0](../notes/papers/pi0.md)已完成一轮正文核心引导阅读与纠错，新增[学习进度](../notes/pi0学习进度.md)和[图文复习卡](../notes/pi0复习卡.md)。全仓库已读完 7 篇、阅读中 0 篇、待读 18 篇；代码与模型复现未开始。本页 RDT-1B 状态同步到 11 月 7 日已有档案，修正旧目录与首页不一致。下方日期段落保留历史状态。
+**最新进度（2026-11-10）：** [FAST](../notes/papers/FAST.md)已完成一轮正文主线、主要实验与关键附录的引导阅读，新增[学习进度与纠错](../notes/FAST学习进度.md)、[复习卡](../notes/FAST复习卡.md)及[辅助编码验证](../experiments/FAST/README.md)。全仓库已读完 8 篇、阅读中 0 篇、待读 17 篇；FAST 官方源码、策略训练与机器人评估未开展。下方日期段落保留历史状态。
+
+2026-11-10（此前 π0 归档）：[π0](../notes/papers/pi0.md)已完成一轮正文核心引导阅读与纠错，新增[学习进度](../notes/pi0学习进度.md)和[图文复习卡](../notes/pi0复习卡.md)。当时全仓库已读完 7 篇、阅读中 0 篇、待读 18 篇；π0 代码与模型复现未开始。本页 RDT-1B 状态同步到 11 月 7 日已有档案，修正旧目录与首页不一致。
 
 2026-10-31：RT-1、RT-2、Open X-Embodiment、Octo 均已完成一轮引导阅读。新增 [Octo 完整笔记与附录 E](../notes/papers/Octo.md)、[学习进度](../notes/Octo学习进度.md)。全仓库已读完 4 篇，阅读中 0 篇，待读 21 篇；Octo 代码与实验未开始。阅读完成不等于实验复现。
 
@@ -24,7 +26,7 @@
 | OpenVLA | 2024 | VLA | 已读完（正文核心引导阅读） | [详细笔记](../notes/papers/OpenVLA.md) | [来源](https://openvla.github.io/) |
 | RDT-1B | 2024 | 扩散策略 | 已读完（七讲引导学习；独立自测待完成） | [笔记](../notes/papers/RDT-1B.md) · [学习进度](../notes/RDT-1B学习进度.md) | [来源](https://rdt-robotics.github.io/rdt-robotics/) |
 | pi0 | 2024（首版） | 流匹配 VLA | 已读完（正文核心引导阅读与纠错） | [图文笔记](../notes/papers/pi0.md) · [学习进度](../notes/pi0学习进度.md) | [论文 v4](https://arxiv.org/abs/2410.24164v4) |
-| FAST | 2025 | 动作表示 | 待读（已有整理） | [笔记](../notes/papers/FAST.md) | [来源](https://www.pi.website/research/fast) |
+| FAST | 2025 | 动作表示 | 已读完（正文主线与关键附录引导阅读） | [图文笔记](../notes/papers/FAST.md) · [学习进度](../notes/FAST学习进度.md) | [论文 v1](https://arxiv.org/abs/2501.09747v1) · [项目](https://www.pi.website/research/fast) |
 | SpatialVLA | 2025 | 空间感知 VLA | 待读（已有整理） | [笔记](../notes/papers/SpatialVLA.md) | [来源](https://spatialvla.github.io/) |
 | pi0.5 | 2025 | 开放环境泛化 | 待读（已有整理） | [笔记](../notes/papers/pi0.5.md) | [来源](https://arxiv.org/abs/2504.16054) |
 | robomimic | 2021 | 模仿学习 | 待读（已有整理） | [笔记](../notes/papers/robomimic.md) | [来源](https://arxiv.org/abs/2108.03298v2) |

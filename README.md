@@ -2,7 +2,7 @@
 
 个人具身智能与视觉语言动作模型学习记录：论文阅读、源码理解和可核查的运行结果。
 
-**最近整理：2026-11-10。** π0 已完成一轮正文核心引导阅读，新增六张图解、公式与实验笔记、实际答题纠错和快速复习卡。引导学习、独立掌握与模型复现分别记录；最新计数由下方文献表生成。
+**最近整理：2026-11-10。** FAST 已完成一轮正文主线、主要实验和关键附录的引导阅读，新增详细笔记、六张图解、实际问答纠错、复习卡及可重跑的辅助数值验证；同日 π0 归档保留。引导学习、独立掌握与模型复现分别记录；最新计数由下方文献表生成。
 
 ## 当前进度
 
@@ -21,9 +21,11 @@
 | Mini-RDT 教学实践 | 已归档源码和 Linux CPU 样例，辅助 Windows quick 通过；本人正式复现、多种子和闭环实验待完成 | [项目、运行方法与结果来源](experiments/mini-rdt-cpu/README.md) |
 | π0 论文 | 已读完（正文核心引导阅读与整体复述）；纠错后问答已确认，延迟自测待完成 | [图文笔记](notes/papers/pi0.md) · [学习进度与纠错](notes/pi0学习进度.md) · [快速复习卡](notes/pi0复习卡.md) |
 | π0 代码与实践 | 未开始；图解与公式算例不是模型实验 | [范围与续学](notes/papers/pi0.md#s12) |
+| FAST 论文 | 已读完（正文主线、主要实验与关键附录引导阅读）；量化/BPE与后处理题需独立巩固 | [图文笔记](notes/papers/FAST.md) · [学习进度与纠错](notes/FAST学习进度.md) · [复习卡](notes/FAST复习卡.md) |
+| FAST 代码与实践 | 助手辅助编码数值验证已运行；官方源码、策略训练、机器人评估与本人独立复现未开展 | [脚本、运行方法与结果边界](experiments/FAST/README.md) |
 | RT-1 代码 | 已学推理主线与动作编码；新增图片/文本输入实践；FiLM 零初始化尚待确认理解 | [源码导读](rt1/项目导读与学习路线.md) |
 | RT-1 实践 | 保留测试与单步推理记录；新增 50/100 步闭环仿真诊断，两次均未抓取成功 | [实验记录](experiments/RT-1/README.md) |
-| 文献整理 | 共 25 篇；已读完 7 篇，阅读中 0 篇，待读 18 篇 | [完整表格](#文献与笔记) · [原 13 篇目录](研/README.md) |
+| 文献整理 | 共 25 篇；已读完 8 篇，阅读中 0 篇，待读 17 篇 | [完整表格](#文献与笔记) · [原 13 篇目录](研/README.md) |
 
 没有将完整训练、真实语言指令理解或机器人任务成功率记为复现完成。
 RT-1 运行证据来自已有本地记录；Mini-RDT 的随包结果与本次辅助检查分别标注，具体见项目 README。辅助整理、问答学习与独立实践分别记录。
@@ -39,7 +41,7 @@ RT-1 运行证据来自已有本地记录；Mini-RDT 的随包结果与本次辅
 | OpenVLA | 2024 | VLA | 已读完（正文核心引导阅读） | [详细笔记](notes/papers/OpenVLA.md) | [来源](https://openvla.github.io/) | 未开始 |
 | RDT-1B | 2024（预印本）/ 2025（ICLR） | 扩散策略 / 双臂操作 | 已读完（七讲引导学习；独立自测待完成） | [原有笔记](notes/papers/RDT-1B.md) · [学习档案](notes/papers/RDT-1B/RDT-1B_学习记录与科研实验计划.md) | [论文](https://arxiv.org/abs/2410.07864) · [项目](https://rdt-robotics.github.io/rdt-robotics/) | [Mini-RDT：样例已归档，本人正式复现待完成](experiments/mini-rdt-cpu/README.md) |
 | pi0 | 2024（首版；本轮读 v4） | 流匹配 VLA | 已读完（正文核心引导阅读与纠错） | [图文笔记](notes/papers/pi0.md) · [学习进度](notes/pi0学习进度.md) · [复习卡](notes/pi0复习卡.md) | [论文 v4](https://arxiv.org/abs/2410.24164v4) | 未开始 |
-| FAST | 2025 | 动作表示 | 待读（已有整理） | [笔记](notes/papers/FAST.md) | [来源](https://www.pi.website/research/fast) | 未开始 |
+| FAST | 2025 | 动作表示 | 已读完（正文主线与关键附录引导阅读） | [图文笔记](notes/papers/FAST.md) · [学习进度](notes/FAST学习进度.md) · [复习卡](notes/FAST复习卡.md) | [论文 v1](https://arxiv.org/abs/2501.09747v1) · [项目](https://www.pi.website/research/fast) | [辅助编码验证已运行；策略训练未开展](experiments/FAST/README.md) |
 | SpatialVLA | 2025 | 空间感知 VLA | 待读（已有整理） | [笔记](notes/papers/SpatialVLA.md) | [来源](https://spatialvla.github.io/) | 未开始 |
 | pi0.5 | 2025 | 开放环境泛化 | 待读（已有整理） | [笔记](notes/papers/pi0.5.md) | [来源](https://arxiv.org/abs/2504.16054) | 未开始 |
 | robomimic | 2021 | 模仿学习 | 待读（已有整理） | [笔记](notes/papers/robomimic.md) | [来源](https://arxiv.org/abs/2108.03298v2) | 未开始 |
@@ -60,9 +62,9 @@ RT-1 运行证据来自已有本地记录；Mini-RDT 的随包结果与本次辅
 
 
 <!-- learning-progress:start -->
-**共 25 篇：23 篇已有笔记或导读入口，2 篇候选；已读完 7 篇，阅读中 0 篇，待读 18 篇。**
+**共 25 篇：23 篇已有笔记或导读入口，2 篇候选；已读完 8 篇，阅读中 0 篇，待读 17 篇。**
 
-已读完名单：RT-1、RT-2、Open-X-Embodiment、Octo、OpenVLA、RDT-1B、pi0。统计口径是一轮引导阅读/讲解完成；独立掌握、答题与实验复现分别记录。
+已读完名单：RT-1、RT-2、Open-X-Embodiment、Octo、OpenVLA、RDT-1B、pi0、FAST。统计口径是一轮引导阅读/讲解完成；独立掌握、答题与实验复现分别记录。
 
 ![论文阅读进度](assets/learning_progress.svg)
 <!-- learning-progress:end -->
@@ -73,6 +75,7 @@ VIMA 的 2023 指 ICML 发表年份；预印本首次提交于 2022 年，见[�
 
 ## 从这里开始
 
+- [FAST：详细笔记、算法与实验证据](notes/papers/FAST.md) · [实际问答与待巩固项](notes/FAST学习进度.md) · [快速复习卡](notes/FAST复习卡.md) · [编码教学验证](experiments/FAST/README.md) · [11 月 10 日记录](weekly/2026-11-10.md#fast)
 - [π0：图文笔记、公式与四组实验](notes/papers/pi0.md) · [答题与纠错](notes/pi0学习进度.md) · [快速复习卡](notes/pi0复习卡.md) · [11 月 10 日记录](weekly/2026-11-10.md)
 - [RDT-1B：七讲完整学习档案](notes/papers/RDT-1B/RDT-1B_学习记录与科研实验计划.md) · [状态与待办](notes/RDT-1B学习进度.md) · [Mini-RDT CPU 项目](experiments/mini-rdt-cpu/README.md) · [11 月 7 日归档记录](weekly/2026-11-07.md)
 - [OpenVLA：完整正文主线、图表与纠错](notes/papers/OpenVLA.md) · [11 月 6 日学习情况总结](notes/OpenVLA学习进度.md) · [11 月 1 日历史记录](weekly/2026-11-01.md)
@@ -98,4 +101,4 @@ VIMA 的 2023 指 ICML 发表年份；预印本首次提交于 2022 年，见[�
 本仓库使用 README 文献表作为唯一论文统计源；修改阅读状态后运行 `python scripts/update_learning_progress.py --write` 刷新总数、[统计 JSON](data/learning_progress.json) 和上方进度图，再运行 `python scripts/update_learning_progress.py --check` 检查一致性及重复条目。实验状态不会被阅读计数自动改为完成。参见 [上传说明](HOW_TO_UPLOAD.md)。
 
 论文 PDF、虚拟环境、数据集与模型权重保留在本地；仓库提供论文入口、下载脚本及小型结果文件。
-第三方 RT-1 源码保留原许可证，兼容修改见 `rt1/compatibility.patch`；论文结论归原作者，笔记与教学例子不代表新增实验。
+第三方 RT-1 源码保留原许可证，兼容修改见 `rt1/compatibility.patch`；论文结论归原作者。笔记、图解及辅助数值教学不代表论文模型实验复现，已运行的例子另行保留脚本与结果。

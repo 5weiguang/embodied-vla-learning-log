@@ -1,0 +1,235 @@
+{
+  "record_date": "2026-11-10",
+  "run_type": "assistant_executed_synthetic_encoding_demo",
+  "scope": "DCT, quantization, integer-symbol BPE, reconstruction only",
+  "limitations": [
+    "No official FAST+ processor or weights loaded",
+    "No VLA/Transformer training, inference or robot evaluation",
+    "BPE trained on 16 constructed sequences; example included in training corpus",
+    "No claim about generalization, latency, compression on real data or learning benefit",
+    "Single dimension, no normalization fitting, no multidimensional flattening",
+    "Scale 100 is exact only because the chosen coefficients lie on that quantization grid"
+  ],
+  "environment": {
+    "python": "3.14.2",
+    "numpy": "2.5.4"
+  },
+  "dct_convention": "orthonormal DCT-II, computed explicitly as an 8x8 matrix",
+  "original_actions": [
+    0.06525310373992352,
+    0.03514963129016439,
+    0.07199743319123653,
+    0.1900960473546997,
+    0.3071502405643767,
+    0.4053395730029977,
+    0.5340313986716916,
+    0.6537242719818618
+  ],
+  "chosen_coefficients": [
+    0.8,
+    -0.6,
+    0.12,
+    0.0,
+    0.06,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "dct_coefficients": [
+    0.7999999999999998,
+    -0.5999999999999999,
+    0.11999999999999997,
+    1.942890293094024e-16,
+    0.05999999999999994,
+    -2.7755575615628914e-17,
+    -1.27675647831893e-15,
+    1.942890293094024e-15
+  ],
+  "dct_roundtrip_max_error": 1.3877787807814457e-15,
+  "quantization": [
+    {
+      "scale": 2,
+      "integer_coefficients": [
+        2,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "zero_count": 6,
+      "reconstructed_actions": [
+        0.10835707049246612,
+        0.14568598751763742,
+        0.21466083233837316,
+        0.3047808100892416,
+        0.4023259710973058,
+        0.4924459488481742,
+        0.5614207936689101,
+        0.5987497106940813
+      ],
+      "mse": 0.008499999999999997,
+      "max_abs_error": 0.14266339914713663
+    },
+    {
+      "scale": 10,
+      "integer_coefficients": [
+        8,
+        -6,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "zero_count": 4,
+      "reconstructed_actions": [
+        0.07015644403854163,
+        0.017180661342782552,
+        0.06168213189115646,
+        0.2134769783035435,
+        0.3305311715132205,
+        0.39502427170291776,
+        0.5160624287243097,
+        0.6586276122804797
+      ],
+      "mse": 0.0002499999999999994,
+      "max_abs_error": 0.023380930948843803
+    },
+    {
+      "scale": 100,
+      "integer_coefficients": [
+        80,
+        -60,
+        12,
+        0,
+        6,
+        0,
+        0,
+        0
+      ],
+      "zero_count": 4,
+      "reconstructed_actions": [
+        0.06525310373992352,
+        0.03514963129016439,
+        0.07199743319123653,
+        0.1900960473546997,
+        0.3071502405643767,
+        0.4053395730029977,
+        0.5340313986716916,
+        0.6537242719818618
+      ],
+      "mse": 0.0,
+      "max_abs_error": 0.0
+    }
+  ],
+  "bpe": {
+    "training_sequence_count": 16,
+    "rules": [
+      {
+        "left": [
+          1
+        ],
+        "right": [
+          0
+        ],
+        "merged": [
+          1,
+          0
+        ]
+      },
+      {
+        "left": [
+          1,
+          0
+        ],
+        "right": [
+          1,
+          0
+        ],
+        "merged": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "left": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "right": [
+          0
+        ],
+        "merged": [
+          1,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "left": [
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "right": [
+          0
+        ],
+        "merged": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "token_counts_after_merges": [
+      8,
+      6,
+      5,
+      4,
+      3
+    ],
+    "encoded_token_expansions": [
+      [
+        8
+      ],
+      [
+        -6
+      ],
+      [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "decoded_coefficients": [
+      8,
+      -6,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "exact_integer_roundtrip": true,
+    "post_bpe_action_mse": 0.0002499999999999994
+  }
+}
