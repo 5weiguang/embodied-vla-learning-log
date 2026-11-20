@@ -4,9 +4,9 @@
   "total": 35,
   "with_notes": 33,
   "counts": {
-    "已读完": 8,
-    "阅读中": 0,
-    "待读": 27
+    "已读完": 9,
+    "阅读中": 1,
+    "待读": 25
   },
   "papers": [
     {
@@ -103,8 +103,8 @@
       "id": "pi0.5",
       "year": "2025",
       "category": "开放环境泛化",
-      "reading_status": "待读（已有整理）",
-      "state": "待读",
+      "reading_status": "已读完（六讲引导阅读；独立掌握待巩固）",
+      "state": "已读完",
       "note": "[笔记](notes/papers/pi0.5.md)",
       "source": "[来源](https://arxiv.org/abs/2504.16054)",
       "experiment": "未开始"
@@ -153,8 +153,8 @@
       "id": "Diffusion-Policy",
       "year": "2023",
       "category": "模仿学习",
-      "reading_status": "待读（导读模板）",
-      "state": "待读",
+      "reading_status": "阅读中（引导至第七讲；第五讲待补救，第六讲未考核）",
+      "state": "阅读中",
       "note": "[笔记](notes/papers/Diffusion-Policy.md)",
       "source": "[论文](https://arxiv.org/abs/2303.04137)",
       "experiment": "[未开始](experiments/Diffusion-Policy/README.md)"
