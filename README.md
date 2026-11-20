@@ -2,7 +2,7 @@
 
 个人具身智能与视觉语言动作模型学习记录：论文阅读、源码理解和可核查的运行结果。
 
-**最近整理：2026-11-10。** FAST 已完成一轮正文主线、主要实验和关键附录的引导阅读，新增详细笔记、六张图解、实际问答纠错、复习卡及可重跑的辅助数值验证；同日 π0 归档保留。已合并远端新增的 10 篇未重复文献导读，均单独计为待读。引导学习、独立掌握与模型复现分别记录；最新计数由下方文献表生成。
+**最近整理：2026-11-20。** 新增 Diffusion Policy 与 π0.5 图文笔记、真实问答纠错及后续研究计划。π0.5 完成一轮六讲引导阅读；Diffusion Policy 引导学习至第七讲，第五讲补救和第六讲考核待完成。引导阅读、独立掌握、代码运行与本人复现分别记录；本次未新增模型实验。
 
 ## 当前进度
 
@@ -23,9 +23,12 @@
 | π0 代码与实践 | 未开始；图解与公式算例不是模型实验 | [范围与续学](notes/papers/pi0.md#s12) |
 | FAST 论文 | 已读完（正文主线、主要实验与关键附录引导阅读）；量化/BPE与后处理题需独立巩固 | [图文笔记](notes/papers/FAST.md) · [学习进度与纠错](notes/FAST学习进度.md) · [复习卡](notes/FAST复习卡.md) |
 | FAST 代码与实践 | 助手辅助编码数值验证已运行；官方源码、策略训练、机器人评估与本人独立复现未开展 | [脚本、运行方法与结果边界](experiments/FAST/README.md) |
+| Diffusion Policy 论文 | 引导至第七讲；第五讲补救、第六讲独立考核待完成 | [图文笔记](notes/papers/Diffusion-Policy.md) · [七讲档案](notes/Diffusion-Policy学习进度.md) |
+| π0.5 论文 | 六讲引导阅读完成；独立掌握与全部附录待巩固 | [图文笔记](notes/papers/pi0.5.md) · [六讲档案](notes/pi0.5学习进度.md) |
+| 两篇后续实践 | 本次无新模型运行；教学实验与本人复现待完成 | [对照与研究计划](notes/papers/Diffusion-Policy与pi0.5对照与研究计划.md) · [归档记录](weekly/2026-11-20.md) |
 | RT-1 代码 | 已学推理主线与动作编码；新增图片/文本输入实践；FiLM 零初始化尚待确认理解 | [源码导读](rt1/项目导读与学习路线.md) |
 | RT-1 实践 | 保留测试与单步推理记录；新增 50/100 步闭环仿真诊断，两次均未抓取成功 | [实验记录](experiments/RT-1/README.md) |
-| 文献整理 | 共 35 篇；已读完 8 篇，阅读中 0 篇，待读 27 篇 | [完整表格](#文献与笔记) · [原 13 篇目录](研/README.md) |
+| 文献整理 | 共 35 篇；已读完 9 篇，阅读中 1 篇，待读 25 篇 | [完整表格](#文献与笔记) · [原 13 篇目录](研/README.md) |
 
 没有将完整训练、真实语言指令理解或机器人任务成功率记为复现完成。
 RT-1 运行证据来自已有本地记录；Mini-RDT 的随包结果与本次辅助检查分别标注，具体见项目 README。辅助整理、问答学习与独立实践分别记录。
@@ -43,12 +46,12 @@ RT-1 运行证据来自已有本地记录；Mini-RDT 的随包结果与本次辅
 | pi0 | 2024（首版；本轮读 v4） | 流匹配 VLA | 已读完（正文核心引导阅读与纠错） | [图文笔记](notes/papers/pi0.md) · [学习进度](notes/pi0学习进度.md) · [复习卡](notes/pi0复习卡.md) | [论文 v4](https://arxiv.org/abs/2410.24164v4) | 未开始 |
 | FAST | 2025 | 动作表示 | 已读完（正文主线与关键附录引导阅读） | [图文笔记](notes/papers/FAST.md) · [学习进度](notes/FAST学习进度.md) · [复习卡](notes/FAST复习卡.md) | [论文 v1](https://arxiv.org/abs/2501.09747v1) · [项目](https://www.pi.website/research/fast) | [辅助编码验证已运行；策略训练未开展](experiments/FAST/README.md) |
 | SpatialVLA | 2025 | 空间感知 VLA | 待读（已有整理） | [笔记](notes/papers/SpatialVLA.md) | [来源](https://spatialvla.github.io/) | 未开始 |
-| pi0.5 | 2025 | 开放环境泛化 | 待读（已有整理） | [笔记](notes/papers/pi0.5.md) | [来源](https://arxiv.org/abs/2504.16054) | 未开始 |
+| pi0.5 | 2025 | 开放环境泛化 | 已读完（六讲引导阅读；独立掌握待巩固） | [笔记](notes/papers/pi0.5.md) | [来源](https://arxiv.org/abs/2504.16054) | 未开始 |
 | robomimic | 2021 | 模仿学习 | 待读（已有整理） | [笔记](notes/papers/robomimic.md) | [来源](https://arxiv.org/abs/2108.03298v2) | 未开始 |
 | RoboAug | 2026 | 视觉增强 | 待读（已有整理） | [笔记](notes/papers/RoboAug.md) | [来源](https://arxiv.org/abs/2602.14032v2) | 未开始 |
 | DRAIL | 2026 | 视觉增强 | 待读（已有整理） | [笔记](notes/papers/DRAIL.md) | [来源](https://arxiv.org/abs/2603.04845v1) | 未开始 |
 | ACT | 2023 | 模仿学习 | 待读（导读模板） | [笔记](notes/papers/ACT.md) | [论文](https://arxiv.org/abs/2304.13705) | [未开始](experiments/ACT/README.md) |
-| Diffusion-Policy | 2023 | 模仿学习 | 待读（导读模板） | [笔记](notes/papers/Diffusion-Policy.md) | [论文](https://arxiv.org/abs/2303.04137) | [未开始](experiments/Diffusion-Policy/README.md) |
+| Diffusion-Policy | 2023 | 模仿学习 | 阅读中（引导至第七讲；第五讲待补救，第六讲未考核） | [笔记](notes/papers/Diffusion-Policy.md) | [论文](https://arxiv.org/abs/2303.04137) | [未开始](experiments/Diffusion-Policy/README.md) |
 | VIMA | 2023（ICML） | 多模态机器人策略 | 待读（导读模板） | [笔记](notes/papers/VIMA.md) | [论文](https://arxiv.org/abs/2210.03094) | [未开始](experiments/VIMA/README.md) |
 | GenAug | 2023 | 视觉增强 | 待读（导读模板） | [笔记](notes/papers/GenAug.md) | [论文](https://arxiv.org/abs/2302.06671) | [未开始](experiments/GenAug/README.md) |
 | MimicGen | 2023 | 示范数据生成 | 待读（导读模板） | [笔记](notes/papers/MimicGen.md) | [论文](https://arxiv.org/abs/2310.17596) | [未开始](experiments/MimicGen/README.md) |
@@ -72,9 +75,9 @@ RT-1 运行证据来自已有本地记录；Mini-RDT 的随包结果与本次辅
 
 
 <!-- learning-progress:start -->
-**共 35 篇：33 篇已有笔记或导读入口，2 篇候选；已读完 8 篇，阅读中 0 篇，待读 27 篇。**
+**共 35 篇：33 篇已有笔记或导读入口，2 篇候选；已读完 9 篇，阅读中 1 篇，待读 25 篇。**
 
-已读完名单：RT-1、RT-2、Open-X-Embodiment、Octo、OpenVLA、RDT-1B、pi0、FAST。统计口径是一轮引导阅读/讲解完成；独立掌握、答题与实验复现分别记录。
+已读完名单：RT-1、RT-2、Open-X-Embodiment、Octo、OpenVLA、RDT-1B、pi0、FAST、pi0.5。统计口径是一轮引导阅读/讲解完成；独立掌握、答题与实验复现分别记录。
 
 ![论文阅读进度](assets/learning_progress.svg)
 <!-- learning-progress:end -->
