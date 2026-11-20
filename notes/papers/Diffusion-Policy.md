@@ -29,7 +29,7 @@
 
 ## 2. 从观测到闭环执行
 
-定位：Figure 2，p.2；§2.3、§3.1–3.2。
+定位：Figure 2，p.3；§2.3、§3.1–3.2。
 
 ![控制循环](../../assets/diffusion-policy/loop.png)
 
@@ -46,7 +46,7 @@
 
 ## 3. 公式：两种 MSE 与两条时间轴
 
-定位：§2，Equations (1)–(5)，p.3。下式以标准 DDPM 记号作教学展开：
+定位：§2，Equations (1)–(5)，pp.2–3。下式以标准 DDPM 记号作教学展开：
 
 $$
 \bar\alpha_k=\prod_{i=1}^{k}(1-\beta_i),\quad A_t^k=\sqrt{\bar\alpha_k}A_t^0+\sqrt{1-\bar\alpha_k}\epsilon,\quad\epsilon\sim\mathcal N(0,I).
